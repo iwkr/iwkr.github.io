@@ -1,0 +1,7567 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "x": 5922,
+      "y": 4338,
+      "radius": 170,
+      "color": "#d8fafe",
+      "color_bgr": [
+        254,
+        250,
+        216
+      ],
+      "image": "nodeimages/node_0.webp",
+      "text": "STRAIGHT",
+      "start": false,
+      "kata": "3\u00d720 straight punches each hand, full hip rotation, snapping retraction, 45s rest",
+      "spirit": "From center, everything.",
+      "emomKata": "every 75s \u00d7 3: 20 reps each side, full hip rotation, snapping retraction"
+    },
+    {
+      "id": 1,
+      "x": 6282,
+      "y": 4962,
+      "radius": 170,
+      "color": "#d8fafe",
+      "color_bgr": [
+        254,
+        250,
+        216
+      ],
+      "image": "nodeimages/node_1.webp",
+      "text": "BACK STANCE",
+      "start": false,
+      "kata": "Hold back stance for 2 continuous minutes, 70% weight rear, hips low and square",
+      "spirit": "Weight behind you. Eyes ahead.",
+      "emomKata": "every 3 min \u00d7 3: 120s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 120
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "x": 3058,
+      "y": 1858,
+      "radius": 170,
+      "color": "#fee979",
+      "color_bgr": [
+        121,
+        233,
+        254
+      ],
+      "image": "nodeimages/node_2.webp",
+      "text": "DEPTH PUSH UP",
+      "start": false,
+      "kata": "3\u00d710, hands on 20cm elevation each side, full range through the depth, explosive concentric, 75s rest",
+      "spirit": "Below the floor. That is where the range lives.",
+      "emomKata": "every 105s \u00d7 3: 10 reps each side, hands on 20cm elevation, full range through depth, explosive concentric"
+    },
+    {
+      "id": 3,
+      "x": 2698,
+      "y": 2066,
+      "radius": 170,
+      "color": "#feea79",
+      "color_bgr": [
+        121,
+        234,
+        254
+      ],
+      "image": "nodeimages/node_3.webp",
+      "text": "EXPLOSIVE PUSH UP",
+      "start": false,
+      "kata": "3\u00d710, explosive concentric clears hands 5cm from floor, full control on landing, 90s rest",
+      "spirit": "Ground contact is a privilege, not a guarantee.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, explosive concentric clears hands 5cm from floor, full control on landing"
+    },
+    {
+      "id": 4,
+      "x": 3058,
+      "y": 2274,
+      "radius": 170,
+      "color": "#feea79",
+      "color_bgr": [
+        121,
+        234,
+        254
+      ],
+      "image": "nodeimages/node_4.webp",
+      "text": "DIAMOND PUSH UP",
+      "start": false,
+      "kata": "3\u00d712, hands forming diamond under chest, elbows tight to body, full lockout, 3s negative, 60s rest",
+      "spirit": "The diamond is formed under pressure.",
+      "emomKata": "every 2 min \u00d7 3: 12 reps, hands forming diamond under chest, elbows tight to body, full lockout, 3s negative"
+    },
+    {
+      "id": 5,
+      "x": 5922,
+      "y": 4754,
+      "radius": 170,
+      "color": "#d8fafe",
+      "color_bgr": [
+        254,
+        250,
+        216
+      ],
+      "image": "nodeimages/node_5.webp",
+      "text": "FRONT STANCE",
+      "start": false,
+      "kata": "Hold front stance for 2 continuous minutes, back knee straight, front knee over toe",
+      "spirit": "Roots before branches.",
+      "emomKata": "every 3 min \u00d7 3: 120s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 120
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "x": 7354,
+      "y": 4754,
+      "radius": 170,
+      "color": "#d9fafe",
+      "color_bgr": [
+        254,
+        250,
+        217
+      ],
+      "image": "nodeimages/node_6.webp",
+      "text": "TORNADO KICK",
+      "start": false,
+      "kata": "3\u00d78 each leg, reverse spin, kick at 270\u00b0, full extension, controlled finish, 90s rest",
+      "spirit": "Violence from an unexpected direction.",
+      "emomKata": "every 105s \u00d7 3: 8 reps each side, reverse spin, kick at 270\u00b0, full extension, controlled finish"
+    },
+    {
+      "id": 7,
+      "x": 6282,
+      "y": 4546,
+      "radius": 170,
+      "color": "#d8fafe",
+      "color_bgr": [
+        254,
+        250,
+        216
+      ],
+      "image": "nodeimages/node_7.webp",
+      "text": "FRONT KICK",
+      "start": false,
+      "kata": "3\u00d715 front kicks each leg, chamber fully, snap and retract, no leg drop between reps, 60s rest",
+      "spirit": "Chamber. Snap. Return. The leg is a door that opens and closes.",
+      "emomKata": "every 75s \u00d7 3: 15 reps each side, chamber fully, snap and retract, no leg drop between reps"
+    },
+    {
+      "id": 8,
+      "x": 3058,
+      "y": 1442,
+      "radius": 170,
+      "color": "#fee979",
+      "color_bgr": [
+        121,
+        233,
+        254
+      ],
+      "image": "nodeimages/node_8.webp",
+      "text": "EXTENDED PUSH UP",
+      "start": false,
+      "kata": "3\u00d710, hands 15cm ahead of shoulder line, full lockout, 3s negative, core rigid, 90s rest",
+      "spirit": "Reach further than comfortable. Hold it there.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, hands 15cm ahead of shoulder line, full lockout, 3s negative, core rigid"
+    },
+    {
+      "id": 9,
+      "x": 3778,
+      "y": 618,
+      "radius": 170,
+      "color": "#feea79",
+      "color_bgr": [
+        121,
+        234,
+        254
+      ],
+      "image": "nodeimages/node_9.webp",
+      "text": "CRUCIFIX PUSH UP",
+      "start": false,
+      "kata": "3\u00d78, hands wide as possible, elbows pointing outward, full chest stretch, 3s negative, 90s rest",
+      "spirit": "The cross position. Hold the tension.",
+      "emomKata": "every 2 min \u00d7 3: 8 reps, hands wide as possible, elbows pointing outward, full chest stretch, 3s negative"
+    },
+    {
+      "id": 10,
+      "x": 3418,
+      "y": 1234,
+      "radius": 170,
+      "color": "#fee979",
+      "color_bgr": [
+        121,
+        233,
+        254
+      ],
+      "image": "nodeimages/node_10.webp",
+      "text": "ONE ARM PUSH UP",
+      "start": false,
+      "kata": "3\u00d78 each side, non-working hand flat on floor, full depth, no hip rotation, 3s negative, 120s rest",
+      "spirit": "Half the hands. Twice the truth.",
+      "emomKata": "every 2.5 min \u00d7 3: 8 reps each side, non-working hand flat on floor, full depth, no hip rotation, 3s negative"
+    },
+    {
+      "id": 11,
+      "x": 4490,
+      "y": 5578,
+      "radius": 170,
+      "color": "#81acfe",
+      "color_bgr": [
+        254,
+        172,
+        129
+      ],
+      "image": "nodeimages/node_11.webp",
+      "text": "CALF JUMP",
+      "start": false,
+      "kata": "3\u00d720 calf jumps, ankles only, full plantar flexion at top, soft landing, 45s rest",
+      "spirit": "The spring before the leap.",
+      "emomKata": "every 75s \u00d7 3: 20 reps, ankles only, full plantar flexion at top, soft landing"
+    },
+    {
+      "id": 12,
+      "x": 4130,
+      "y": 410,
+      "radius": 170,
+      "color": "#feee92",
+      "color_bgr": [
+        146,
+        238,
+        254
+      ],
+      "image": "nodeimages/node_12.webp",
+      "text": "MOUNTAIN CLIMBING",
+      "start": false,
+      "kata": "Complete a multi-pitch outdoor climb, any grade, summit reached under own power",
+      "spirit": "The mountain does not rank you. It only asks if you came."
+    },
+    {
+      "id": 13,
+      "x": 6642,
+      "y": 5994,
+      "radius": 170,
+      "color": "#beeefe",
+      "color_bgr": [
+        254,
+        238,
+        190
+      ],
+      "image": "nodeimages/node_13.webp",
+      "text": "HALF MARATHON",
+      "start": false,
+      "kata": "21.1km continuous, sub-1h50, even splits, no walking",
+      "spirit": "Halfway to the edge of what you thought possible."
+    },
+    {
+      "id": 14,
+      "x": 4130,
+      "y": 2066,
+      "radius": 170,
+      "color": "#feed93",
+      "color_bgr": [
+        147,
+        237,
+        254
+      ],
+      "image": "nodeimages/node_14.webp",
+      "text": "BODYWEIGHT HANG",
+      "start": false,
+      "kata": "3\u00d760s dead hang, scapulae depressed, arms fully extended, no swinging, 90s rest",
+      "spirit": "Just you and gravity. Neither blinks.",
+      "emomKata": "every 2.5 min \u00d7 3: 60s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 60
+        },
+        {
+          "label": "Rest",
+          "s": 90
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "x": 4130,
+      "y": 1650,
+      "radius": 170,
+      "color": "#feed92",
+      "color_bgr": [
+        146,
+        237,
+        254
+      ],
+      "image": "nodeimages/node_15.webp",
+      "text": "INERTIA HANG",
+      "start": false,
+      "kata": "3\u00d745s passive hang, shoulders fully open, no active engagement, controlled entry and exit, 90s rest",
+      "spirit": "Trust the joint. Let the shoulder breathe.",
+      "emomKata": "every 2 min \u00d7 3: 45s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 45
+        },
+        {
+          "label": "Rest",
+          "s": 75
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "x": 3058,
+      "y": 1034,
+      "radius": 170,
+      "color": "#feea79",
+      "color_bgr": [
+        121,
+        234,
+        254
+      ],
+      "image": "nodeimages/node_16.webp",
+      "text": "TWO FINGER PUSH UP",
+      "start": false,
+      "kata": "3\u00d78, index and middle finger only per hand, full depth, 3s negative, no wrist collapse, 120s rest",
+      "spirit": "Two fingers. The whole weight of the practice.",
+      "emomKata": "every 2.5 min \u00d7 3: 8 reps, index and middle finger only per hand, full depth, 3s negative, no wrist collapse"
+    },
+    {
+      "id": 17,
+      "x": 5922,
+      "y": 5170,
+      "radius": 170,
+      "color": "#beedfe",
+      "color_bgr": [
+        254,
+        237,
+        190
+      ],
+      "image": "nodeimages/node_17.webp",
+      "text": "SIDESTROKE",
+      "start": false,
+      "kata": "400m sidestroke continuous, smooth alternating rhythm, head stays low",
+      "spirit": "The quiet stroke. Efficiency over spectacle."
+    },
+    {
+      "id": 18,
+      "x": 6282,
+      "y": 5786,
+      "radius": 170,
+      "color": "#beeefe",
+      "color_bgr": [
+        254,
+        238,
+        190
+      ],
+      "image": "nodeimages/node_18.webp",
+      "text": "10 KM",
+      "start": false,
+      "kata": "10km continuous, sub-48 minutes, no km slower than 4:55/km",
+      "spirit": "The second half is where character speaks."
+    },
+    {
+      "id": 19,
+      "x": 6642,
+      "y": 4338,
+      "radius": 170,
+      "color": "#d8fafe",
+      "color_bgr": [
+        254,
+        250,
+        216
+      ],
+      "image": "nodeimages/node_19.webp",
+      "text": "AS FRONT KICK",
+      "start": false,
+      "kata": "3\u00d710 front kicks each leg, full 90\u00b0 hip opening, controlled return, 75s rest",
+      "spirit": "Ninety degrees of commitment.",
+      "emomKata": "every 90s \u00d7 3: 10 reps each side, full 90\u00b0 hip opening, controlled return"
+    },
+    {
+      "id": 20,
+      "x": 7002,
+      "y": 6202,
+      "radius": 170,
+      "color": "#beeefe",
+      "color_bgr": [
+        254,
+        238,
+        190
+      ],
+      "image": "nodeimages/node_20.webp",
+      "text": "MARATHON",
+      "start": false,
+      "kata": "42.2km continuous, sub-4 hours, no km slower than 5:40/km",
+      "spirit": "The marathon does not care about your plans."
+    },
+    {
+      "id": 21,
+      "x": 3778,
+      "y": 1858,
+      "radius": 170,
+      "color": "#fee979",
+      "color_bgr": [
+        121,
+        233,
+        254
+      ],
+      "image": "nodeimages/node_21.webp",
+      "text": "SIDE TO SIDE PUSH UP",
+      "start": false,
+      "kata": "3\u00d710 each side, shift full bodyweight over each hand at bottom, controlled transition, 75s rest",
+      "spirit": "One hand receives. One hand reaches.",
+      "emomKata": "every 105s \u00d7 3: 10 reps each side, shift full bodyweight over each hand at bottom, controlled transition"
+    },
+    {
+      "id": 22,
+      "x": 3418,
+      "y": 2482,
+      "radius": 170,
+      "color": "#fee97a",
+      "color_bgr": [
+        122,
+        233,
+        254
+      ],
+      "image": "nodeimages/node_22.webp",
+      "text": "NARROW PUSH UP",
+      "start": false,
+      "kata": "3\u00d715, hands inside shoulder width, 3s negative, full depth, elbows tracking back, 60s rest",
+      "spirit": "Narrow path, strong hands.",
+      "emomKata": "every 2 min \u00d7 3: 15 reps, hands inside shoulder width, 3s negative, full depth, elbows tracking back"
+    },
+    {
+      "id": 23,
+      "x": 4130,
+      "y": 2482,
+      "radius": 170,
+      "color": "#feee94",
+      "color_bgr": [
+        148,
+        238,
+        254
+      ],
+      "image": "nodeimages/node_23.webp",
+      "text": "GRIP TRAINER",
+      "start": false,
+      "kata": "3\u00d760s continuous squeeze with grip trainer at 80% max, 60s rest",
+      "spirit": "The hand that cannot hold cannot pull.",
+      "emomKata": "every 2 min \u00d7 3: 60s squeeze at 80% max, rest remaining"
+    },
+    {
+      "id": 24,
+      "x": 5210,
+      "y": 5170,
+      "radius": 170,
+      "color": "#beeefe",
+      "color_bgr": [
+        254,
+        238,
+        190
+      ],
+      "image": "nodeimages/node_24.webp",
+      "text": "JOGGING",
+      "start": false,
+      "kata": "3km continuous, no km slower than 6:30/km, conversational pace throughout",
+      "spirit": "The body learns it can keep going."
+    },
+    {
+      "id": 25,
+      "x": 5922,
+      "y": 5578,
+      "radius": 170,
+      "color": "#beeefe",
+      "color_bgr": [
+        254,
+        238,
+        190
+      ],
+      "image": "nodeimages/node_25.webp",
+      "text": "5 KM",
+      "start": false,
+      "kata": "5km continuous, sub-22 minutes, no km slower than 4:45/km",
+      "spirit": "Not a jog. A statement."
+    },
+    {
+      "id": 26,
+      "x": 7354,
+      "y": 5994,
+      "radius": 170,
+      "color": "#beedfe",
+      "color_bgr": [
+        254,
+        237,
+        190
+      ],
+      "image": "nodeimages/node_26.webp",
+      "text": "BUTTERFLY STROKE",
+      "start": false,
+      "kata": "200m butterfly stroke continuous, no rest, full undulation each stroke",
+      "spirit": "The most honest stroke. Nothing can be faked."
+    },
+    {
+      "id": 27,
+      "x": 6642,
+      "y": 6410,
+      "radius": 170,
+      "color": "#beeefe",
+      "color_bgr": [
+        254,
+        238,
+        190
+      ],
+      "image": "nodeimages/node_27.webp",
+      "text": "STAIR SPRINT",
+      "start": false,
+      "kata": "8\u00d720 stair flights, continuous ascent per rep, 60s rest, no rail grip",
+      "spirit": "Each step a small argument won.",
+      "emomKata": "every 105s \u00d7 8: 20 stair flights, continuous ascent, no rail grip"
+    },
+    {
+      "id": 28,
+      "x": 6642,
+      "y": 5578,
+      "radius": 170,
+      "color": "#beeefe",
+      "color_bgr": [
+        254,
+        238,
+        190
+      ],
+      "image": "nodeimages/node_28.webp",
+      "text": "BREASTSTROKE",
+      "start": false,
+      "kata": "400m breaststroke continuous, full glide phase each stroke, sub-9 minutes",
+      "spirit": "The frog knows something the fish does not."
+    },
+    {
+      "id": 29,
+      "x": 4130,
+      "y": 826,
+      "radius": 170,
+      "color": "#feed92",
+      "color_bgr": [
+        146,
+        237,
+        254
+      ],
+      "image": "nodeimages/node_29.webp",
+      "text": "GYM CLIMBING",
+      "start": false,
+      "kata": "Complete a 5b grade climbing route without falling, clean ascent",
+      "spirit": "The wall is a problem. Solve it."
+    },
+    {
+      "id": 30,
+      "x": 3418,
+      "y": 2066,
+      "radius": 170,
+      "color": "#feea7a",
+      "color_bgr": [
+        122,
+        234,
+        254
+      ],
+      "image": "nodeimages/node_30.webp",
+      "text": "DECLINE PUSH UP",
+      "start": false,
+      "kata": "3\u00d712, feet elevated 45cm, 3s negative, full depth, body rigid, 75s rest",
+      "spirit": "Decline reveals what flat conceals.",
+      "emomKata": "every 2 min \u00d7 3: 12 reps, feet elevated 45cm, 3s negative, full depth, body rigid"
+    },
+    {
+      "id": 31,
+      "x": 5210,
+      "y": 4754,
+      "radius": 170,
+      "color": "#beedfe",
+      "color_bgr": [
+        254,
+        237,
+        190
+      ],
+      "image": "nodeimages/node_31.webp",
+      "text": "RUNNING & SWIMMING",
+      "start": true,
+      "kata": null,
+      "spirit": "Two rivers. One body."
+    },
+    {
+      "id": 32,
+      "x": 6282,
+      "y": 5370,
+      "radius": 170,
+      "color": "#beeefe",
+      "color_bgr": [
+        254,
+        238,
+        190
+      ],
+      "image": "nodeimages/node_32.webp",
+      "text": "COMBAT SIDESTROKE",
+      "start": false,
+      "kata": "200m combat sidestroke continuous, minimal surface disturbance, controlled breathing",
+      "spirit": "Invisible. Tireless. Purposeful."
+    },
+    {
+      "id": 33,
+      "x": 7354,
+      "y": 3514,
+      "radius": 170,
+      "color": "#d9fafe",
+      "color_bgr": [
+        254,
+        250,
+        217
+      ],
+      "image": "nodeimages/node_33.webp",
+      "text": "TOURNAMENT",
+      "start": false,
+      "kata": "Enter and compete in a sanctioned martial arts tournament. Win or lose is not the standard \u2014 presence and composure are",
+      "spirit": "The dojo prepared you. Now prove it was not a dream."
+    },
+    {
+      "id": 34,
+      "x": 2346,
+      "y": 2274,
+      "radius": 170,
+      "color": "#fee45a",
+      "color_bgr": [
+        90,
+        228,
+        254
+      ],
+      "image": "nodeimages/node_34.webp",
+      "text": "EIGHT ANGLED POSE",
+      "start": false,
+      "kata": "3\u00d720s hold, one leg extended, body balanced on both hands and one foot, 75s rest each side",
+      "spirit": "Eight angles. Only one is yours.",
+      "emomKata": "every 2 min \u00d7 3: 20s hold each side, rest remaining",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 20
+        },
+        {
+          "label": "Left",
+          "s": 20
+        },
+        {
+          "label": "Rest",
+          "s": 80
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "x": 3778,
+      "y": 1442,
+      "radius": 170,
+      "color": "#feea78",
+      "color_bgr": [
+        120,
+        234,
+        254
+      ],
+      "image": "nodeimages/node_35.webp",
+      "text": "ARCHER PUSH UP",
+      "start": false,
+      "kata": "3\u00d78 each side, extended arm nearly straight, full ROM on bending arm, 3s negative, 90s rest",
+      "spirit": "Halfway to one arm. Halfway is not nothing.",
+      "emomKata": "every 2 min \u00d7 3: 8 reps each side, extended arm nearly straight, full ROM on bending arm, 3s negative"
+    },
+    {
+      "id": 36,
+      "x": 2698,
+      "y": 1650,
+      "radius": 170,
+      "color": "#fee979",
+      "color_bgr": [
+        121,
+        233,
+        254
+      ],
+      "image": "nodeimages/node_36.webp",
+      "text": "CLAP PUSH UP",
+      "start": false,
+      "kata": "3\u00d78, hands leave floor, clap at chest height, land with control, no collapsed wrists, 90s rest",
+      "spirit": "Brief flight between each rep.",
+      "emomKata": "every 105s \u00d7 3: 8 reps, hands leave floor, clap at chest height, land with control, no collapsed wrists"
+    },
+    {
+      "id": 37,
+      "x": 3778,
+      "y": 1034,
+      "radius": 170,
+      "color": "#feea79",
+      "color_bgr": [
+        121,
+        234,
+        254
+      ],
+      "image": "nodeimages/node_37.webp",
+      "text": "SLIDING PUSH UP",
+      "start": false,
+      "kata": "3\u00d710, hands on furniture sliders, controlled outward slide at bottom, explosive return, 90s rest",
+      "spirit": "Instability is the teacher.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, hands on furniture sliders, controlled outward slide at bottom, explosive return"
+    },
+    {
+      "id": 38,
+      "x": 6642,
+      "y": 5170,
+      "radius": 170,
+      "color": "#d8fafe",
+      "color_bgr": [
+        254,
+        250,
+        216
+      ],
+      "image": "nodeimages/node_38.webp",
+      "text": "CROUCH STANCE",
+      "start": false,
+      "kata": "Hold crouch stance for 90s, hips below knee height, heels flat",
+      "spirit": "The tiger before the leap.",
+      "emomKata": "every 2.5 min \u00d7 3: 90s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 90
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "x": 3058,
+      "y": 3098,
+      "radius": 170,
+      "color": "#fee459",
+      "color_bgr": [
+        89,
+        228,
+        254
+      ],
+      "image": "nodeimages/node_39.webp",
+      "text": "REVERSE PUSH UP",
+      "start": false,
+      "kata": "3\u00d715, hands on elevated surface behind body, elbows pointing back, full elbow extension at top, 3s negative, 60s rest",
+      "spirit": "The reverse tells you what the forward hides.",
+      "emomKata": "every 2 min \u00d7 3: 15 reps, hands on elevated surface behind body, elbows pointing back, full elbow extension at top, 3s negative"
+    },
+    {
+      "id": 40,
+      "x": 6642,
+      "y": 4754,
+      "radius": 170,
+      "color": "#d8fafe",
+      "color_bgr": [
+        254,
+        250,
+        216
+      ],
+      "image": "nodeimages/node_40.webp",
+      "text": "AS SIDE KICK",
+      "start": false,
+      "kata": "3\u00d715 side kicks each leg, hip fully rotated, blade of foot, full extension, 60s rest",
+      "spirit": "The hip is the engine. The foot is the tool.",
+      "emomKata": "every 75s \u00d7 3: 15 reps each side, hip fully rotated, blade of foot, full extension"
+    },
+    {
+      "id": 41,
+      "x": 2698,
+      "y": 3306,
+      "radius": 170,
+      "color": "#fedf32",
+      "color_bgr": [
+        50,
+        223,
+        254
+      ],
+      "image": "nodeimages/node_41.webp",
+      "text": "PIKE PUSH UP",
+      "start": false,
+      "kata": "3\u00d715, hips high, head toward floor, 3s negative, full head-to-floor depth, 60s rest",
+      "spirit": "The pike hides the handstand inside it.",
+      "emomKata": "every 2 min \u00d7 3: 15 reps, hips high, head toward floor, 3s negative, full head-to-floor depth"
+    },
+    {
+      "id": 42,
+      "x": 7354,
+      "y": 4338,
+      "radius": 170,
+      "color": "#d8f9fe",
+      "color_bgr": [
+        254,
+        249,
+        216
+      ],
+      "image": "nodeimages/node_42.webp",
+      "text": "WHEEL KICK",
+      "start": false,
+      "kata": "3\u00d78 each leg, full 360\u00b0 rotation, kick at apex, controlled landing, 90s rest",
+      "spirit": "The body becomes a wheel.",
+      "emomKata": "every 105s \u00d7 3: 8 reps each side, full 360\u00b0 rotation, kick at apex, controlled landing"
+    },
+    {
+      "id": 43,
+      "x": 7002,
+      "y": 5786,
+      "radius": 170,
+      "color": "#beeefe",
+      "color_bgr": [
+        254,
+        238,
+        190
+      ],
+      "image": "nodeimages/node_43.webp",
+      "text": "BACKSTROKE",
+      "start": false,
+      "kata": "400m backstroke continuous, straight body line, sub-8 minutes",
+      "spirit": "Blind to the destination. Trust the stroke."
+    },
+    {
+      "id": 44,
+      "x": 6282,
+      "y": 6202,
+      "radius": 170,
+      "color": "#beedfe",
+      "color_bgr": [
+        254,
+        237,
+        190
+      ],
+      "image": "nodeimages/node_44.webp",
+      "text": "UPHILL SPRINT",
+      "start": false,
+      "kata": "4\u00d7400m uphill gradient \u22655%, 90s rest, consistent effort each rep",
+      "spirit": "Gravity is the training partner that never takes a day off."
+    },
+    {
+      "id": 45,
+      "x": 3418,
+      "y": 826,
+      "radius": 170,
+      "color": "#feea7a",
+      "color_bgr": [
+        122,
+        234,
+        254
+      ],
+      "image": "nodeimages/node_45.webp",
+      "text": "DECLINE ONE ARM PUSH UP",
+      "start": false,
+      "kata": "3\u00d76 each side, feet elevated 45cm, one hand only, full depth, 3s negative, 120s rest",
+      "spirit": "Elevation and unilateral demand meet here.",
+      "emomKata": "every 2.5 min \u00d7 3: 6 reps each side, feet elevated 45cm, one hand only, full depth, 3s negative"
+    },
+    {
+      "id": 46,
+      "x": 5210,
+      "y": 5578,
+      "radius": 170,
+      "color": "#9fcbfd",
+      "color_bgr": [
+        253,
+        203,
+        159
+      ],
+      "image": "nodeimages/node_46.webp",
+      "text": "LEARNING TO FALL",
+      "start": false,
+      "kata": "3\u00d710 falls from standing: forward roll, sideways roll, backward roll \u2014 no hesitation, no hands-first catch",
+      "spirit": "The body that knows how to fall knows how to be free.",
+      "emomKata": "every 75s \u00d7 3: 10 reps, falls from standing: forward roll, sideways roll, backward roll \u2014 no hesitation, no hands-first catch"
+    },
+    {
+      "id": 47,
+      "x": 5922,
+      "y": 5994,
+      "radius": 170,
+      "color": "#beeefe",
+      "color_bgr": [
+        254,
+        238,
+        190
+      ],
+      "image": "nodeimages/node_47.webp",
+      "text": "SPRINT",
+      "start": false,
+      "kata": "6\u00d7100m, full effort, 120s rest between. No rep slower than 13s",
+      "spirit": "Pure. Violent. Brief.",
+      "emomKata": "every 2.5 min \u00d7 6: 100m sprint, full effort, no rep slower than 13s"
+    },
+    {
+      "id": 48,
+      "x": 7002,
+      "y": 3722,
+      "radius": 170,
+      "color": "#d8fafe",
+      "color_bgr": [
+        254,
+        250,
+        216
+      ],
+      "image": "nodeimages/node_48.webp",
+      "text": "SHADOW BOXING",
+      "start": false,
+      "kata": "3\u00d75 minute rounds solo, continuous combinations, no pausing, deliberate footwork throughout",
+      "spirit": "The shadow is always watching.",
+      "emomKata": "every 6 min \u00d7 3: 5 min round, rest remaining"
+    },
+    {
+      "id": 49,
+      "x": 5562,
+      "y": 4962,
+      "radius": 170,
+      "color": "#beedfe",
+      "color_bgr": [
+        254,
+        237,
+        190
+      ],
+      "image": "nodeimages/node_49.webp",
+      "text": "FRONT CRAWL",
+      "start": false,
+      "kata": "1000m front crawl continuous, sub-20 minutes, bilateral breathing every 3 strokes",
+      "spirit": "The water does not yield. Neither do you."
+    },
+    {
+      "id": 50,
+      "x": 7354,
+      "y": 5578,
+      "radius": 170,
+      "color": "#d8f9fe",
+      "color_bgr": [
+        254,
+        249,
+        216
+      ],
+      "image": "nodeimages/node_50.webp",
+      "text": "RIDER STANCE",
+      "start": false,
+      "kata": "Hold rider stance for 2 continuous minutes, thighs parallel, back vertical",
+      "spirit": "Between directions. Ready for any.",
+      "emomKata": "every 3 min \u00d7 3: 120s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 120
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "x": 7002,
+      "y": 4138,
+      "radius": 170,
+      "color": "#d9fafe",
+      "color_bgr": [
+        254,
+        250,
+        217
+      ],
+      "image": "nodeimages/node_51.webp",
+      "text": "90\u00b0 FRONT KICK",
+      "start": false,
+      "kata": "3\u00d710 kicks each leg, leg fully extended at 90\u00b0, standing leg locked, 75s rest",
+      "spirit": "Precision at the limit of the arc.",
+      "emomKata": "every 90s \u00d7 3: 10 reps each side, leg fully extended at 90\u00b0, standing leg locked"
+    },
+    {
+      "id": 52,
+      "x": 6282,
+      "y": 4138,
+      "radius": 170,
+      "color": "#d9fafe",
+      "color_bgr": [
+        254,
+        250,
+        217
+      ],
+      "image": "nodeimages/node_52.webp",
+      "text": "HOOK",
+      "start": false,
+      "kata": "3\u00d720 hooks each side, elbow at 90\u00b0, full hip pivot, tight arc, 45s rest",
+      "spirit": "The hook finds what the straight cannot.",
+      "emomKata": "every 90s \u00d7 3: 20 reps each side, elbow at 90\u00b0, full hip pivot, tight arc"
+    },
+    {
+      "id": 53,
+      "x": 1986,
+      "y": 1650,
+      "radius": 170,
+      "color": "#fee45a",
+      "color_bgr": [
+        90,
+        228,
+        254
+      ],
+      "image": "nodeimages/node_53.webp",
+      "text": "PLANCHE",
+      "start": false,
+      "kata": "15s continuous hold, arms fully locked, body parallel to floor within 10\u00b0, scapulae protracted, hips not broken, 120s rest",
+      "spirit": "Horizontal mastery. The body suspended by geometry alone.",
+      "emomKata": "every 2 min \u00d7 3: 15s hold, arms fully locked, body parallel to floor within 10\u00b0, scapulae protracted, hips not broken",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 15
+        },
+        {
+          "label": "Rest",
+          "s": 105
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "x": 3058,
+      "y": 2682,
+      "radius": 170,
+      "color": "#fee559",
+      "color_bgr": [
+        89,
+        229,
+        254
+      ],
+      "image": "nodeimages/node_54.webp",
+      "text": "PENDANT POSE",
+      "start": false,
+      "kata": "3\u00d730s hold, arms locked, hips below shoulder height, scapulae depressed, 75s rest",
+      "spirit": "Pendant. Suspended. Patient.",
+      "emomKata": "every 105s \u00d7 3: 30s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 30
+        },
+        {
+          "label": "Rest",
+          "s": 75
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "x": 5562,
+      "y": 6202,
+      "radius": 170,
+      "color": "#9fcbfd",
+      "color_bgr": [
+        253,
+        203,
+        159
+      ],
+      "image": "nodeimages/node_55.webp",
+      "text": "CARTWHEELS",
+      "start": false,
+      "kata": "3\u00d710 consecutive cartwheels without stopping, even tempo throughout, 60s rest",
+      "spirit": "Ten in a row and it becomes a different thing entirely.",
+      "emomKata": "every 75s \u00d7 3: 10 reps, consecutive without stopping, even tempo throughout"
+    },
+    {
+      "id": 56,
+      "x": 3778,
+      "y": 2682,
+      "radius": 170,
+      "color": "#feea79",
+      "color_bgr": [
+        121,
+        234,
+        254
+      ],
+      "image": "nodeimages/node_56.webp",
+      "text": "PUSH UP",
+      "start": false,
+      "kata": "3\u00d715, 3s negative, explosive concentric, chest to floor, full elbow lockout at top, scapulae retracted throughout, no rest at bottom, 60s rest",
+      "spirit": "The oldest test. Fifteen clean ones, three times.",
+      "emomKata": "every 2 min \u00d7 3: 15 reps, 3s negative, explosive concentric, chest to floor, full elbow lockout at top, scapulae retracted throughout, no rest at bottom"
+    },
+    {
+      "id": 57,
+      "x": 6642,
+      "y": 3930,
+      "radius": 170,
+      "color": "#d8fafe",
+      "color_bgr": [
+        254,
+        250,
+        216
+      ],
+      "image": "nodeimages/node_57.webp",
+      "text": "SPARRING",
+      "start": false,
+      "kata": "3\u00d73 minute rounds, full contact with partner, 60s rest. Combinations only, no wild swinging",
+      "spirit": "Theory ends here.",
+      "emomKata": "every 4 min \u00d7 3: 3 min round, rest remaining"
+    },
+    {
+      "id": 58,
+      "x": 7354,
+      "y": 5170,
+      "radius": 170,
+      "color": "#d9fafe",
+      "color_bgr": [
+        254,
+        250,
+        217
+      ],
+      "image": "nodeimages/node_58.webp",
+      "text": "KATA",
+      "start": false,
+      "kata": "Perform a complete martial arts kata from memory, uninterrupted, no corrections mid-form",
+      "spirit": "Every movement a word. The whole form a sentence spoken once."
+    },
+    {
+      "id": 59,
+      "x": 5570,
+      "y": 4546,
+      "radius": 170,
+      "color": "#d8fafe",
+      "color_bgr": [
+        254,
+        250,
+        216
+      ],
+      "image": "nodeimages/node_59.webp",
+      "text": "ONE LEG STAND",
+      "start": false,
+      "kata": "60s hold on each leg, eyes open, arms at sides, no sway",
+      "spirit": "The foundation of every kick ever thrown.",
+      "emomKata": "every 3 min \u00d7 3: 60s hold each side, rest remaining",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 60
+        },
+        {
+          "label": "Left",
+          "s": 60
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "x": 7002,
+      "y": 4546,
+      "radius": 170,
+      "color": "#d8f9fe",
+      "color_bgr": [
+        254,
+        249,
+        216
+      ],
+      "image": "nodeimages/node_60.webp",
+      "text": "90\u00b0 SIDE KICK",
+      "start": false,
+      "kata": "3\u00d710 side kicks each leg at 90\u00b0, hip over supporting leg, full lockout, 75s rest",
+      "spirit": "The door swings sideways. Walk through it.",
+      "emomKata": "every 90s \u00d7 3: 10 reps each side, hip over supporting leg, full lockout at 90\u00b0"
+    },
+    {
+      "id": 61,
+      "x": 5570,
+      "y": 4138,
+      "radius": 170,
+      "color": "#d9fafe",
+      "color_bgr": [
+        254,
+        250,
+        217
+      ],
+      "image": "nodeimages/node_61.webp",
+      "text": "JAB",
+      "start": false,
+      "kata": "3\u00d750 jabs, sharp retraction, full shoulder rotation, 45s rest. No telegraphing",
+      "spirit": "The jab is a question that must be answered.",
+      "emomKata": "every 2 min \u00d7 3: 50 reps, sharp retraction, full shoulder rotation. No telegraphing"
+    },
+    {
+      "id": 62,
+      "x": 7354,
+      "y": 3930,
+      "radius": 170,
+      "color": "#d8f9fe",
+      "color_bgr": [
+        254,
+        249,
+        216
+      ],
+      "image": "nodeimages/node_62.webp",
+      "text": "BAG BOXING",
+      "start": false,
+      "kata": "3\u00d73 minute rounds on heavy bag, every strike lands with intent, 60s rest",
+      "spirit": "The bag does not forgive soft hands.",
+      "emomKata": "every 4 min \u00d7 3: 3 min round, rest remaining"
+    },
+    {
+      "id": 63,
+      "x": 5210,
+      "y": 4338,
+      "radius": 170,
+      "color": "#d8fafe",
+      "color_bgr": [
+        254,
+        250,
+        216
+      ],
+      "image": "nodeimages/node_63.webp",
+      "text": "MARTIAL ARTS",
+      "start": true,
+      "kata": null,
+      "spirit": "The fist and the foot are one question."
+    },
+    {
+      "id": 64,
+      "x": 1626,
+      "y": 1858,
+      "radius": 170,
+      "color": "#fee558",
+      "color_bgr": [
+        88,
+        229,
+        254
+      ],
+      "image": "nodeimages/node_64.webp",
+      "text": "ELBOW LEVER",
+      "start": false,
+      "kata": "3\u00d715s hold each side, arms locked, body parallel to floor, 120s rest",
+      "spirit": "Balance is not stillness. It is constant correction.",
+      "emomKata": "every 2.5 min \u00d7 3: 15s hold each side, rest remaining",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 15
+        },
+        {
+          "label": "Left",
+          "s": 15
+        },
+        {
+          "label": "Rest",
+          "s": 120
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "x": 4130,
+      "y": 2890,
+      "radius": 170,
+      "color": "#feee93",
+      "color_bgr": [
+        147,
+        238,
+        254
+      ],
+      "image": "nodeimages/node_65.webp",
+      "text": "FOREARM FLEXORS",
+      "start": true,
+      "kata": null,
+      "spirit": "Everything begins with what the hands can hold."
+    },
+    {
+      "id": 66,
+      "x": 2698,
+      "y": 1242,
+      "radius": 170,
+      "color": "#feea79",
+      "color_bgr": [
+        121,
+        234,
+        254
+      ],
+      "image": "nodeimages/node_66.webp",
+      "text": "LALANNE FINGERTIP PUSH UP",
+      "start": false,
+      "kata": "3\u00d76, fingertips only, body near-horizontal, 3s negative, explosive return, 120s rest",
+      "spirit": "LaLanne did this at 70. Begin.",
+      "emomKata": "every 2.5 min \u00d7 3: 6 reps, fingertips only, body near-horizontal, 3s negative, explosive return"
+    },
+    {
+      "id": 67,
+      "x": 7002,
+      "y": 4962,
+      "radius": 170,
+      "color": "#d8fafe",
+      "color_bgr": [
+        254,
+        250,
+        216
+      ],
+      "image": "nodeimages/node_67.webp",
+      "text": "GUNSHOT KICK",
+      "start": false,
+      "kata": "3\u00d78 kicks each leg, explosive hip snap, foot reaches ear height, 90s rest",
+      "spirit": "The kick that arrives before it is seen.",
+      "emomKata": "every 105s \u00d7 3: 8 reps each side, explosive hip snap, foot reaches ear height"
+    },
+    {
+      "id": 68,
+      "x": 1626,
+      "y": 3098,
+      "radius": 170,
+      "color": "#fede31",
+      "color_bgr": [
+        49,
+        222,
+        254
+      ],
+      "image": "nodeimages/node_68.webp",
+      "text": "WALL HANDSTAND",
+      "start": false,
+      "kata": "3\u00d760s hold, feet on wall, fully vertical, arms locked, hollow body, no deviation from wall, 75s rest",
+      "spirit": "Vertical. Against something solid. Prepare.",
+      "emomKata": "every 2 min \u00d7 3: 60s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 60
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "x": 3778,
+      "y": 3098,
+      "radius": 170,
+      "color": "#fee979",
+      "color_bgr": [
+        121,
+        233,
+        254
+      ],
+      "image": "nodeimages/node_69.webp",
+      "text": "PECTORALIS MAJOR",
+      "start": true,
+      "kata": null,
+      "spirit": "The chest opens. The earth receives."
+    },
+    {
+      "id": 70,
+      "x": 3418,
+      "y": 1650,
+      "radius": 170,
+      "color": "#fee979",
+      "color_bgr": [
+        121,
+        233,
+        254
+      ],
+      "image": "nodeimages/node_70.webp",
+      "text": "LIZARD CRAWL",
+      "start": false,
+      "kata": "3\u00d710 lengths of 10m, hips low, alternating hands, continuous forward movement, 60s rest",
+      "spirit": "The lizard does not hurry. It arrives.",
+      "emomKata": "every 90s \u00d7 3: 10 lengths of 10m, hips low, alternating hands, continuous forward movement"
+    },
+    {
+      "id": 71,
+      "x": 5922,
+      "y": 6826,
+      "radius": 170,
+      "color": "#9fcbfd",
+      "color_bgr": [
+        253,
+        203,
+        159
+      ],
+      "image": "nodeimages/node_71.webp",
+      "text": "HANDSPRING",
+      "start": false,
+      "kata": "3\u00d75 handsprings, explosive leg drive, straight body at apex, two-foot landing, 90s rest",
+      "spirit": "The spring is in the hips. The hands are just passing through.",
+      "emomKata": "every 105s \u00d7 3: 5 reps, handsprings, explosive leg drive, straight body at apex, two-foot landing"
+    },
+    {
+      "id": 72,
+      "x": 6282,
+      "y": 6618,
+      "radius": 170,
+      "color": "#9fcbfd",
+      "color_bgr": [
+        253,
+        203,
+        159
+      ],
+      "image": "nodeimages/node_72.webp",
+      "text": "FRONT FLIP",
+      "start": false,
+      "kata": "3\u00d73 front flips, full rotation, two-foot landing, no step-out, 120s rest",
+      "spirit": "Leave the ground deliberately. Return the same way.",
+      "emomKata": "every 2 min \u00d7 3: 3 reps, front flips, full rotation, two-foot landing, no step-out"
+    },
+    {
+      "id": 73,
+      "x": 1266,
+      "y": 2890,
+      "radius": 170,
+      "color": "#fede32",
+      "color_bgr": [
+        50,
+        222,
+        254
+      ],
+      "image": "nodeimages/node_73.webp",
+      "text": "HANDSTAND",
+      "start": false,
+      "kata": "60s continuous freestanding hold, hollow body, arms locked, fingers active, no wall",
+      "spirit": "A minute of silence, upside down.",
+      "emomKata": "every 3 min \u00d7 3: 60s hold, hollow body, arms locked, fingers active, no wall",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 60
+        },
+        {
+          "label": "Rest",
+          "s": 120
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "x": 1266,
+      "y": 3306,
+      "radius": 170,
+      "color": "#fede31",
+      "color_bgr": [
+        49,
+        222,
+        254
+      ],
+      "image": "nodeimages/node_74.webp",
+      "text": "TIGER BEND",
+      "start": false,
+      "kata": "3\u00d75, from handstand lower to elbows, pause 2s, press back to handstand, 120s rest",
+      "spirit": "The tiger bends before it rises.",
+      "emomKata": "every 2 min \u00d7 3: 5 reps, from handstand lower to elbows, pause 2s, press back to handstand"
+    },
+    {
+      "id": 75,
+      "x": 906,
+      "y": 3098,
+      "radius": 170,
+      "color": "#fedf31",
+      "color_bgr": [
+        49,
+        223,
+        254
+      ],
+      "image": "nodeimages/node_75.webp",
+      "text": "HANDSTAND PUSH UP",
+      "start": false,
+      "kata": "3\u00d75, freestanding, full nose-to-floor depth, explosive press to lockout, 3s negative, 120s rest",
+      "spirit": "The summit of the overhead press. No machine. No floor.",
+      "emomKata": "every 2.5 min \u00d7 3: 5 reps, freestanding, full nose-to-floor depth, explosive press to lockout, 3s negative"
+    },
+    {
+      "id": 76,
+      "x": 3778,
+      "y": 2274,
+      "radius": 170,
+      "color": "#fee978",
+      "color_bgr": [
+        120,
+        233,
+        254
+      ],
+      "image": "nodeimages/node_76.webp",
+      "text": "WIDE PUSH UP",
+      "start": false,
+      "kata": "3\u00d715, hands outside shoulder width, 3s negative, full pec stretch at bottom, 60s rest",
+      "spirit": "Open the chest like a book.",
+      "emomKata": "every 2 min \u00d7 3: 15 reps, hands outside shoulder width, 3s negative, full pec stretch at bottom"
+    },
+    {
+      "id": 77,
+      "x": 2338,
+      "y": 1442,
+      "radius": 170,
+      "color": "#feea7a",
+      "color_bgr": [
+        122,
+        234,
+        254
+      ],
+      "image": "nodeimages/node_77.webp",
+      "text": "AZTEC PUSH UP",
+      "start": false,
+      "kata": "3\u00d75, explosive concentric, hands clap front and back before landing, controlled landing, 120s rest",
+      "spirit": "The body travels. The ground waits.",
+      "emomKata": "every 2 min \u00d7 3: 5 reps, explosive concentric, hands clap front and back before landing, controlled landing"
+    },
+    {
+      "id": 78,
+      "x": 1266,
+      "y": 5378,
+      "radius": 170,
+      "color": "#febd0a",
+      "color_bgr": [
+        10,
+        189,
+        254
+      ],
+      "image": "nodeimages/node_78.webp",
+      "text": "SWITCHGRIP PULL UP",
+      "start": false,
+      "kata": "3\u00d710, alternate grip each rep, smooth transition at top, dead hang start, 3s negative, 90s rest",
+      "spirit": "The grip changes. The pull does not.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, alternate grip each rep, smooth transition at top, dead hang start, 3s negative"
+    },
+    {
+      "id": 79,
+      "x": 1266,
+      "y": 4130,
+      "radius": 170,
+      "color": "#febd0a",
+      "color_bgr": [
+        10,
+        189,
+        254
+      ],
+      "image": "nodeimages/node_79.webp",
+      "text": "TUCK BACK LEVER",
+      "start": false,
+      "kata": "3\u00d78s hold, body tucked, horizontal behind bar, arms locked, controlled entry from inverted hang, 120s rest",
+      "spirit": "The tuck holds the shape that the full lever demands.",
+      "emomKata": "every 2 min \u00d7 3: 8s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 8
+        },
+        {
+          "label": "Rest",
+          "s": 112
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "x": 3058,
+      "y": 3930,
+      "radius": 170,
+      "color": "#fdd702",
+      "color_bgr": [
+        2,
+        215,
+        253
+      ],
+      "image": "nodeimages/node_80.webp",
+      "text": "BICEPS BRACHII",
+      "start": true,
+      "kata": null,
+      "spirit": "To pull is to choose yourself."
+    },
+    {
+      "id": 81,
+      "x": 2346,
+      "y": 3930,
+      "radius": 170,
+      "color": "#fed801",
+      "color_bgr": [
+        1,
+        216,
+        254
+      ],
+      "image": "nodeimages/node_81.webp",
+      "text": "CHIN UP",
+      "start": false,
+      "kata": "3\u00d712, supinated grip, dead hang start, chin clears bar, 2s hold at top, 3s negative, 90s rest",
+      "spirit": "Supination is the secret. The bicep knows.",
+      "emomKata": "every 2.5 min \u00d7 3: 12 reps, supinated grip, dead hang start, chin clears bar, 2s hold at top, 3s negative"
+    },
+    {
+      "id": 82,
+      "x": 1626,
+      "y": 2682,
+      "radius": 170,
+      "color": "#fdde31",
+      "color_bgr": [
+        49,
+        222,
+        253
+      ],
+      "image": "nodeimages/node_82.webp",
+      "text": "CROSS DIP",
+      "start": false,
+      "kata": "3\u00d75, between two bars, lower to ring cross position, hold 3s, return. 120s rest",
+      "spirit": "The cross lives inside the dip.",
+      "emomKata": "every 2 min \u00d7 3: 5 reps, between two bars, lower to ring cross position, hold 3s, return."
+    },
+    {
+      "id": 83,
+      "x": 2346,
+      "y": 3514,
+      "radius": 170,
+      "color": "#fddf32",
+      "color_bgr": [
+        50,
+        223,
+        253
+      ],
+      "image": "nodeimages/node_83.webp",
+      "text": "FLOOR SHOULDER PRESS",
+      "start": false,
+      "kata": "3\u00d710, fully inverted against wall, nose to floor, explosive press, 3s negative, 75s rest",
+      "spirit": "The floor press that gravity made honest.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, fully inverted against wall, nose to floor, explosive press, 3s negative"
+    },
+    {
+      "id": 84,
+      "x": 5210,
+      "y": 6410,
+      "radius": 170,
+      "color": "#81acfe",
+      "color_bgr": [
+        254,
+        172,
+        129
+      ],
+      "image": "nodeimages/node_84.webp",
+      "text": "ONE LEG JUMPROPE",
+      "start": false,
+      "kata": "3\u00d72 minutes continuous one-leg jumprope each side, no misses, 90s rest",
+      "spirit": "One foot. One spring. The same rope.",
+      "emomKata": "every 3.5 min \u00d7 3: 2 min each side, no misses"
+    },
+    {
+      "id": 85,
+      "x": 906,
+      "y": 4754,
+      "radius": 170,
+      "color": "#febd0a",
+      "color_bgr": [
+        10,
+        189,
+        254
+      ],
+      "image": "nodeimages/node_85.webp",
+      "text": "ONE ARM PULL UP",
+      "start": false,
+      "kata": "3\u00d75 each arm, dead hang start, chin over bar, full lockout at bottom, 3s negative, 120s rest",
+      "spirit": "One arm. The full weight of the practice.",
+      "emomKata": "every 2.5 min \u00d7 3: 5 reps each side, dead hang start, chin over bar, full lockout at bottom, 3s negative"
+    },
+    {
+      "id": 86,
+      "x": 1986,
+      "y": 4546,
+      "radius": 170,
+      "color": "#febe0a",
+      "color_bgr": [
+        10,
+        190,
+        254
+      ],
+      "image": "nodeimages/node_86.webp",
+      "text": "UNEVEN PULL UP",
+      "start": false,
+      "kata": "3\u00d78 each side, one hand 15cm higher than the other, full ROM, 3s negative, 90s rest",
+      "spirit": "Asymmetry is the honest road to one arm.",
+      "emomKata": "every 2 min \u00d7 3: 8 reps each side, one hand 15cm higher than the other, full ROM, 3s negative"
+    },
+    {
+      "id": 87,
+      "x": 2698,
+      "y": 2482,
+      "radius": 170,
+      "color": "#fee55a",
+      "color_bgr": [
+        90,
+        229,
+        254
+      ],
+      "image": "nodeimages/node_87.webp",
+      "text": "CRANE POSE",
+      "start": false,
+      "kata": "3\u00d720s hold, arms locked, knees tucked tight, balanced on hands, 75s rest",
+      "spirit": "The crane stands on one leg. You stand on two hands.",
+      "emomKata": "every 90s \u00d7 3: 20s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 20
+        },
+        {
+          "label": "Rest",
+          "s": 70
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "x": 1986,
+      "y": 2482,
+      "radius": 170,
+      "color": "#fee55a",
+      "color_bgr": [
+        90,
+        229,
+        254
+      ],
+      "image": "nodeimages/node_88.webp",
+      "text": "KOREAN DIP",
+      "start": false,
+      "kata": "3\u00d78, behind-the-back on bar, elbows driven back, full depression, 3s negative, 90s rest",
+      "spirit": "Korean precision. Each rep a separate decision.",
+      "emomKata": "every 2 min \u00d7 3: 8 reps, behind-the-back on bar, elbows driven back, full depression, 3s negative"
+    },
+    {
+      "id": 89,
+      "x": 1266,
+      "y": 2482,
+      "radius": 170,
+      "color": "#fedf31",
+      "color_bgr": [
+        49,
+        223,
+        254
+      ],
+      "image": "nodeimages/node_89.webp",
+      "text": "ASSISTED IRON CROSS",
+      "start": false,
+      "kata": "3\u00d75s hold each side, one ring at chest, one arm extended, rings, 120s rest",
+      "spirit": "The cross arrives in pieces. This is one piece.",
+      "emomKata": "every 2.5 min \u00d7 3: 5s hold each side, rest remaining",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 5
+        },
+        {
+          "label": "Left",
+          "s": 5
+        },
+        {
+          "label": "Rest",
+          "s": 140
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "x": 1986,
+      "y": 3306,
+      "radius": 170,
+      "color": "#fedf32",
+      "color_bgr": [
+        50,
+        223,
+        254
+      ],
+      "image": "nodeimages/node_90.webp",
+      "text": "WALL PLANK",
+      "start": false,
+      "kata": "3\u00d745s hold, feet on wall, body vertical, hollow position, 60s rest",
+      "spirit": "The wall knows your secrets. The freestanding will not.",
+      "emomKata": "every 105s \u00d7 3: 45s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 45
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "x": 3418,
+      "y": 3306,
+      "radius": 170,
+      "color": "#fee559",
+      "color_bgr": [
+        89,
+        229,
+        254
+      ],
+      "image": "nodeimages/node_91.webp",
+      "text": "TRICEPS BRACHII",
+      "start": true,
+      "kata": null,
+      "spirit": "Extension is the forgotten half of strength."
+    },
+    {
+      "id": 92,
+      "x": 2346,
+      "y": 3098,
+      "radius": 170,
+      "color": "#fedf31",
+      "color_bgr": [
+        49,
+        223,
+        254
+      ],
+      "image": "nodeimages/node_92.webp",
+      "text": "RUSSIAN DIP",
+      "start": false,
+      "kata": "3\u00d710, behind-the-back dip on parallel bars, full shoulder extension, controlled descent, 3s negative, 90s rest",
+      "spirit": "The shoulder opens into unfamiliar territory.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, behind-the-back dip on parallel bars, full shoulder extension, controlled descent, 3s negative"
+    },
+    {
+      "id": 93,
+      "x": 5570,
+      "y": 5378,
+      "radius": 170,
+      "color": "#bfedfd",
+      "color_bgr": [
+        253,
+        237,
+        191
+      ],
+      "image": "nodeimages/node_93.webp",
+      "text": "3 KM",
+      "start": false,
+      "kata": "3km continuous, sub-16 minutes, no km slower than 5:10/km",
+      "spirit": "The lungs negotiate. The legs decide."
+    },
+    {
+      "id": 94,
+      "x": 7002,
+      "y": 5370,
+      "radius": 170,
+      "color": "#d9f9fe",
+      "color_bgr": [
+        254,
+        249,
+        217
+      ],
+      "image": "nodeimages/node_94.webp",
+      "text": "CROSS STANCE",
+      "start": false,
+      "kata": "Hold cross stance for 90s each side, rear foot crossed behind, weight centered",
+      "spirit": "Stillness in an uncomfortable place.",
+      "emomKata": "every 3.5 min \u00d7 3: 90s hold each side, rest 30s",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 90
+        },
+        {
+          "label": "Left",
+          "s": 90
+        },
+        {
+          "label": "Rest",
+          "s": 30
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "x": 1626,
+      "y": 5170,
+      "radius": 170,
+      "color": "#febe0a",
+      "color_bgr": [
+        10,
+        190,
+        254
+      ],
+      "image": "nodeimages/node_95.webp",
+      "text": "ROPE PULL UP",
+      "start": false,
+      "kata": "3\u00d78, rope grip, dead hang, chin over bar, 3s negative, 90s rest",
+      "spirit": "Rope does not lie about grip strength.",
+      "emomKata": "every 2 min \u00d7 3: 8 reps, rope grip, dead hang, chin over bar, 3s negative"
+    },
+    {
+      "id": 96,
+      "x": 1986,
+      "y": 2890,
+      "radius": 170,
+      "color": "#fede31",
+      "color_bgr": [
+        49,
+        222,
+        254
+      ],
+      "image": "nodeimages/node_96.webp",
+      "text": "BULGARIAN DIP",
+      "start": false,
+      "kata": "3\u00d78, rings, deep shoulder extension, full ROM, controlled throughout, 3s negative, 90s rest",
+      "spirit": "Bulgaria asked what a dip could become.",
+      "emomKata": "every 2 min \u00d7 3: 8 reps, rings, deep shoulder extension, full ROM, controlled throughout, 3s negative"
+    },
+    {
+      "id": 97,
+      "x": 3418,
+      "y": 2890,
+      "radius": 170,
+      "color": "#fee458",
+      "color_bgr": [
+        88,
+        228,
+        254
+      ],
+      "image": "nodeimages/node_97.webp",
+      "text": "PLANCHE LEAN",
+      "start": false,
+      "kata": "3\u00d730s lean hold, hands turned backward, shoulders protracted, body at 20\u00b0 forward tilt, 60s rest",
+      "spirit": "The lean is where the planche begins its conversation.",
+      "emomKata": "every 2 min \u00d7 3: 30s hold, hands turned backward, shoulders protracted, body at 20\u00b0 forward tilt",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 30
+        },
+        {
+          "label": "Rest",
+          "s": 90
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "x": 2698,
+      "y": 2890,
+      "radius": 170,
+      "color": "#fee45a",
+      "color_bgr": [
+        90,
+        228,
+        254
+      ],
+      "image": "nodeimages/node_98.webp",
+      "text": "BENCH DIP",
+      "start": false,
+      "kata": "3\u00d715, hands on bench, feet elevated, full elbow lockout, 3s negative, elbows tracking back, 60s rest",
+      "spirit": "The dip that built a thousand triceps.",
+      "emomKata": "every 2 min \u00d7 3: 15 reps, hands on bench, feet elevated, full elbow lockout, 3s negative, elbows tracking back"
+    },
+    {
+      "id": 99,
+      "x": 3058,
+      "y": 3514,
+      "radius": 170,
+      "color": "#fede31",
+      "color_bgr": [
+        49,
+        222,
+        254
+      ],
+      "image": "nodeimages/node_99.webp",
+      "text": "DELTOIDEUS",
+      "start": true,
+      "kata": null,
+      "spirit": "The shoulder is the door. Learn to open it."
+    },
+    {
+      "id": 100,
+      "x": 906,
+      "y": 3514,
+      "radius": 170,
+      "color": "#fed801",
+      "color_bgr": [
+        1,
+        216,
+        254
+      ],
+      "image": "nodeimages/node_100.webp",
+      "text": "PELICAN PUSH UP",
+      "start": false,
+      "kata": "3\u00d75 each side, rings behind body, controlled descent into deep stretch, explosive return, 120s rest. Use a spotter until familiar",
+      "spirit": "The most honest test of the bicep at length.",
+      "emomKata": "every 2 min \u00d7 3: 5 reps each side, rings behind body, deep stretch descent, explosive return. Use a spotter until familiar"
+    },
+    {
+      "id": 101,
+      "x": 2698,
+      "y": 3722,
+      "radius": 170,
+      "color": "#fed701",
+      "color_bgr": [
+        1,
+        215,
+        254
+      ],
+      "image": "nodeimages/node_101.webp",
+      "text": "DOWNWARD DOG TO UPWARD DOG",
+      "start": false,
+      "kata": "3\u00d710 full transitions, 3s hold in downward dog, explosive push through to upward dog, 60s rest",
+      "spirit": "The spine moves like water between the two dogs.",
+      "emomKata": "every 90s \u00d7 3: 10 reps, full transitions, 3s hold in downward dog, explosive push through to upward dog"
+    },
+    {
+      "id": 102,
+      "x": 1986,
+      "y": 3722,
+      "radius": 170,
+      "color": "#fed801",
+      "color_bgr": [
+        1,
+        216,
+        254
+      ],
+      "image": "nodeimages/node_102.webp",
+      "text": "PSEUDO PLANCHE PUSH UP",
+      "start": false,
+      "kata": "3\u00d710, hands turned backward, full depression of scapulae, 3s negative, 90s rest",
+      "spirit": "The wrist carries the signature of the planche.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, hands turned backward, full depression of scapulae, 3s negative"
+    },
+    {
+      "id": 103,
+      "x": 1266,
+      "y": 3722,
+      "radius": 170,
+      "color": "#fed701",
+      "color_bgr": [
+        1,
+        215,
+        254
+      ],
+      "image": "nodeimages/node_103.webp",
+      "text": "RING FLY",
+      "start": false,
+      "kata": "3\u00d78, rings, arms open to full fly position at bottom, controlled return, 3s negative, 120s rest",
+      "spirit": "The ring opens what the bar cannot reach.",
+      "emomKata": "every 2.5 min \u00d7 3: 8 reps, rings, arms open to full fly position at bottom, controlled return, 3s negative"
+    },
+    {
+      "id": 104,
+      "x": 1626,
+      "y": 3514,
+      "radius": 170,
+      "color": "#fed801",
+      "color_bgr": [
+        1,
+        216,
+        254
+      ],
+      "image": "nodeimages/node_104.webp",
+      "text": "CHIN UP KNEE RAISE",
+      "start": false,
+      "kata": "3\u00d710, chin up with knee raise at top, knees to chest at apex, controlled lower of both simultaneously, 90s rest",
+      "spirit": "Two movements. One intention.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, chin up with knee raise at top, knees to chest at apex, controlled lower of both simultaneously"
+    },
+    {
+      "id": 105,
+      "x": 1626,
+      "y": 2274,
+      "radius": 170,
+      "color": "#fee559",
+      "color_bgr": [
+        89,
+        229,
+        254
+      ],
+      "image": "nodeimages/node_105.webp",
+      "text": "IMPOSSIBLE DIP",
+      "start": false,
+      "kata": "3\u00d78, arms nearly horizontal at bottom, body rigid, 3s negative, full lockout, 120s rest",
+      "spirit": "Impossible is only a name.",
+      "emomKata": "every 2.5 min \u00d7 3: 8 reps, arms nearly horizontal at bottom, body rigid, 3s negative, full lockout"
+    },
+    {
+      "id": 106,
+      "x": 1266,
+      "y": 2066,
+      "radius": 170,
+      "color": "#fee45a",
+      "color_bgr": [
+        90,
+        228,
+        254
+      ],
+      "image": "nodeimages/node_106.webp",
+      "text": "VICTORIAN CROSS",
+      "start": false,
+      "kata": "8s continuous hold, body horizontal on rings, arms extended at sides, 120s rest",
+      "spirit": "The Victorian asked: what if the cross were horizontal?",
+      "emomKata": "every 2 min \u00d7 3: 8s hold, body horizontal on rings, arms extended at sides",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 8
+        },
+        {
+          "label": "Rest",
+          "s": 112
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "x": 1986,
+      "y": 2066,
+      "radius": 170,
+      "color": "#fee459",
+      "color_bgr": [
+        89,
+        228,
+        254
+      ],
+      "image": "nodeimages/node_107.webp",
+      "text": "STRADDLE ELBOW LEVER",
+      "start": false,
+      "kata": "3\u00d710s hold each side, elbows locked, body parallel to floor, 120s rest",
+      "spirit": "The body finds its shelf.",
+      "emomKata": "every 2.5 min \u00d7 3: 10s hold each side, rest remaining",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 10
+        },
+        {
+          "label": "Left",
+          "s": 10
+        },
+        {
+          "label": "Rest",
+          "s": 130
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "x": 914,
+      "y": 2274,
+      "radius": 170,
+      "color": "#fedf31",
+      "color_bgr": [
+        49,
+        223,
+        254
+      ],
+      "image": "nodeimages/node_108.webp",
+      "text": "IRON CROSS",
+      "start": false,
+      "kata": "8s continuous hold, both arms extended horizontally, rings, body vertical, no rotation, 120s rest",
+      "spirit": "Iron does not bend. Neither do you.",
+      "emomKata": "every 2 min \u00d7 3: 8s hold, both arms extended horizontally, rings, body vertical, no rotation",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 8
+        },
+        {
+          "label": "Rest",
+          "s": 112
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "x": 2338,
+      "y": 1858,
+      "radius": 170,
+      "color": "#fee559",
+      "color_bgr": [
+        89,
+        229,
+        254
+      ],
+      "image": "nodeimages/node_109.webp",
+      "text": "TUCK PLANCHE",
+      "start": false,
+      "kata": "3\u00d710s hold, knees to chest, arms locked, body parallel, scapulae protracted, 120s rest",
+      "spirit": "Tucked. Not small. Compressed.",
+      "emomKata": "every 2 min \u00d7 3: 10s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 10
+        },
+        {
+          "label": "Rest",
+          "s": 110
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "x": 4850,
+      "y": 6618,
+      "radius": 170,
+      "color": "#81acfe",
+      "color_bgr": [
+        254,
+        172,
+        129
+      ],
+      "image": "nodeimages/node_110.webp",
+      "text": "DEPTH JUMP",
+      "start": false,
+      "kata": "3\u00d78 depth jumps from 40cm box, immediate rebound on landing, maximum height, 90s rest",
+      "spirit": "The ground is not a resting place.",
+      "emomKata": "every 105s \u00d7 3: 8 reps, depth jumps from 40cm box, immediate rebound on landing, maximum height"
+    },
+    {
+      "id": 111,
+      "x": 2338,
+      "y": 4338,
+      "radius": 170,
+      "color": "#febe0a",
+      "color_bgr": [
+        10,
+        190,
+        254
+      ],
+      "image": "nodeimages/node_111.webp",
+      "text": "WIDE PULL UP",
+      "start": false,
+      "kata": "3\u00d710, hands 1.5x shoulder width, dead hang, chest to bar, 3s negative, 90s rest",
+      "spirit": "Wide arms, wide back.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, hands 1.5x shoulder width, dead hang, chest to bar, 3s negative"
+    },
+    {
+      "id": 112,
+      "x": 1266,
+      "y": 4962,
+      "radius": 170,
+      "color": "#febe0a",
+      "color_bgr": [
+        10,
+        190,
+        254
+      ],
+      "image": "nodeimages/node_112.webp",
+      "text": "AROUND THE WORLD PULL UP",
+      "start": false,
+      "kata": "3\u00d75 full circles each direction, continuous motion, controlled throughout, 90s rest",
+      "spirit": "The arc is the movement. Let it complete itself.",
+      "emomKata": "every 105s \u00d7 3: 5 reps, full circles each direction, continuous motion, controlled throughout"
+    },
+    {
+      "id": 113,
+      "x": 1626,
+      "y": 3922,
+      "radius": 170,
+      "color": "#fdbd0a",
+      "color_bgr": [
+        10,
+        189,
+        253
+      ],
+      "image": "nodeimages/node_113.webp",
+      "text": "GERMAN HANG",
+      "start": false,
+      "kata": "3\u00d745s passive German hang, shoulders fully open, controlled entry, 90s rest between",
+      "spirit": "The shoulder opens like a door that was always locked.",
+      "emomKata": "every 2.5 min \u00d7 3: 45s hold, shoulders fully open, controlled entry",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 45
+        },
+        {
+          "label": "Rest",
+          "s": 105
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "x": 5210,
+      "y": 6818,
+      "radius": 170,
+      "color": "#81acfd",
+      "color_bgr": [
+        253,
+        172,
+        129
+      ],
+      "image": "nodeimages/node_114.webp",
+      "text": "BOX JUMP",
+      "start": false,
+      "kata": "10 consecutive box jumps onto 60cm platform, soft landing, full hip extension at top, step down between reps, 90s rest",
+      "spirit": "Power with manners.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, jumps onto 60cm platform, soft landing, full hip extension at top, step down between reps"
+    },
+    {
+      "id": 115,
+      "x": 1266,
+      "y": 4546,
+      "radius": 170,
+      "color": "#fdbd0a",
+      "color_bgr": [
+        10,
+        189,
+        253
+      ],
+      "image": "nodeimages/node_115.webp",
+      "text": "NEGATIVE MUSCLE UP",
+      "start": false,
+      "kata": "3\u00d75 slow eccentrics, 5s descent from above bar to dead hang, full control throughout, 120s rest",
+      "spirit": "The negative is the teacher. The positive is the exam.",
+      "emomKata": "every 2 min \u00d7 3: 5 reps, slow eccentrics, 5s descent from above bar to dead hang, full control throughout"
+    },
+    {
+      "id": 116,
+      "x": 5922,
+      "y": 6410,
+      "radius": 170,
+      "color": "#9fcafd",
+      "color_bgr": [
+        253,
+        202,
+        159
+      ],
+      "image": "nodeimages/node_116.webp",
+      "text": "AERIAL CARTWHEELS",
+      "start": false,
+      "kata": "3\u00d75 aerial cartwheels each side, no hand contact with floor, controlled landing, 90s rest",
+      "spirit": "The wheel with no axle. Pure rotation.",
+      "emomKata": "every 90s \u00d7 3: 5 reps each side, no hand contact with floor, controlled landing"
+    },
+    {
+      "id": 117,
+      "x": 906,
+      "y": 4338,
+      "radius": 170,
+      "color": "#fdbe09",
+      "color_bgr": [
+        9,
+        190,
+        253
+      ],
+      "image": "nodeimages/node_117.webp",
+      "text": "MUSCLE UP",
+      "start": false,
+      "kata": "3\u00d75 muscle ups, false grip or kip acceptable, clear transition above bar, full lockout at top, 3s negative on descent, 120s rest",
+      "spirit": "Through the bar and above it. Two movements disguised as one.",
+      "emomKata": "every 2.5 min \u00d7 3: 5 reps, muscle ups, false grip or kip acceptable, clear transition above bar, full lockout at top, 3s negative on descent"
+    },
+    {
+      "id": 118,
+      "x": 4850,
+      "y": 4962,
+      "radius": 170,
+      "color": "#9fcbfd",
+      "color_bgr": [
+        253,
+        203,
+        159
+      ],
+      "image": "nodeimages/node_118.webp",
+      "text": "BALANCE & ACROBATICS",
+      "start": true,
+      "kata": null,
+      "spirit": "First, learn to fall without fear."
+    },
+    {
+      "id": 119,
+      "x": 2338,
+      "y": 2690,
+      "radius": 170,
+      "color": "#fde55b",
+      "color_bgr": [
+        91,
+        229,
+        253
+      ],
+      "image": "nodeimages/node_119.webp",
+      "text": "HANGING DIP",
+      "start": false,
+      "kata": "3\u00d710, rings or bar, full depression at bottom, lockout at top, 3s negative, rings turned out at top, 90s rest",
+      "spirit": "The dip suspended. No ground to cheat off.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, rings or bar, full depression at bottom, lockout at top, 3s negative, rings turned out at top"
+    },
+    {
+      "id": 120,
+      "x": 914,
+      "y": 5170,
+      "radius": 170,
+      "color": "#fdbe0a",
+      "color_bgr": [
+        10,
+        190,
+        253
+      ],
+      "image": "nodeimages/node_120.webp",
+      "text": "CLAP PULL UP",
+      "start": false,
+      "kata": "3\u00d75 clap pull ups, explosive concentric, hands leave bar, clap at chest, regrasp with control, 120s rest",
+      "spirit": "Brief flight at the top of the pull.",
+      "emomKata": "every 2 min \u00d7 3: 5 reps, clap pull ups, explosive concentric, hands leave bar, clap at chest, regrasp with control"
+    },
+    {
+      "id": 121,
+      "x": 906,
+      "y": 3930,
+      "radius": 170,
+      "color": "#fdbe0a",
+      "color_bgr": [
+        10,
+        190,
+        253
+      ],
+      "image": "nodeimages/node_121.webp",
+      "text": "BACK LEVER",
+      "start": false,
+      "kata": "10s continuous back lever hold, body fully extended, arms locked, horizontal behind bar, 120s rest",
+      "spirit": "The body behind the bar. Parallel to the earth.",
+      "emomKata": "every 2 min \u00d7 3: 10s hold, body fully extended, arms locked, horizontal behind bar",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 10
+        },
+        {
+          "label": "Rest",
+          "s": 110
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "x": 4130,
+      "y": 1234,
+      "radius": 170,
+      "color": "#fded94",
+      "color_bgr": [
+        148,
+        237,
+        253
+      ],
+      "image": "nodeimages/node_122.webp",
+      "text": "ROPE CLIMBING",
+      "start": false,
+      "kata": "5 rope climbs, arms only, no leg assist, controlled descent each time",
+      "spirit": "The rope gives nothing freely.",
+      "emomKata": "every 3 min \u00d7 3: 5 rope climbs, arms only, no leg assist, controlled descent"
+    },
+    {
+      "id": 123,
+      "x": 5562,
+      "y": 5786,
+      "radius": 170,
+      "color": "#9fcbfd",
+      "color_bgr": [
+        253,
+        203,
+        159
+      ],
+      "image": "nodeimages/node_123.webp",
+      "text": "JACKING",
+      "start": false,
+      "kata": "3\u00d760s continuous jacking rhythm, consistent height, no missed beats, 45s rest",
+      "spirit": "The beat that does not break.",
+      "emomKata": "every 105s \u00d7 3: 60s continuous, consistent height, no missed beats"
+    },
+    {
+      "id": 124,
+      "x": 4850,
+      "y": 5370,
+      "radius": 170,
+      "color": "#9fcbfd",
+      "color_bgr": [
+        253,
+        203,
+        159
+      ],
+      "image": "nodeimages/node_124.webp",
+      "text": "JUMPING JACKS",
+      "start": false,
+      "kata": "3\u00d750 continuous jumping jacks, full arm extension overhead, feet past shoulder width, consistent rhythm, 45s rest",
+      "spirit": "Rhythm is the first language.",
+      "emomKata": "every 2 min \u00d7 3: 50 reps, continuous jumping jacks, full arm extension overhead, feet past shoulder width, consistent rhythm"
+    },
+    {
+      "id": 125,
+      "x": 4850,
+      "y": 5786,
+      "radius": 170,
+      "color": "#9fcbfd",
+      "color_bgr": [
+        253,
+        203,
+        159
+      ],
+      "image": "nodeimages/node_125.webp",
+      "text": "FORWARD ROLL",
+      "start": false,
+      "kata": "3\u00d710 forward rolls, fluid entry, no hands catching, stand at exit without pause, 45s rest",
+      "spirit": "Down and up again. It takes less time than you think.",
+      "emomKata": "every 75s \u00d7 3: 10 reps, fluid entry, no hands catching, stand at exit without pause"
+    },
+    {
+      "id": 126,
+      "x": 5210,
+      "y": 5994,
+      "radius": 170,
+      "color": "#9fcbfd",
+      "color_bgr": [
+        253,
+        203,
+        159
+      ],
+      "image": "nodeimages/node_126.webp",
+      "text": "CARTWHEEL",
+      "start": false,
+      "kata": "3\u00d710 cartwheels each direction, straight arm at apex, feet together at landing, 45s rest",
+      "spirit": "The wheel turns. The body follows.",
+      "emomKata": "every 60s \u00d7 3: 10 reps each direction, straight arm at apex, feet together at landing"
+    },
+    {
+      "id": 127,
+      "x": 4490,
+      "y": 5994,
+      "radius": 170,
+      "color": "#81acfd",
+      "color_bgr": [
+        253,
+        172,
+        129
+      ],
+      "image": "nodeimages/node_127.webp",
+      "text": "DUCK WALK",
+      "start": false,
+      "kata": "3\u00d720m duck walk, heels flat, knees tracking toes, consistent depth, 60s rest",
+      "spirit": "The duck knows something about patience.",
+      "emomKata": "every 105s \u00d7 3: 20m duck walk, heels flat, knees tracking toes, consistent depth"
+    },
+    {
+      "id": 128,
+      "x": 4490,
+      "y": 6410,
+      "radius": 170,
+      "color": "#81acfd",
+      "color_bgr": [
+        253,
+        172,
+        129
+      ],
+      "image": "nodeimages/node_128.webp",
+      "text": "BUNNY HOP",
+      "start": false,
+      "kata": "3\u00d710 consecutive bunny hops, two feet together, maximum height each rep, soft landing, 75s rest",
+      "spirit": "Coiled. Released. Coiled again.",
+      "emomKata": "every 105s \u00d7 3: 10 reps, consecutive bunny hops, two feet together, maximum height each rep, soft landing"
+    },
+    {
+      "id": 129,
+      "x": 2346,
+      "y": 4754,
+      "radius": 170,
+      "color": "#fdbd09",
+      "color_bgr": [
+        9,
+        189,
+        253
+      ],
+      "image": "nodeimages/node_129.webp",
+      "text": "NARROW PULL UP",
+      "start": false,
+      "kata": "3\u00d712, hands inside shoulder width, dead hang, chin over bar, 2s hold, 3s negative, 90s rest",
+      "spirit": "Narrow grip. The elbow drives inward like a blade.",
+      "emomKata": "every 2.5 min \u00d7 3: 12 reps, hands inside shoulder width, dead hang, chin over bar, 2s hold, 3s negative"
+    },
+    {
+      "id": 130,
+      "x": 4850,
+      "y": 6202,
+      "radius": 170,
+      "color": "#81acfd",
+      "color_bgr": [
+        253,
+        172,
+        129
+      ],
+      "image": "nodeimages/node_130.webp",
+      "text": "JUMPROPE",
+      "start": false,
+      "kata": "3\u00d73 minutes continuous jumprope, no misses, consistent rhythm, 60s rest",
+      "spirit": "Three minutes without interruption. The rope teaches honesty.",
+      "emomKata": "every 4 min \u00d7 3: 3 min continuous, no misses, consistent rhythm"
+    },
+    {
+      "id": 131,
+      "x": 5210,
+      "y": 7234,
+      "radius": 170,
+      "color": "#81acfe",
+      "color_bgr": [
+        254,
+        172,
+        129
+      ],
+      "image": "nodeimages/node_131.webp",
+      "text": "JUMP STEP UP",
+      "start": false,
+      "kata": "3\u00d710 each leg, step up onto 50cm box, full hip extension at top, controlled step down, 60s rest",
+      "spirit": "One step. Complete it fully.",
+      "emomKata": "every 90s \u00d7 3: 10 reps each side, step up onto 50cm box, full hip extension at top, controlled step down"
+    },
+    {
+      "id": 132,
+      "x": 5570,
+      "y": 7026,
+      "radius": 170,
+      "color": "#81abfe",
+      "color_bgr": [
+        254,
+        171,
+        129
+      ],
+      "image": "nodeimages/node_132.webp",
+      "text": "PARKOUR",
+      "start": false,
+      "kata": "Complete a 200m parkour route outdoors using at least 5 distinct obstacles, no falls, fluid transitions",
+      "spirit": "The city is a gymnasium. Read it."
+    },
+    {
+      "id": 133,
+      "x": 1986,
+      "y": 4130,
+      "radius": 170,
+      "color": "#fdbd0a",
+      "color_bgr": [
+        10,
+        189,
+        253
+      ],
+      "image": "nodeimages/node_133.webp",
+      "text": "INVERTED HANG",
+      "start": false,
+      "kata": "3\u00d730s inverted hang, body parallel to bar, arms locked, core rigid, 75s rest",
+      "spirit": "The world from below. Everything looks different.",
+      "emomKata": "every 105s \u00d7 3: 30s hold, body parallel to bar, arms locked, core rigid"
+    },
+    {
+      "id": 134,
+      "x": 2698,
+      "y": 4546,
+      "radius": 170,
+      "color": "#fdbe09",
+      "color_bgr": [
+        9,
+        190,
+        253
+      ],
+      "image": "nodeimages/node_134.webp",
+      "text": "PULL UP",
+      "start": false,
+      "kata": "3\u00d712, dead hang start, chin clears bar, 2s hold at top, 3s negative, full extension at bottom, no kip, 90s rest",
+      "spirit": "Dead hang to alive again.",
+      "emomKata": "every 2.5 min \u00d7 3: 12 reps, dead hang start, chin clears bar, 2s hold at top, 3s negative, full extension at bottom, no kip"
+    },
+    {
+      "id": 135,
+      "x": 5570,
+      "y": 6618,
+      "radius": 170,
+      "color": "#82abfd",
+      "color_bgr": [
+        253,
+        171,
+        130
+      ],
+      "image": "nodeimages/node_135.webp",
+      "text": "SKATER HOPS",
+      "start": false,
+      "kata": "3\u00d710 each leg, lateral leap, single-leg landing, 2s pause to stabilize before next rep, 75s rest",
+      "spirit": "The ice skater lands alone. So do you.",
+      "emomKata": "every 105s \u00d7 3: 10 reps each side, lateral leap, single-leg landing, 2s pause to stabilize before next rep"
+    },
+    {
+      "id": 136,
+      "x": 914,
+      "y": 5578,
+      "radius": 170,
+      "color": "#fdbe0b",
+      "color_bgr": [
+        11,
+        190,
+        253
+      ],
+      "image": "nodeimages/node_136.webp",
+      "text": "MONKEY BARS",
+      "start": false,
+      "kata": "3\u00d720 bars traversed without stopping, alternating grip, no foot contact, 90s rest",
+      "spirit": "Hand to hand. Bar to bar. Do not stop.",
+      "emomKata": "every 2.5 min \u00d7 3: 20 bars, alternating grip, no foot contact"
+    },
+    {
+      "id": 137,
+      "x": 3058,
+      "y": 4338,
+      "radius": 170,
+      "color": "#fdbe0a",
+      "color_bgr": [
+        10,
+        190,
+        253
+      ],
+      "image": "nodeimages/node_137.webp",
+      "text": "TRAPEZIUS & LATERALIS",
+      "start": true,
+      "kata": null,
+      "spirit": "The back knows things the mirror cannot show."
+    },
+    {
+      "id": 138,
+      "x": 1986,
+      "y": 4962,
+      "radius": 170,
+      "color": "#fdbe0a",
+      "color_bgr": [
+        10,
+        190,
+        253
+      ],
+      "image": "nodeimages/node_138.webp",
+      "text": "TOWEL PULL UP",
+      "start": false,
+      "kata": "3\u00d710, towel or rope grip, dead hang, chin over bar, full ROM, 3s negative, 90s rest",
+      "spirit": "The grip is the test before the test.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, towel or rope grip, dead hang, chin over bar, full ROM, 3s negative"
+    },
+    {
+      "id": 139,
+      "x": 4490,
+      "y": 5170,
+      "radius": 170,
+      "color": "#81abfd",
+      "color_bgr": [
+        253,
+        171,
+        129
+      ],
+      "image": "nodeimages/node_139.webp",
+      "text": "SOLEUS & GASTROCNEMIUS",
+      "start": true,
+      "kata": null,
+      "spirit": "The spring lives in the ankle."
+    },
+    {
+      "id": 140,
+      "x": 2698,
+      "y": 4130,
+      "radius": 170,
+      "color": "#fdbd0a",
+      "color_bgr": [
+        10,
+        189,
+        253
+      ],
+      "image": "nodeimages/node_140.webp",
+      "text": "BACK WIDOW",
+      "start": false,
+      "kata": "3\u00d715, lying prone on bench, arms in Y shape, full retraction and depression of scapulae, 2s hold at top, 3s negative, 60s rest",
+      "spirit": "The widow teaches the back what the mirror cannot see.",
+      "emomKata": "every 2 min \u00d7 3: 15 reps, lying prone on bench, arms in Y shape, full retraction and depression of scapulae, 2s hold at top, 3s negative"
+    },
+    {
+      "id": 141,
+      "x": 906,
+      "y": 2682,
+      "radius": 170,
+      "color": "#fddf32",
+      "color_bgr": [
+        50,
+        223,
+        253
+      ],
+      "image": "nodeimages/node_141.webp",
+      "text": "REVERSE PLANCHE",
+      "start": false,
+      "kata": "10s continuous hold, body supine and parallel, arms locked behind, hips extended, 120s rest",
+      "spirit": "The planche, inverted. The sky becomes the floor.",
+      "emomKata": "every 2 min \u00d7 3: 10s hold, body supine and parallel, arms locked behind, hips extended",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 10
+        },
+        {
+          "label": "Rest",
+          "s": 110
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "x": 1626,
+      "y": 4338,
+      "radius": 170,
+      "color": "#fdbe09",
+      "color_bgr": [
+        9,
+        190,
+        253
+      ],
+      "image": "nodeimages/node_142.webp",
+      "text": "EXPLOSIVE PULL UP",
+      "start": false,
+      "kata": "3\u00d78, explosive concentric, bar reached at chest height, controlled eccentric, 90s rest",
+      "spirit": "The pull that becomes a launch.",
+      "emomKata": "every 105s \u00d7 3: 8 reps, explosive concentric, bar reached at chest height, controlled eccentric"
+    },
+    {
+      "id": 143,
+      "x": 1626,
+      "y": 4754,
+      "radius": 170,
+      "color": "#fdbe09",
+      "color_bgr": [
+        9,
+        190,
+        253
+      ],
+      "image": "nodeimages/node_143.webp",
+      "text": "ARCHER PULL UP",
+      "start": false,
+      "kata": "3\u00d78 each side, one arm nearly extended, full ROM on pulling arm, 3s negative, 90s rest",
+      "spirit": "Halfway to one arm. The other hand is just watching.",
+      "emomKata": "every 2 min \u00d7 3: 8 reps each side, one arm nearly extended, full ROM on pulling arm, 3s negative"
+    },
+    {
+      "id": 144,
+      "x": 1626,
+      "y": 5578,
+      "radius": 170,
+      "color": "#f99b01",
+      "color_bgr": [
+        1,
+        155,
+        249
+      ],
+      "image": "nodeimages/node_144.webp",
+      "text": "REVERSE SNOW ANGELS",
+      "start": false,
+      "kata": "3\u00d712, arms sweeping full arc from overhead to hips while prone, scapulae fully retracted at bottom, 3s at bottom, 60s rest",
+      "spirit": "Angels do not rush.",
+      "emomKata": "every 90s \u00d7 3: 12 reps, arms sweeping full arc from overhead to hips while prone, scapulae fully retracted at bottom, 3s at bottom"
+    },
+    {
+      "id": 145,
+      "x": 1986,
+      "y": 5786,
+      "radius": 170,
+      "color": "#f99b01",
+      "color_bgr": [
+        1,
+        155,
+        249
+      ],
+      "image": "nodeimages/node_145.webp",
+      "text": "PRONE KICKBACK",
+      "start": false,
+      "kata": "3\u00d715 each leg, full hip extension at top, controlled return, glute contracted at peak, 60s rest",
+      "spirit": "The kick returns strength to what was forgotten.",
+      "emomKata": "every 90s \u00d7 3: 15 reps each side, full hip extension at top, controlled return, glute contracted at peak"
+    },
+    {
+      "id": 146,
+      "x": 2346,
+      "y": 5170,
+      "radius": 170,
+      "color": "#f99b01",
+      "color_bgr": [
+        1,
+        155,
+        249
+      ],
+      "image": "nodeimages/node_146.webp",
+      "text": "LOCUST POSE",
+      "start": false,
+      "kata": "3\u00d730s hold, arms and legs lifted, chin neutral, full spinal extension, 60s rest",
+      "spirit": "The locust knows: lift everything at once.",
+      "emomKata": "every 90s \u00d7 3: 30s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 30
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "x": 1986,
+      "y": 6202,
+      "radius": 170,
+      "color": "#f89c01",
+      "color_bgr": [
+        1,
+        156,
+        248
+      ],
+      "image": "nodeimages/node_147.webp",
+      "text": "WHEEL POSE",
+      "start": false,
+      "kata": "3\u00d720s hold, hands and feet on floor, hips fully extended, shoulders open, no elbow bend, 90s rest",
+      "spirit": "The wheel turns only when the spine allows it.",
+      "emomKata": "every 105s \u00d7 3: 20s hold, rest remaining"
+    },
+    {
+      "id": 148,
+      "x": 1266,
+      "y": 6202,
+      "radius": 170,
+      "color": "#f89c02",
+      "color_bgr": [
+        2,
+        156,
+        248
+      ],
+      "image": "nodeimages/node_148.webp",
+      "text": "REVERSE HYPEREXTENSION",
+      "start": false,
+      "kata": "3\u00d712, hips extending behind body at bottom, full range, 3s negative, 75s rest",
+      "spirit": "The reverse direction. Equally important.",
+      "emomKata": "every 2 min \u00d7 3: 12 reps, hips extending behind body at bottom, full range, 3s negative"
+    },
+    {
+      "id": 149,
+      "x": 914,
+      "y": 5994,
+      "radius": 170,
+      "color": "#f99b01",
+      "color_bgr": [
+        1,
+        155,
+        249
+      ],
+      "image": "nodeimages/node_149.webp",
+      "text": "HYPEREXTENSION",
+      "start": false,
+      "kata": "3\u00d715, Roman chair or GHD, full hip extension at top, 3s negative, neutral spine, 75s rest",
+      "spirit": "The hinge, loaded. The back, revealed.",
+      "emomKata": "every 2.5 min \u00d7 3: 15 reps, Roman chair or GHD, full hip extension at top, 3s negative, neutral spine"
+    },
+    {
+      "id": 150,
+      "x": 1626,
+      "y": 5994,
+      "radius": 170,
+      "color": "#f89c01",
+      "color_bgr": [
+        1,
+        156,
+        248
+      ],
+      "image": "nodeimages/node_150.webp",
+      "text": "BACK LEG LIFT",
+      "start": false,
+      "kata": "3\u00d712 each leg, full hip extension at top, supporting hip square, 3s hold at peak, 60s rest",
+      "spirit": "One leg lifts. The whole chain answers.",
+      "emomKata": "every 90s \u00d7 3: 12 reps each side, full hip extension at top, supporting hip square, 3s hold at peak"
+    },
+    {
+      "id": 151,
+      "x": 1986,
+      "y": 6618,
+      "radius": 170,
+      "color": "#f89b02",
+      "color_bgr": [
+        2,
+        155,
+        248
+      ],
+      "image": "nodeimages/node_151.webp",
+      "text": "BRIDGE BACKBEND",
+      "start": false,
+      "kata": "3\u00d710s hold, full bridge, arms and legs extended, hips at maximum height, 90s rest",
+      "spirit": "The arch that holds the sky.",
+      "emomKata": "every 105s \u00d7 3: 10s hold, rest remaining"
+    },
+    {
+      "id": 152,
+      "x": 2698,
+      "y": 4962,
+      "radius": 170,
+      "color": "#f89c01",
+      "color_bgr": [
+        1,
+        156,
+        248
+      ],
+      "image": "nodeimages/node_152.webp",
+      "text": "GOOD MORNING",
+      "start": false,
+      "kata": "3\u00d715, standing, hinge at hip to parallel, neutral spine throughout, 3s negative, full extension at top, 60s rest",
+      "spirit": "The hinge that precedes everything heavy.",
+      "emomKata": "every 2 min \u00d7 3: 15 reps, standing, hinge at hip to parallel, neutral spine throughout, 3s negative, full extension at top"
+    },
+    {
+      "id": 153,
+      "x": 1626,
+      "y": 6410,
+      "radius": 170,
+      "color": "#f89c02",
+      "color_bgr": [
+        2,
+        156,
+        248
+      ],
+      "image": "nodeimages/node_153.webp",
+      "text": "TEARDROP BOW POSE",
+      "start": false,
+      "kata": "3\u00d715s hold, deep spinal flexion and extension combined, controlled breathing throughout, 90s rest",
+      "spirit": "The teardrop bows to nothing. It simply falls.",
+      "emomKata": "every 105s \u00d7 3: 15s hold, rest remaining"
+    },
+    {
+      "id": 154,
+      "x": 1986,
+      "y": 5370,
+      "radius": 170,
+      "color": "#f89c01",
+      "color_bgr": [
+        1,
+        156,
+        248
+      ],
+      "image": "nodeimages/node_154.webp",
+      "text": "SUPERMAN POSE",
+      "start": false,
+      "kata": "3\u00d720s hold, arms and legs extended, no bend at knee or elbow, chin neutral, 60s rest",
+      "spirit": "The shape of a body in flight. Hold it there.",
+      "emomKata": "every 75s \u00d7 3: 20s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 20
+        },
+        {
+          "label": "Rest",
+          "s": 55
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "x": 1266,
+      "y": 5786,
+      "radius": 170,
+      "color": "#f89c01",
+      "color_bgr": [
+        1,
+        156,
+        248
+      ],
+      "image": "nodeimages/node_155.webp",
+      "text": "ANGLED HYPEREXTENSION",
+      "start": false,
+      "kata": "3\u00d712, body at 45\u00b0 decline, full spinal extension, controlled throughout, 60s rest",
+      "spirit": "The angle changes. The spine does not lie.",
+      "emomKata": "every 90s \u00d7 3: 12 reps, body at 45\u00b0 decline, full spinal extension, controlled throughout"
+    },
+    {
+      "id": 156,
+      "x": 3058,
+      "y": 4754,
+      "radius": 170,
+      "color": "#f89c01",
+      "color_bgr": [
+        1,
+        156,
+        248
+      ],
+      "image": "nodeimages/node_156.webp",
+      "text": "ERECTOR SPINAE",
+      "start": true,
+      "kata": null,
+      "spirit": "The spine remembers everything."
+    },
+    {
+      "id": 157,
+      "x": 6642,
+      "y": 2682,
+      "radius": 170,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_157.webp",
+      "text": "PLANK BACK KICK",
+      "start": false,
+      "kata": "3\u00d715 each leg, from full plank, kick through hip to ceiling, controlled return, no hip rotation, 60s rest",
+      "spirit": "Kick through. Return. The plank does not waver.",
+      "emomKata": "every 75s \u00d7 3: 15 reps each side, from full plank, kick through hip to ceiling, controlled return, no hip rotation"
+    },
+    {
+      "id": 158,
+      "x": 7354,
+      "y": 3098,
+      "radius": 170,
+      "color": "#48d01f",
+      "color_bgr": [
+        31,
+        208,
+        72
+      ],
+      "image": "nodeimages/node_158.webp",
+      "text": "FRONT LEVER",
+      "start": false,
+      "kata": "10s continuous front lever hold, body fully extended and parallel to floor, arms locked, no hip break, 120s rest",
+      "spirit": "The body parallel to the earth. Earned, not given.",
+      "emomKata": "every 2 min \u00d7 3: 10s hold, body fully extended and parallel to floor, arms locked, no hip break",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 10
+        },
+        {
+          "label": "Rest",
+          "s": 110
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "x": 5562,
+      "y": 3306,
+      "radius": 170,
+      "color": "#47cf1f",
+      "color_bgr": [
+        31,
+        207,
+        71
+      ],
+      "image": "nodeimages/node_159.webp",
+      "text": "MOUNTAIN CLIMBER",
+      "start": false,
+      "kata": "3\u00d720 each leg, driving knee to chest, hips stay low, controlled throughout, 45s rest",
+      "spirit": "The mountain climber never stops moving.",
+      "emomKata": "every 90s \u00d7 3: 20 reps each side, driving knee to chest, hips stay low, controlled throughout"
+    },
+    {
+      "id": 160,
+      "x": 6282,
+      "y": 3722,
+      "radius": 170,
+      "color": "#48cf20",
+      "color_bgr": [
+        32,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_160.webp",
+      "text": "FEET TO BAR",
+      "start": false,
+      "kata": "3\u00d710, dead hang, toes to bar, legs straight, 3s negative, no swing, 90s rest",
+      "spirit": "The feet find the bar. No compromise on the path.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, dead hang, toes to bar, legs straight, 3s negative, no swing"
+    },
+    {
+      "id": 161,
+      "x": 6642,
+      "y": 3514,
+      "radius": 170,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_161.webp",
+      "text": "NEGATIVE FRONT LEVER",
+      "start": false,
+      "kata": "3\u00d75 slow eccentrics, 5s descent from inverted to horizontal, arms locked throughout, 120s rest",
+      "spirit": "The negative is where the lever is born.",
+      "emomKata": "every 2 min \u00d7 3: 5 reps, slow eccentrics, 5s descent from inverted to horizontal, arms locked throughout"
+    },
+    {
+      "id": 162,
+      "x": 5562,
+      "y": 3722,
+      "radius": 170,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_162.webp",
+      "text": "FULL PLANK",
+      "start": false,
+      "kata": "3 continuous minutes, straight line heel to crown, hips neither sagging nor piked, steady breathing, no repositioning",
+      "spirit": "The body as a single argument.",
+      "emomKata": "every 4 min \u00d7 3: 180s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 180
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "x": 7002,
+      "y": 2474,
+      "radius": 170,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_163.webp",
+      "text": "ARMY CRAWL",
+      "start": false,
+      "kata": "3\u00d720m army crawl, elbows only, body dragging, hips flat throughout, 90s rest",
+      "spirit": "Low. Slow. Deliberate.",
+      "emomKata": "every 2.5 min \u00d7 3: 20m army crawl, elbows only, body dragging, hips flat throughout"
+    },
+    {
+      "id": 164,
+      "x": 6282,
+      "y": 2890,
+      "radius": 170,
+      "color": "#48cf20",
+      "color_bgr": [
+        32,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_164.webp",
+      "text": "BODY SAW",
+      "start": false,
+      "kata": "3\u00d710 full excursions, arms extended, body sawing forward and back over forearms, core braced throughout, 75s rest",
+      "spirit": "The saw cuts slowly. That is its power.",
+      "emomKata": "every 105s \u00d7 3: 10 reps, full excursions, arms extended, body sawing forward and back over forearms, core braced throughout"
+    },
+    {
+      "id": 165,
+      "x": 6282,
+      "y": 3306,
+      "radius": 170,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_165.webp",
+      "text": "PLANK ROW",
+      "start": false,
+      "kata": "3\u00d712 each arm, full row to hip, opposite hip does not rotate, 3s negative, 60s rest",
+      "spirit": "Pull with one. Hold with everything else.",
+      "emomKata": "every 2 min \u00d7 3: 12 reps each side, full row to hip, opposite hip does not rotate, 3s negative"
+    },
+    {
+      "id": 166,
+      "x": 7002,
+      "y": 3306,
+      "radius": 170,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_166.webp",
+      "text": "TUCK FRONT LEVER",
+      "start": false,
+      "kata": "3\u00d715s hold, knees tucked, arms locked, body horizontal, 120s rest",
+      "spirit": "The tuck reveals the shape of the full lever.",
+      "emomKata": "every 2 min \u00d7 3: 15s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 15
+        },
+        {
+          "label": "Rest",
+          "s": 105
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "x": 7354,
+      "y": 2274,
+      "radius": 170,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_167.webp",
+      "text": "1 HOUR PLANK",
+      "start": false,
+      "kata": "60 continuous minutes, full plank position, no rest, no repositioning, no compromise",
+      "spirit": "An hour is just sixty minutes. Begin."
+    },
+    {
+      "id": 168,
+      "x": 5922,
+      "y": 3514,
+      "radius": 170,
+      "color": "#49ce20",
+      "color_bgr": [
+        32,
+        206,
+        73
+      ],
+      "image": "nodeimages/node_168.webp",
+      "text": "ELBOW PLANK",
+      "start": false,
+      "kata": "3\u00d790s, forearms flat, body rigid, lower back pressed flat, no hip pike, 60s rest",
+      "spirit": "Closer to the ground. Harder to hold.",
+      "emomKata": "every 2.5 min \u00d7 3: 90s hold, forearms flat, body rigid, lower back pressed flat, no hip pike",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 90
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "x": 6642,
+      "y": 3098,
+      "radius": 170,
+      "color": "#48cf20",
+      "color_bgr": [
+        32,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_169.webp",
+      "text": "WIDE PLANK",
+      "start": false,
+      "kata": "3\u00d760s, hands wider than shoulder width, full body rigid, breathing controlled, 75s rest",
+      "spirit": "Wider stance. Same standard.",
+      "emomKata": "every 2.5 min \u00d7 3: 60s hold, hands wider than shoulder width, full body rigid",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 60
+        },
+        {
+          "label": "Rest",
+          "s": 90
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "x": 5210,
+      "y": 3930,
+      "radius": 170,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_170.webp",
+      "text": "LOWER RECTUS ABDOMINIS",
+      "start": true,
+      "kata": null,
+      "spirit": "Stillness is not absence of effort."
+    },
+    {
+      "id": 171,
+      "x": 5922,
+      "y": 3930,
+      "radius": 170,
+      "color": "#48cf20",
+      "color_bgr": [
+        32,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_171.webp",
+      "text": "HANGING LEG RAISE",
+      "start": false,
+      "kata": "3\u00d712, dead hang, legs straight, raise to parallel, 3s negative, no swinging, 75s rest",
+      "spirit": "From nothing, raise the legs. From there, lower them slowly.",
+      "emomKata": "every 2 min \u00d7 3: 12 reps, dead hang, legs straight, raise to parallel, 3s negative, no swinging"
+    },
+    {
+      "id": 172,
+      "x": 5922,
+      "y": 3098,
+      "radius": 170,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_172.webp",
+      "text": "HARDSTYLE PLANK",
+      "start": false,
+      "kata": "3\u00d745s hardstyle hold, maximum tension throughout entire body, fists clenched, glutes squeezed, jaw relaxed, 90s rest",
+      "spirit": "Every muscle. One directive. Do not move.",
+      "emomKata": "every 2.5 min \u00d7 3: 45s hold, maximum full-body tension, fists clenched, glutes squeezed",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 45
+        },
+        {
+          "label": "Rest",
+          "s": 105
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "x": 7002,
+      "y": 2066,
+      "radius": 170,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_173.webp",
+      "text": "ONE LEG ONE ARM PLANK",
+      "start": false,
+      "kata": "3\u00d730s hold each combination, opposite arm and leg extended, hip square to floor, 90s rest",
+      "spirit": "Four points. Two remain.",
+      "emomKata": "every 2 min \u00d7 3: 30s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 30
+        },
+        {
+          "label": "Rest",
+          "s": 90
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "x": 7002,
+      "y": 2890,
+      "radius": 170,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_174.webp",
+      "text": "SUPERMAN PLANK",
+      "start": false,
+      "kata": "3\u00d720s hold, arms extended overhead, legs extended behind, only hips contact floor, 75s rest",
+      "spirit": "Superman holds everything. So do you.",
+      "emomKata": "every 90s \u00d7 3: 20s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 20
+        },
+        {
+          "label": "Rest",
+          "s": 70
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "x": 4130,
+      "y": 6202,
+      "radius": 170,
+      "color": "#7090ce",
+      "color_bgr": [
+        206,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_175.webp",
+      "text": "SQUAT",
+      "start": false,
+      "kata": "3\u00d720, below parallel, heels flat, knees tracking toes, full extension at top, controlled descent, 60s rest",
+      "spirit": "The fundamental human position, owned.",
+      "emomKata": "every 105s \u00d7 3: 20 reps, below parallel, heels flat, knees tracking toes, full extension at top, controlled descent"
+    },
+    {
+      "id": 176,
+      "x": 7354,
+      "y": 2682,
+      "radius": 170,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ],
+      "image": "nodeimages/node_176.webp",
+      "text": "BODY BRIDGE",
+      "start": false,
+      "kata": "3\u00d730s hold, body in reverse plank position, hips elevated, body rigid, 75s rest",
+      "spirit": "The bridge between push and pull.",
+      "emomKata": "every 105s \u00d7 3: 30s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 30
+        },
+        {
+          "label": "Rest",
+          "s": 75
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "x": 3778,
+      "y": 5994,
+      "radius": 170,
+      "color": "#7090ce",
+      "color_bgr": [
+        206,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_177.webp",
+      "text": "AIR SIT",
+      "start": false,
+      "kata": "3\u00d760s air sit hold, no wall, thighs parallel, arms forward, 60s rest",
+      "spirit": "The chair that isn't there.",
+      "emomKata": "every 3.5 min \u00d7 3: 60s hold, no wall, thighs parallel, arms forward",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 60
+        },
+        {
+          "label": "Rest",
+          "s": 150
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "x": 4490,
+      "y": 6826,
+      "radius": 170,
+      "color": "#7090ce",
+      "color_bgr": [
+        206,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_178.webp",
+      "text": "BURPEE",
+      "start": false,
+      "kata": "3\u00d710, chest to floor on way down, explosive jump at top, full hip extension, no step-substitution, 75s rest",
+      "spirit": "Down completely. Up completely. Nothing between.",
+      "emomKata": "every 90s \u00d7 3: 10 reps, chest to floor on way down, explosive jump at top, full hip extension, no step-substitution"
+    },
+    {
+      "id": 179,
+      "x": 4130,
+      "y": 7858,
+      "radius": 170,
+      "color": "#7090ce",
+      "color_bgr": [
+        206,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_179.webp",
+      "text": "PISTOL SQUAT",
+      "start": false,
+      "kata": "3\u00d75 each leg, full single-leg squat to floor, heel flat, free leg extended, 3s negative, no touch-down, 120s rest",
+      "spirit": "One leg. The whole architecture of the human body.",
+      "emomKata": "every 2.5 min \u00d7 3: 5 reps each side, full single-leg squat to floor, heel flat, free leg extended, 3s negative, no touch-down"
+    },
+    {
+      "id": 180,
+      "x": 4850,
+      "y": 7026,
+      "radius": 170,
+      "color": "#7090ce",
+      "color_bgr": [
+        206,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_180.webp",
+      "text": "TUCK JUMP BURPEE",
+      "start": false,
+      "kata": "3\u00d78, burpee with tuck jump at top, knees to chest at apex, 90s rest",
+      "spirit": "Leave the ground twice.",
+      "emomKata": "every 105s \u00d7 3: 8 reps, burpee with tuck jump at top, knees to chest at apex"
+    },
+    {
+      "id": 181,
+      "x": 4138,
+      "y": 7442,
+      "radius": 170,
+      "color": "#7090ce",
+      "color_bgr": [
+        206,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_181.webp",
+      "text": "STEP DOWN",
+      "start": false,
+      "kata": "3\u00d710 each leg, slow eccentric single-leg step down onto 30cm box, 5s descent, no touch-and-bounce at bottom, 75s rest",
+      "spirit": "Slow is the measure.",
+      "emomKata": "every 105s \u00d7 3: 10 reps each side, slow eccentric single-leg step down onto 30cm box, 5s descent, no touch-and-bounce at bottom"
+    },
+    {
+      "id": 182,
+      "x": 3778,
+      "y": 7650,
+      "radius": 170,
+      "color": "#7091ce",
+      "color_bgr": [
+        206,
+        145,
+        112
+      ],
+      "image": "nodeimages/node_182.webp",
+      "text": "SHRIMP SQUAT",
+      "start": false,
+      "kata": "3\u00d78 each leg, rear foot held, full single-leg squat depth, controlled throughout, 3s negative, 90s rest",
+      "spirit": "The shrimp curls beneath its own weight.",
+      "emomKata": "every 2 min \u00d7 3: 8 reps each side, rear foot held, full single-leg squat depth, controlled throughout, 3s negative"
+    },
+    {
+      "id": 183,
+      "x": 3778,
+      "y": 7234,
+      "radius": 170,
+      "color": "#7090ce",
+      "color_bgr": [
+        206,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_183.webp",
+      "text": "HINDU SQUAT",
+      "start": false,
+      "kata": "3\u00d720 continuous, flowing rhythm, heels rise on descent, full squat depth, no pause at top, 60s rest",
+      "spirit": "Hindu. Continuous. Like water.",
+      "emomKata": "every 105s \u00d7 3: 20 reps, continuous, flowing rhythm, heels rise on descent, full squat depth, no pause at top"
+    },
+    {
+      "id": 184,
+      "x": 4490,
+      "y": 7234,
+      "radius": 170,
+      "color": "#7090ce",
+      "color_bgr": [
+        206,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_184.webp",
+      "text": "KICKTHROUGH BURPEE",
+      "start": false,
+      "kata": "3\u00d78, from plank, kick one leg through to the opposite side and return, 90s rest",
+      "spirit": "The ground-dweller's kata.",
+      "emomKata": "every 105s \u00d7 3: 8 reps, from plank, kick one leg through to the opposite side and return"
+    },
+    {
+      "id": 185,
+      "x": 4130,
+      "y": 5786,
+      "radius": 170,
+      "color": "#7090ce",
+      "color_bgr": [
+        206,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_185.webp",
+      "text": "WALL SIT",
+      "start": false,
+      "kata": "3\u00d790s wall sit, thighs parallel, back flat, heels flat, no shifting, 60s rest",
+      "spirit": "The wall asks nothing. You ask everything of yourself.",
+      "emomKata": "every 2.5 min \u00d7 3: 90s hold, thighs parallel, back flat, heels flat, no shifting",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 90
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "x": 4490,
+      "y": 7650,
+      "radius": 170,
+      "color": "#7090cd",
+      "color_bgr": [
+        205,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_186.webp",
+      "text": "ONE LEG BURPEE",
+      "start": false,
+      "kata": "3\u00d78 each leg, one-leg burpee, single-leg landing and takeoff, no double foot contact, 90s rest",
+      "spirit": "One leg carries all of it.",
+      "emomKata": "every 105s \u00d7 3: 8 reps each side, one-leg burpee, single-leg landing and takeoff, no double foot contact"
+    },
+    {
+      "id": 187,
+      "x": 4130,
+      "y": 6618,
+      "radius": 170,
+      "color": "#7090cd",
+      "color_bgr": [
+        205,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_187.webp",
+      "text": "COSSACK SQUAT",
+      "start": false,
+      "kata": "3\u00d710 each side, deep lateral lunge, heel flat on working side, full hip crease below knee, controlled shift, 75s rest",
+      "spirit": "The squat that opens sideways.",
+      "emomKata": "every 105s \u00d7 3: 10 reps each side, deep lateral lunge, heel flat on working side, full hip crease below knee, controlled shift"
+    },
+    {
+      "id": 188,
+      "x": 3418,
+      "y": 7442,
+      "radius": 170,
+      "color": "#7090cd",
+      "color_bgr": [
+        205,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_188.webp",
+      "text": "SISSY SQUAT",
+      "start": false,
+      "kata": "3\u00d712, heels elevated, forward tibial lean, full knee flexion, controlled throughout, 3s negative, 75s rest",
+      "spirit": "The quad is exposed here. Nowhere to hide.",
+      "emomKata": "every 2 min \u00d7 3: 12 reps, heels elevated, forward tibial lean, full knee flexion, controlled throughout, 3s negative"
+    },
+    {
+      "id": 189,
+      "x": 4130,
+      "y": 7026,
+      "radius": 170,
+      "color": "#7090cd",
+      "color_bgr": [
+        205,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_189.webp",
+      "text": "SPLIT SQUAT",
+      "start": false,
+      "kata": "3\u00d712 each leg, rear foot elevated 40cm, full depth, back knee near floor, 3s negative, 75s rest",
+      "spirit": "One leg holds the weight of the argument.",
+      "emomKata": "every 2 min \u00d7 3: 12 reps each side, rear foot elevated 40cm, full depth, back knee near floor, 3s negative"
+    },
+    {
+      "id": 190,
+      "x": 4850,
+      "y": 7442,
+      "radius": 170,
+      "color": "#7090cd",
+      "color_bgr": [
+        205,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_190.webp",
+      "text": "ROLL BURPEE",
+      "start": false,
+      "kata": "3\u00d76, full roll integrated between burpee stages, fluid connection, no break in momentum, 90s rest",
+      "spirit": "The roll is not a pause. It is the movement.",
+      "emomKata": "every 105s \u00d7 3: 6 reps, full roll integrated between burpee stages, fluid connection, no break in momentum"
+    },
+    {
+      "id": 191,
+      "x": 4130,
+      "y": 5378,
+      "radius": 170,
+      "color": "#7090cd",
+      "color_bgr": [
+        205,
+        144,
+        112
+      ],
+      "image": "nodeimages/node_191.webp",
+      "text": "QUADRICEPS FEMORIS",
+      "start": true,
+      "kata": null,
+      "spirit": "The legs carry the whole life."
+    },
+    {
+      "id": 192,
+      "x": 3058,
+      "y": 6826,
+      "radius": 170,
+      "color": "#4e74b5",
+      "color_bgr": [
+        181,
+        116,
+        78
+      ],
+      "image": "nodeimages/node_192.webp",
+      "text": "STRAIGHT LEG FIRE HYDRANT",
+      "start": false,
+      "kata": "3\u00d715 each leg, leg straight, full hip extension, controlled throughout, 60s rest",
+      "spirit": "Straight. Extended. No compromise.",
+      "emomKata": "every 90s \u00d7 3: 15 reps each side, leg straight, full hip extension, controlled throughout"
+    },
+    {
+      "id": 193,
+      "x": 3418,
+      "y": 6202,
+      "radius": 170,
+      "color": "#4d74b5",
+      "color_bgr": [
+        181,
+        116,
+        77
+      ],
+      "image": "nodeimages/node_193.webp",
+      "text": "DONKEY KICK",
+      "start": false,
+      "kata": "3\u00d715 each leg, full hip extension at top, knee bent 90\u00b0, controlled descent, 60s rest",
+      "spirit": "The kick of the donkey. Humble. Effective.",
+      "emomKata": "every 90s \u00d7 3: 15 reps each side, full hip extension at top, knee bent 90\u00b0, controlled descent"
+    },
+    {
+      "id": 194,
+      "x": 3778,
+      "y": 5170,
+      "radius": 170,
+      "color": "#4d73b5",
+      "color_bgr": [
+        181,
+        115,
+        77
+      ],
+      "image": "nodeimages/node_194.webp",
+      "text": "BICEPS FEMORIS & SEMITENDINOSUS",
+      "start": true,
+      "kata": null,
+      "spirit": "What bends must also strengthen."
+    },
+    {
+      "id": 195,
+      "x": 3778,
+      "y": 6410,
+      "radius": 170,
+      "color": "#4e74b5",
+      "color_bgr": [
+        181,
+        116,
+        78
+      ],
+      "image": "nodeimages/node_195.webp",
+      "text": "LUNGE",
+      "start": false,
+      "kata": "3\u00d712 each leg, 90/90 position at bottom, back knee 2cm from floor, full extension at top, 3s negative, 60s rest",
+      "spirit": "Forward and down. Return with control.",
+      "emomKata": "every 2 min \u00d7 3: 12 reps each side, 90/90 position at bottom, back knee 2cm from floor, full extension at top, 3s negative"
+    },
+    {
+      "id": 196,
+      "x": 3058,
+      "y": 6410,
+      "radius": 170,
+      "color": "#4d73b5",
+      "color_bgr": [
+        181,
+        115,
+        77
+      ],
+      "image": "nodeimages/node_196.webp",
+      "text": "BENT LEG FIRE HYDRANT",
+      "start": false,
+      "kata": "3\u00d715 each leg, knee bent 90\u00b0, hip externally rotated, controlled return, 60s rest",
+      "spirit": "The hip opens. The glute wakes.",
+      "emomKata": "every 90s \u00d7 3: 15 reps each side, knee bent 90\u00b0, hip externally rotated, controlled return"
+    },
+    {
+      "id": 197,
+      "x": 3058,
+      "y": 5994,
+      "radius": 170,
+      "color": "#4d73b5",
+      "color_bgr": [
+        181,
+        115,
+        77
+      ],
+      "image": "nodeimages/node_197.webp",
+      "text": "BIRD DOG POSE",
+      "start": false,
+      "kata": "3\u00d712 each side, opposite arm and leg extended simultaneously, lumbar neutral, 2s hold at extension, 60s rest",
+      "spirit": "The bird finds balance before it finds flight.",
+      "emomKata": "every 90s \u00d7 3: 12 reps each side, opposite arm and leg extended simultaneously, lumbar neutral, 2s hold at extension"
+    },
+    {
+      "id": 198,
+      "x": 3778,
+      "y": 5578,
+      "radius": 170,
+      "color": "#4e73b5",
+      "color_bgr": [
+        181,
+        115,
+        78
+      ],
+      "image": "nodeimages/node_198.webp",
+      "text": "REVERSE PLANK",
+      "start": false,
+      "kata": "3\u00d730s hold, body straight, arms locked, hips fully extended, 60s rest",
+      "spirit": "The reverse reveals the posterior chain.",
+      "emomKata": "every 90s \u00d7 3: 30s hold, rest remaining"
+    },
+    {
+      "id": 199,
+      "x": 3418,
+      "y": 6618,
+      "radius": 170,
+      "color": "#4d73b5",
+      "color_bgr": [
+        181,
+        115,
+        77
+      ],
+      "image": "nodeimages/node_199.webp",
+      "text": "CURTSY LUNGE",
+      "start": false,
+      "kata": "3\u00d710 each leg, rear foot crosses behind, 90/90 at bottom, controlled throughout, 60s rest",
+      "spirit": "The curtsy is a bow. Earn it.",
+      "emomKata": "every 90s \u00d7 3: 10 reps each side, rear foot crosses behind, 90/90 at bottom, controlled throughout"
+    },
+    {
+      "id": 200,
+      "x": 3778,
+      "y": 6818,
+      "radius": 170,
+      "color": "#4e73b4",
+      "color_bgr": [
+        180,
+        115,
+        78
+      ],
+      "image": "nodeimages/node_200.webp",
+      "text": "LATERAL LUNGE",
+      "start": false,
+      "kata": "3\u00d712 each leg, lateral step, full depth, push back to center, 3s at bottom, 60s rest",
+      "spirit": "Side to side. The body learns new directions.",
+      "emomKata": "every 90s \u00d7 3: 12 reps each side, lateral step, full depth, push back to center, 3s at bottom"
+    },
+    {
+      "id": 201,
+      "x": 3058,
+      "y": 7234,
+      "radius": 170,
+      "color": "#4d73b4",
+      "color_bgr": [
+        180,
+        115,
+        77
+      ],
+      "image": "nodeimages/node_201.webp",
+      "text": "JUMPING LUNGE",
+      "start": false,
+      "kata": "3\u00d710 each leg, explosive takeoff, single-leg landing, 2s stabilization, 75s rest",
+      "spirit": "Power into the lunge. Control out of it.",
+      "emomKata": "every 105s \u00d7 3: 10 reps each side, explosive takeoff, single-leg landing, 2s stabilization"
+    },
+    {
+      "id": 202,
+      "x": 3418,
+      "y": 5786,
+      "radius": 170,
+      "color": "#4d73b4",
+      "color_bgr": [
+        180,
+        115,
+        77
+      ],
+      "image": "nodeimages/node_202.webp",
+      "text": "REVERSE ELBOW PLANK",
+      "start": false,
+      "kata": "3\u00d730s hold, forearms flat, body straight, hips extended, 60s rest",
+      "spirit": "Elbows, not hands. The chain stays long.",
+      "emomKata": "every 90s \u00d7 3: 30s hold, rest remaining"
+    },
+    {
+      "id": 203,
+      "x": 3418,
+      "y": 7026,
+      "radius": 170,
+      "color": "#4d73b5",
+      "color_bgr": [
+        181,
+        115,
+        77
+      ],
+      "image": "nodeimages/node_203.webp",
+      "text": "KICKING LUNGE",
+      "start": false,
+      "kata": "3\u00d710 each leg, kick at top of lunge, full extension, controlled return to lunge, 75s rest",
+      "spirit": "The lunge with a question at its peak.",
+      "emomKata": "every 90s \u00d7 3: 10 reps each side, kick at top of lunge, full extension, controlled return to lunge"
+    },
+    {
+      "id": 204,
+      "x": 5922,
+      "y": 1858,
+      "radius": 170,
+      "color": "#32a920",
+      "color_bgr": [
+        32,
+        169,
+        50
+      ],
+      "image": "nodeimages/node_204.webp",
+      "text": "DECLINE SIT UP",
+      "start": false,
+      "kata": "3\u00d712, on decline bench, full ROM, controlled throughout, 3s negative, 60s rest",
+      "spirit": "Decline adds honesty to the crunch.",
+      "emomKata": "every 2 min \u00d7 3: 12 reps, on decline bench, full ROM, controlled throughout, 3s negative"
+    },
+    {
+      "id": 205,
+      "x": 5562,
+      "y": 2066,
+      "radius": 170,
+      "color": "#32a920",
+      "color_bgr": [
+        32,
+        169,
+        50
+      ],
+      "image": "nodeimages/node_205.webp",
+      "text": "V UP",
+      "start": false,
+      "kata": "3\u00d712, simultaneous full leg and trunk extension, touch toes at top, controlled lower, 3s negative, 75s rest",
+      "spirit": "The V closes. Both halves arrive at once.",
+      "emomKata": "every 2 min \u00d7 3: 12 reps, simultaneous full leg and trunk extension, touch toes at top, controlled lower, 3s negative"
+    },
+    {
+      "id": 206,
+      "x": 5570,
+      "y": 2482,
+      "radius": 170,
+      "color": "#32a921",
+      "color_bgr": [
+        33,
+        169,
+        50
+      ],
+      "image": "nodeimages/node_206.webp",
+      "text": "TUCK V UP",
+      "start": false,
+      "kata": "3\u00d715, knees pull to chest simultaneously, controlled extension, lower back stays down, 60s rest",
+      "spirit": "Tuck. Extend. The V is earned on both ends.",
+      "emomKata": "every 90s \u00d7 3: 15 reps, knees pull to chest simultaneously, controlled extension, lower back stays down"
+    },
+    {
+      "id": 207,
+      "x": 5922,
+      "y": 2682,
+      "radius": 170,
+      "color": "#32a920",
+      "color_bgr": [
+        32,
+        169,
+        50
+      ],
+      "image": "nodeimages/node_207.webp",
+      "text": "CROSS CRUNCH",
+      "start": false,
+      "kata": "3\u00d715 each side, elbow to opposite knee, rotation controlled, lower back anchored, 45s rest",
+      "spirit": "The cross is drawn by the oblique.",
+      "emomKata": "every 75s \u00d7 3: 15 reps each side, elbow to opposite knee, rotation controlled, lower back anchored"
+    },
+    {
+      "id": 208,
+      "x": 5922,
+      "y": 2274,
+      "radius": 170,
+      "color": "#32a920",
+      "color_bgr": [
+        32,
+        169,
+        50
+      ],
+      "image": "nodeimages/node_208.webp",
+      "text": "REVERSE CRUNCH",
+      "start": false,
+      "kata": "3\u00d715, legs raise from floor, lower back stays anchored, 3s negative, 60s rest",
+      "spirit": "The reversal. The legs lead.",
+      "emomKata": "every 2 min \u00d7 3: 15 reps, legs raise from floor, lower back stays anchored, 3s negative"
+    },
+    {
+      "id": 209,
+      "x": 5210,
+      "y": 3098,
+      "radius": 170,
+      "color": "#32a920",
+      "color_bgr": [
+        32,
+        169,
+        50
+      ],
+      "image": "nodeimages/node_209.webp",
+      "text": "HOLLOW BODY HOLD",
+      "start": false,
+      "kata": "3\u00d745s hold, lower back pressed to floor, arms and legs extended, 10cm from floor, steady exhale, 60s rest",
+      "spirit": "The shape that underlies every gymnastics skill.",
+      "emomKata": "every 105s \u00d7 3: 45s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 45
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "x": 6282,
+      "y": 2482,
+      "radius": 170,
+      "color": "#32a920",
+      "color_bgr": [
+        32,
+        169,
+        50
+      ],
+      "image": "nodeimages/node_210.webp",
+      "text": "KICK SCISSOR",
+      "start": false,
+      "kata": "3\u00d715 each side, scissor kick with rotation, alternating, continuous rhythm, 60s rest",
+      "spirit": "The scissors do not stop.",
+      "emomKata": "every 75s \u00d7 3: 15 reps each side, scissor kick with rotation, alternating, continuous rhythm"
+    },
+    {
+      "id": 211,
+      "x": 6642,
+      "y": 2274,
+      "radius": 170,
+      "color": "#32a921",
+      "color_bgr": [
+        33,
+        169,
+        50
+      ],
+      "image": "nodeimages/node_211.webp",
+      "text": "REVERSE CORKSCREW",
+      "start": false,
+      "kata": "3\u00d710 each side, hips rotate full arc, legs straight, 3s negative, controlled, 75s rest",
+      "spirit": "The corkscrew unwinds slowly.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps each side, hips rotate full arc, legs straight, 3s negative, controlled"
+    },
+    {
+      "id": 212,
+      "x": 5922,
+      "y": 1442,
+      "radius": 170,
+      "color": "#32a920",
+      "color_bgr": [
+        32,
+        169,
+        50
+      ],
+      "image": "nodeimages/node_212.webp",
+      "text": "INVERTED SIT UP",
+      "start": false,
+      "kata": "3\u00d78, inverted on bar, full sit up from hanging position, controlled descent, 90s rest",
+      "spirit": "The world is upside down. The core does not care.",
+      "emomKata": "every 105s \u00d7 3: 8 reps, inverted on bar, full sit up from hanging position, controlled descent"
+    },
+    {
+      "id": 213,
+      "x": 6282,
+      "y": 2066,
+      "radius": 170,
+      "color": "#33a821",
+      "color_bgr": [
+        33,
+        168,
+        51
+      ],
+      "image": "nodeimages/node_213.webp",
+      "text": "TUCK FLAG DRAGON",
+      "start": false,
+      "kata": "3\u00d710s hold tucked, arms locked, horizontal on bar, 90s rest",
+      "spirit": "The dragon tucks before it flies.",
+      "emomKata": "every 105s \u00d7 3: 10s hold, rest remaining"
+    },
+    {
+      "id": 214,
+      "x": 5210,
+      "y": 2682,
+      "radius": 170,
+      "color": "#32a820",
+      "color_bgr": [
+        32,
+        168,
+        50
+      ],
+      "image": "nodeimages/node_214.webp",
+      "text": "BOAT POSE",
+      "start": false,
+      "kata": "3\u00d730s hold, legs extended, spine long, arms forward, balancing on sitting bones only, 60s rest",
+      "spirit": "Balance on the bones of stillness.",
+      "emomKata": "every 90s \u00d7 3: 30s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 30
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "x": 5562,
+      "y": 2890,
+      "radius": 170,
+      "color": "#32a821",
+      "color_bgr": [
+        33,
+        168,
+        50
+      ],
+      "image": "nodeimages/node_215.webp",
+      "text": "CRUNCH",
+      "start": false,
+      "kata": "3\u00d720, controlled curl, chin off chest, lower back anchored, 3s negative, no momentum, 45s rest",
+      "spirit": "Small. Precise. Honest.",
+      "emomKata": "every 2 min \u00d7 3: 20 reps, controlled curl, chin off chest, lower back anchored, 3s negative, no momentum"
+    },
+    {
+      "id": 216,
+      "x": 6642,
+      "y": 1858,
+      "radius": 170,
+      "color": "#33a821",
+      "color_bgr": [
+        33,
+        168,
+        51
+      ],
+      "image": "nodeimages/node_216.webp",
+      "text": "AB SLIDE OUT",
+      "start": false,
+      "kata": "3\u00d710, ab wheel or slider, full extension, lower back neutral throughout, 3s negative, 90s rest",
+      "spirit": "Slide out to the edge. Come back from it.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, ab wheel or slider, full extension, lower back neutral throughout, 3s negative"
+    },
+    {
+      "id": 217,
+      "x": 5210,
+      "y": 3514,
+      "radius": 170,
+      "color": "#32a820",
+      "color_bgr": [
+        32,
+        168,
+        50
+      ],
+      "image": "nodeimages/node_217.webp",
+      "text": "TRANSVERSUS ABDOMINIS",
+      "start": true,
+      "kata": null,
+      "spirit": "Brace as though the world might push back."
+    },
+    {
+      "id": 218,
+      "x": 6282,
+      "y": 1650,
+      "radius": 170,
+      "color": "#33a821",
+      "color_bgr": [
+        33,
+        168,
+        51
+      ],
+      "image": "nodeimages/node_218.webp",
+      "text": "FLAG DRAGON",
+      "start": false,
+      "kata": "3\u00d78s hold, body straight, horizontal on bar, arms locked, 120s rest",
+      "spirit": "The dragon extends. Hold the shape.",
+      "emomKata": "every 2 min \u00d7 3: 8s hold, rest remaining"
+    },
+    {
+      "id": 219,
+      "x": 2338,
+      "y": 5994,
+      "radius": 170,
+      "color": "#2752a1",
+      "color_bgr": [
+        161,
+        82,
+        39
+      ],
+      "image": "nodeimages/node_219.webp",
+      "text": "TABLE POSE",
+      "start": false,
+      "kata": "3\u00d730s hold, hands and feet on floor, hips at full extension, body tabletop, 60s rest",
+      "spirit": "The table holds. Flat.",
+      "emomKata": "every 90s \u00d7 3: 30s hold, rest remaining",
+      "phases": [
+        {
+          "label": "Hold",
+          "s": 30
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "x": 3058,
+      "y": 5578,
+      "radius": 170,
+      "color": "#2753a1",
+      "color_bgr": [
+        161,
+        83,
+        39
+      ],
+      "image": "nodeimages/node_220.webp",
+      "text": "HIP THRUST",
+      "start": false,
+      "kata": "3\u00d715, shoulders on bench, full hip extension at top, 2s hold, 3s negative, 60s rest",
+      "spirit": "The thrust that the glute was built for.",
+      "emomKata": "every 2 min \u00d7 3: 15 reps, shoulders on bench, full hip extension at top, 2s hold, 3s negative"
+    },
+    {
+      "id": 221,
+      "x": 3418,
+      "y": 4962,
+      "radius": 170,
+      "color": "#2753a1",
+      "color_bgr": [
+        161,
+        83,
+        39
+      ],
+      "image": "nodeimages/node_221.webp",
+      "text": "GLUTEUS MEDIUS & MAXIMUS",
+      "start": true,
+      "kata": null,
+      "spirit": "Power lives in the hinge."
+    },
+    {
+      "id": 222,
+      "x": 2698,
+      "y": 5786,
+      "radius": 170,
+      "color": "#2753a1",
+      "color_bgr": [
+        161,
+        83,
+        39
+      ],
+      "image": "nodeimages/node_222.webp",
+      "text": "STANDING LEG CURL",
+      "start": false,
+      "kata": "3\u00d712 each leg, full hip extension, knee locked throughout, controlled return, 60s rest",
+      "spirit": "Standing. Extending. Everything behind you.",
+      "emomKata": "every 90s \u00d7 3: 12 reps each side, full hip extension, knee locked throughout, controlled return"
+    },
+    {
+      "id": 223,
+      "x": 2698,
+      "y": 5378,
+      "radius": 170,
+      "color": "#2753a1",
+      "color_bgr": [
+        161,
+        83,
+        39
+      ],
+      "image": "nodeimages/node_223.webp",
+      "text": "SLIDING LEG CURL",
+      "start": false,
+      "kata": "3\u00d712, feet on sliders, curl heels to hips while extending hips, full ROM, 3s negative, 75s rest",
+      "spirit": "Hip and knee in conversation.",
+      "emomKata": "every 2 min \u00d7 3: 12 reps, feet on sliders, curl heels to hips while extending hips, full ROM, 3s negative"
+    },
+    {
+      "id": 224,
+      "x": 2698,
+      "y": 6618,
+      "radius": 170,
+      "color": "#2753a1",
+      "color_bgr": [
+        161,
+        83,
+        39
+      ],
+      "image": "nodeimages/node_224.webp",
+      "text": "BENT HIP HAROP CURL",
+      "start": false,
+      "kata": "3\u00d78, anchored at knees, hips bent, controlled descent to floor, 5s eccentric, 90s rest",
+      "spirit": "The bend that strengthens the curl.",
+      "emomKata": "every 105s \u00d7 3: 8 reps, anchored at knees, hips bent, controlled descent to floor, 5s eccentric"
+    },
+    {
+      "id": 225,
+      "x": 2698,
+      "y": 7026,
+      "radius": 170,
+      "color": "#2753a1",
+      "color_bgr": [
+        161,
+        83,
+        39
+      ],
+      "image": "nodeimages/node_225.webp",
+      "text": "HAROP CURL",
+      "start": false,
+      "kata": "3\u00d76, ankles anchored, full body falls forward, 5s eccentric, explosive return, 120s rest",
+      "spirit": "Fall. The hamstrings will catch you.",
+      "emomKata": "every 2 min \u00d7 3: 6 reps, ankles anchored, full body falls forward, 5s eccentric, explosive return"
+    },
+    {
+      "id": 226,
+      "x": 2346,
+      "y": 6410,
+      "radius": 170,
+      "color": "#2753a1",
+      "color_bgr": [
+        161,
+        83,
+        39
+      ],
+      "image": "nodeimages/node_226.webp",
+      "text": "CRAB WALK",
+      "start": false,
+      "kata": "3\u00d715m crab walk each direction, hips elevated throughout, smooth lateral movement, 60s rest",
+      "spirit": "Four limbs on the floor. The crab has no ego.",
+      "emomKata": "every 90s \u00d7 3: 15m crab walk each direction, hips elevated throughout, smooth lateral movement"
+    },
+    {
+      "id": 227,
+      "x": 2698,
+      "y": 6202,
+      "radius": 170,
+      "color": "#2753a1",
+      "color_bgr": [
+        161,
+        83,
+        39
+      ],
+      "image": "nodeimages/node_227.webp",
+      "text": "HANGING LEG CURL",
+      "start": false,
+      "kata": "3\u00d710, hanging from bar, knees bent, curl heels to hips driving hips forward, controlled, 75s rest",
+      "spirit": "The hamstring pulls from above.",
+      "emomKata": "every 105s \u00d7 3: 10 reps, hanging from bar, knees bent, curl heels to hips driving hips forward, controlled"
+    },
+    {
+      "id": 228,
+      "x": 3418,
+      "y": 5370,
+      "radius": 170,
+      "color": "#2753a1",
+      "color_bgr": [
+        161,
+        83,
+        39
+      ],
+      "image": "nodeimages/node_228.webp",
+      "text": "SWALLOWS POSE",
+      "start": false,
+      "kata": "3\u00d730s hold each leg, standing balance, arms at sides, hips square, 60s rest",
+      "spirit": "The swallow holds the branch without gripping.",
+      "emomKata": "every 2 min \u00d7 3: 30s hold each side, rest remaining",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 30
+        },
+        {
+          "label": "Left",
+          "s": 30
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "x": 2346,
+      "y": 5578,
+      "radius": 170,
+      "color": "#2752a0",
+      "color_bgr": [
+        160,
+        82,
+        39
+      ],
+      "image": "nodeimages/node_229.webp",
+      "text": "ONE LEG GLUTE BRIDGE",
+      "start": false,
+      "kata": "3\u00d715 each leg, single-leg bridge, full hip extension, non-working leg extended, 2s hold at top, 60s rest",
+      "spirit": "One side carries the whole bridge.",
+      "emomKata": "every 90s \u00d7 3: 15 reps each side, single-leg bridge, full hip extension, non-working leg extended, 2s hold at top"
+    },
+    {
+      "id": 230,
+      "x": 3058,
+      "y": 5170,
+      "radius": 170,
+      "color": "#2753a0",
+      "color_bgr": [
+        160,
+        83,
+        39
+      ],
+      "image": "nodeimages/node_230.webp",
+      "text": "GLUTE BRIDGE",
+      "start": false,
+      "kata": "3\u00d720, full hip extension at top, 2s hold, 3s negative, heels flat, 45s rest",
+      "spirit": "The bridge is built rep by rep.",
+      "emomKata": "every 2 min \u00d7 3: 20 reps, full hip extension at top, 2s hold, 3s negative, heels flat"
+    },
+    {
+      "id": 231,
+      "x": 2346,
+      "y": 6818,
+      "radius": 170,
+      "color": "#2852a0",
+      "color_bgr": [
+        160,
+        82,
+        40
+      ],
+      "image": "nodeimages/node_231.webp",
+      "text": "FALLING TOWER",
+      "start": false,
+      "kata": "3\u00d76 each leg, kneeling, controlled forward fall to floor, 5s eccentric, 75s rest",
+      "spirit": "The tower falls slowly. That is the exercise.",
+      "emomKata": "every 90s \u00d7 3: 6 reps each side, kneeling, controlled forward fall to floor, 5s eccentric"
+    },
+    {
+      "id": 232,
+      "x": 4850,
+      "y": 2890,
+      "radius": 170,
+      "color": "#188601",
+      "color_bgr": [
+        1,
+        134,
+        24
+      ],
+      "image": "nodeimages/node_232.webp",
+      "text": "SCALE POSE",
+      "start": false,
+      "kata": "3\u00d720s hold, on hands, legs extended to side, body lifted, 90s rest",
+      "spirit": "The scale tips only when the core is ready.",
+      "emomKata": "every 105s \u00d7 3: 20s hold, rest remaining"
+    },
+    {
+      "id": 233,
+      "x": 5570,
+      "y": 1650,
+      "radius": 170,
+      "color": "#178601",
+      "color_bgr": [
+        1,
+        134,
+        23
+      ],
+      "image": "nodeimages/node_233.webp",
+      "text": "WIDE GRIP L SIT",
+      "start": false,
+      "kata": "3\u00d720s hold, wider grip than shoulder width, legs parallel, full depression, 90s rest",
+      "spirit": "Wide grip, same rules.",
+      "emomKata": "every 105s \u00d7 3: 20s hold, rest remaining"
+    },
+    {
+      "id": 234,
+      "x": 4850,
+      "y": 3306,
+      "radius": 170,
+      "color": "#188502",
+      "color_bgr": [
+        2,
+        133,
+        24
+      ],
+      "image": "nodeimages/node_234.webp",
+      "text": "UPPER RECTUS ABDOMINIS",
+      "start": true,
+      "kata": null,
+      "spirit": "Compression is the beginning of flight."
+    },
+    {
+      "id": 235,
+      "x": 4850,
+      "y": 2474,
+      "radius": 170,
+      "color": "#188502",
+      "color_bgr": [
+        2,
+        133,
+        24
+      ],
+      "image": "nodeimages/node_235.webp",
+      "text": "L SIT",
+      "start": false,
+      "kata": "30s continuous hold, legs parallel to floor, arms fully locked, hips not sagging, on parallettes or floor, 90s rest",
+      "spirit": "Compression so complete the body forgets gravity briefly.",
+      "emomKata": "every 2 min \u00d7 3: 30s hold, legs parallel to floor, arms fully locked, hips not sagging, on parallettes or floor"
+    },
+    {
+      "id": 236,
+      "x": 5210,
+      "y": 1858,
+      "radius": 170,
+      "color": "#188502",
+      "color_bgr": [
+        2,
+        133,
+        24
+      ],
+      "image": "nodeimages/node_236.webp",
+      "text": "75\u00b0 L SIT",
+      "start": false,
+      "kata": "3\u00d720s hold, legs at 75\u00b0, arms locked, full scapular depression, 75s rest",
+      "spirit": "Three quarters of the way to parallel.",
+      "emomKata": "every 90s \u00d7 3: 20s hold, rest remaining"
+    },
+    {
+      "id": 237,
+      "x": 5210,
+      "y": 1442,
+      "radius": 170,
+      "color": "#178601",
+      "color_bgr": [
+        1,
+        134,
+        23
+      ],
+      "image": "nodeimages/node_237.webp",
+      "text": "135\u00b0 L SIT",
+      "start": false,
+      "kata": "3\u00d715s hold, legs at 135\u00b0, compression extreme, arms locked, 90s rest",
+      "spirit": "Past parallel. Into compression.",
+      "emomKata": "every 105s \u00d7 3: 15s hold, rest remaining"
+    },
+    {
+      "id": 238,
+      "x": 5210,
+      "y": 2274,
+      "radius": 170,
+      "color": "#178601",
+      "color_bgr": [
+        1,
+        134,
+        23
+      ],
+      "image": "nodeimages/node_238.webp",
+      "text": "45\u00b0 L SIT",
+      "start": false,
+      "kata": "3\u00d720s hold, legs at 45\u00b0, arms locked, scapulae depressed, 75s rest",
+      "spirit": "Below parallel. Not yet there. Already hard.",
+      "emomKata": "every 90s \u00d7 3: 20s hold, rest remaining"
+    },
+    {
+      "id": 239,
+      "x": 5570,
+      "y": 1242,
+      "radius": 170,
+      "color": "#188502",
+      "color_bgr": [
+        2,
+        133,
+        24
+      ],
+      "image": "nodeimages/node_239.webp",
+      "text": "MANNA",
+      "start": false,
+      "kata": "8s continuous manna hold, hips above shoulders, legs extended forward, arms behind pressing down, 120s rest",
+      "spirit": "The highest compression. The rarest posture. The manna does not negotiate.",
+      "emomKata": "every 2 min \u00d7 3: 8s hold, hips above shoulders, legs extended forward, arms behind pressing down"
+    },
+    {
+      "id": 240,
+      "x": 4850,
+      "y": 2066,
+      "radius": 170,
+      "color": "#188502",
+      "color_bgr": [
+        2,
+        133,
+        24
+      ],
+      "image": "nodeimages/node_240.webp",
+      "text": "L SIT FLUTTER",
+      "start": false,
+      "kata": "3\u00d710 each leg, in L sit position, alternate leg flutter, arms locked throughout, 90s rest",
+      "spirit": "The L sits still. The legs argue between themselves.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps each side, in L sit position, alternate leg flutter, arms locked throughout"
+    },
+    {
+      "id": 241,
+      "x": 4850,
+      "y": 826,
+      "radius": 170,
+      "color": "#01741c",
+      "color_bgr": [
+        28,
+        116,
+        1
+      ],
+      "image": "nodeimages/node_241.webp",
+      "text": "HORIZONTAL FLAG",
+      "start": false,
+      "kata": "10s continuous human flag hold each side, body fully horizontal, arms locked, no sag at hips, 120s rest",
+      "spirit": "The body writes itself horizontally against the sky.",
+      "emomKata": "every 2.5 min \u00d7 3: 10s hold each side, body fully horizontal, arms locked, no sag at hips",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 10
+        },
+        {
+          "label": "Left",
+          "s": 10
+        },
+        {
+          "label": "Rest",
+          "s": 130
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "x": 4490,
+      "y": 1034,
+      "radius": 170,
+      "color": "#01741c",
+      "color_bgr": [
+        28,
+        116,
+        1
+      ],
+      "image": "nodeimages/node_242.webp",
+      "text": "TUCK HUMAN FLAG",
+      "start": false,
+      "kata": "3\u00d78s hold each side, knees tucked, body horizontal on pole, arms locked, 90s rest",
+      "spirit": "The flag begins tucked. Everything does.",
+      "emomKata": "every 105s \u00d7 3: 8s hold each side, rest remaining",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 8
+        },
+        {
+          "label": "Left",
+          "s": 8
+        },
+        {
+          "label": "Rest",
+          "s": 89
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "x": 4490,
+      "y": 618,
+      "radius": 170,
+      "color": "#01741c",
+      "color_bgr": [
+        28,
+        116,
+        1
+      ],
+      "image": "nodeimages/node_243.webp",
+      "text": "VERTICAL FLAG",
+      "start": false,
+      "kata": "8s vertical flag hold each side, body fully vertical on pole, arms locked, 120s rest",
+      "spirit": "Not horizontal. Vertical. The sky is different from up here.",
+      "emomKata": "every 2.5 min \u00d7 3: 8s hold each side, body fully vertical on pole, arms locked",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 8
+        },
+        {
+          "label": "Left",
+          "s": 8
+        },
+        {
+          "label": "Rest",
+          "s": 134
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "x": 4850,
+      "y": 1242,
+      "radius": 170,
+      "color": "#01751d",
+      "color_bgr": [
+        29,
+        117,
+        1
+      ],
+      "image": "nodeimages/node_244.webp",
+      "text": "HANGING OBLIQUE KNEE RAISE",
+      "start": false,
+      "kata": "3\u00d712 each side, dead hang, oblique-driven knee raise, knees to elbow, controlled descent, 75s rest",
+      "spirit": "The hang. The twist. The raise. Three in one.",
+      "emomKata": "every 105s \u00d7 3: 12 reps each side, dead hang, oblique-driven knee raise, knees to elbow, controlled descent"
+    },
+    {
+      "id": 245,
+      "x": 4490,
+      "y": 2682,
+      "radius": 170,
+      "color": "#01751c",
+      "color_bgr": [
+        28,
+        117,
+        1
+      ],
+      "image": "nodeimages/node_245.webp",
+      "text": "SIDE PLANK",
+      "start": false,
+      "kata": "3\u00d760s each side, body rigid, hips stacked, no rotation, breathing steady, 60s rest",
+      "spirit": "The side. The forgotten face of the plank.",
+      "emomKata": "every 3 min \u00d7 3: 60s hold each side, body rigid, hips stacked, no rotation",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 60
+        },
+        {
+          "label": "Left",
+          "s": 60
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "x": 4850,
+      "y": 1650,
+      "radius": 170,
+      "color": "#01751c",
+      "color_bgr": [
+        28,
+        117,
+        1
+      ],
+      "image": "nodeimages/node_246.webp",
+      "text": "SIDE PLANK STAR",
+      "start": false,
+      "kata": "3x30s hold each side, from side plank, top arm and top leg fully extended, body rigid, no hip sag, 75s rest",
+      "spirit": "The star does not collapse at the edges.",
+      "emomKata": "every 2 min \u00d7 3: 30s hold each side, rest remaining",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 30
+        },
+        {
+          "label": "Left",
+          "s": 30
+        },
+        {
+          "label": "Rest",
+          "s": 60
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "x": 4490,
+      "y": 3098,
+      "radius": 170,
+      "color": "#01751c",
+      "color_bgr": [
+        28,
+        117,
+        1
+      ],
+      "image": "nodeimages/node_247.webp",
+      "text": "OBLIQUUS ABDOMINIS",
+      "start": true,
+      "kata": null,
+      "spirit": "The twist precedes the strike."
+    },
+    {
+      "id": 248,
+      "x": 4490,
+      "y": 1442,
+      "radius": 170,
+      "color": "#01751c",
+      "color_bgr": [
+        28,
+        117,
+        1
+      ],
+      "image": "nodeimages/node_248.webp",
+      "text": "SIDE HYPEREXTENSION",
+      "start": false,
+      "kata": "3\u00d715 each side, lateral flexion over bench or chair, full range, 3s negative, 60s rest",
+      "spirit": "The side bends. The spine strengthens.",
+      "emomKata": "every 2 min \u00d7 3: 15 reps each side, lateral flexion over bench or chair, full range, 3s negative"
+    },
+    {
+      "id": 249,
+      "x": 4490,
+      "y": 2274,
+      "radius": 170,
+      "color": "#01741d",
+      "color_bgr": [
+        29,
+        116,
+        1
+      ],
+      "image": "nodeimages/node_249.webp",
+      "text": "COPENHAGEN PLANK",
+      "start": false,
+      "kata": "3\u00d730s each side, top leg on elevated surface, full body rigid, 75s rest",
+      "spirit": "Copenhagen asks more of the side than any other variation.",
+      "emomKata": "every 2.5 min \u00d7 3: 30s hold each side, top leg on elevated surface, full body rigid",
+      "phases": [
+        {
+          "label": "Right",
+          "s": 30
+        },
+        {
+          "label": "Left",
+          "s": 30
+        },
+        {
+          "label": "Rest",
+          "s": 90
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "x": 4490,
+      "y": 1858,
+      "radius": 170,
+      "color": "#01741c",
+      "color_bgr": [
+        28,
+        116,
+        1
+      ],
+      "image": "nodeimages/node_250.webp",
+      "text": "SIDE PLANK LEG RAISE",
+      "start": false,
+      "kata": "3\u00d712 each side, from side plank, raise top leg to hip height, controlled return, 60s rest",
+      "spirit": "The plank moves. The core does not.",
+      "emomKata": "every 90s \u00d7 3: 12 reps each side, from side plank, raise top leg to hip height, controlled return"
+    },
+    {
+      "id": 251,
+      "x": 5210,
+      "y": 1034,
+      "radius": 170,
+      "color": "#01751c",
+      "color_bgr": [
+        28,
+        117,
+        1
+      ],
+      "image": "nodeimages/node_251.webp",
+      "text": "WINDSHIELD WIPER",
+      "start": false,
+      "kata": "3\u00d710 each direction, hanging from bar, legs straight, sweep full arc, controlled throughout, 90s rest",
+      "spirit": "The wiper knows every angle.",
+      "emomKata": "every 2 min \u00d7 3: 10 reps, each direction, hanging from bar, legs straight, sweep full arc, controlled throughout"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 52,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 0,
+      "target": 61,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 1,
+      "target": 5,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 1,
+      "target": 38,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 2,
+      "target": 30,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 3,
+      "target": 36,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 4,
+      "target": 22,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 5,
+      "target": 59,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 6,
+      "target": 60,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 6,
+      "target": 67,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 7,
+      "target": 19,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 7,
+      "target": 40,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 8,
+      "target": 66,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 8,
+      "target": 70,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 9,
+      "target": 37,
+      "color": "#ffea79",
+      "color_bgr": [
+        121,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 10,
+      "target": 16,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 10,
+      "target": 35,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 10,
+      "target": 45,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 11,
+      "target": 127,
+      "color": "#82abff",
+      "color_bgr": [
+        255,
+        171,
+        130
+      ]
+    },
+    {
+      "source": 11,
+      "target": 139,
+      "color": "#82acff",
+      "color_bgr": [
+        255,
+        172,
+        130
+      ]
+    },
+    {
+      "source": 12,
+      "target": 29,
+      "color": "#ffee93",
+      "color_bgr": [
+        147,
+        238,
+        255
+      ]
+    },
+    {
+      "source": 13,
+      "target": 18,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 13,
+      "target": 20,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "color": "#ffee94",
+      "color_bgr": [
+        148,
+        238,
+        255
+      ]
+    },
+    {
+      "source": 14,
+      "target": 23,
+      "color": "#ffee94",
+      "color_bgr": [
+        148,
+        238,
+        255
+      ]
+    },
+    {
+      "source": 15,
+      "target": 122,
+      "color": "#ffee94",
+      "color_bgr": [
+        148,
+        238,
+        255
+      ]
+    },
+    {
+      "source": 17,
+      "target": 32,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 17,
+      "target": 49,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 18,
+      "target": 25,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 19,
+      "target": 51,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 19,
+      "target": 60,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 21,
+      "target": 35,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 21,
+      "target": 70,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 21,
+      "target": 76,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 22,
+      "target": 30,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 22,
+      "target": 56,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 23,
+      "target": 65,
+      "color": "#ffee93",
+      "color_bgr": [
+        147,
+        238,
+        255
+      ]
+    },
+    {
+      "source": 24,
+      "target": 31,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 24,
+      "target": 93,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 25,
+      "target": 47,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 25,
+      "target": 93,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 26,
+      "target": 43,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 27,
+      "target": 44,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 28,
+      "target": 32,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 28,
+      "target": 43,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 29,
+      "target": 122,
+      "color": "#ffee94",
+      "color_bgr": [
+        148,
+        238,
+        255
+      ]
+    },
+    {
+      "source": 30,
+      "target": 76,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 31,
+      "target": 49,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 33,
+      "target": 48,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 34,
+      "target": 87,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 34,
+      "target": 107,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 34,
+      "target": 109,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 35,
+      "target": 37,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 36,
+      "target": 77,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 37,
+      "target": 45,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 38,
+      "target": 94,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 39,
+      "target": 91,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 39,
+      "target": 98,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 40,
+      "target": 67,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 41,
+      "target": 83,
+      "color": "#ffdf32",
+      "color_bgr": [
+        50,
+        223,
+        255
+      ]
+    },
+    {
+      "source": 41,
+      "target": 99,
+      "color": "#ffdf32",
+      "color_bgr": [
+        50,
+        223,
+        255
+      ]
+    },
+    {
+      "source": 42,
+      "target": 51,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 42,
+      "target": 60,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 44,
+      "target": 47,
+      "color": "#bfeeff",
+      "color_bgr": [
+        255,
+        238,
+        191
+      ]
+    },
+    {
+      "source": 46,
+      "target": 123,
+      "color": "#a0cbfe",
+      "color_bgr": [
+        254,
+        203,
+        160
+      ]
+    },
+    {
+      "source": 46,
+      "target": 124,
+      "color": "#a0cbfe",
+      "color_bgr": [
+        254,
+        203,
+        160
+      ]
+    },
+    {
+      "source": 48,
+      "target": 57,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 48,
+      "target": 62,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 50,
+      "target": 94,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 52,
+      "target": 57,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 53,
+      "target": 109,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 54,
+      "target": 87,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 54,
+      "target": 97,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 55,
+      "target": 116,
+      "color": "#a0cbfe",
+      "color_bgr": [
+        254,
+        203,
+        160
+      ]
+    },
+    {
+      "source": 55,
+      "target": 126,
+      "color": "#a0cbfe",
+      "color_bgr": [
+        254,
+        203,
+        160
+      ]
+    },
+    {
+      "source": 56,
+      "target": 69,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 56,
+      "target": 76,
+      "color": "#ffea7a",
+      "color_bgr": [
+        122,
+        234,
+        255
+      ]
+    },
+    {
+      "source": 58,
+      "target": 67,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 58,
+      "target": 94,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 59,
+      "target": 63,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 61,
+      "target": 63,
+      "color": "#d9faff",
+      "color_bgr": [
+        255,
+        250,
+        217
+      ]
+    },
+    {
+      "source": 64,
+      "target": 107,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 68,
+      "target": 73,
+      "color": "#ffdf32",
+      "color_bgr": [
+        50,
+        223,
+        255
+      ]
+    },
+    {
+      "source": 68,
+      "target": 74,
+      "color": "#ffdf32",
+      "color_bgr": [
+        50,
+        223,
+        255
+      ]
+    },
+    {
+      "source": 68,
+      "target": 90,
+      "color": "#ffdf32",
+      "color_bgr": [
+        50,
+        223,
+        255
+      ]
+    },
+    {
+      "source": 71,
+      "target": 116,
+      "color": "#a0cbfe",
+      "color_bgr": [
+        254,
+        203,
+        160
+      ]
+    },
+    {
+      "source": 72,
+      "target": 116,
+      "color": "#a0cbfe",
+      "color_bgr": [
+        254,
+        203,
+        160
+      ]
+    },
+    {
+      "source": 73,
+      "target": 75,
+      "color": "#ffdf32",
+      "color_bgr": [
+        50,
+        223,
+        255
+      ]
+    },
+    {
+      "source": 78,
+      "target": 95,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 78,
+      "target": 120,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 78,
+      "target": 136,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 79,
+      "target": 113,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 79,
+      "target": 121,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 80,
+      "target": 101,
+      "color": "#ffd800",
+      "color_bgr": [
+        0,
+        216,
+        255
+      ]
+    },
+    {
+      "source": 81,
+      "target": 101,
+      "color": "#ffd800",
+      "color_bgr": [
+        0,
+        216,
+        255
+      ]
+    },
+    {
+      "source": 81,
+      "target": 102,
+      "color": "#ffd800",
+      "color_bgr": [
+        0,
+        216,
+        255
+      ]
+    },
+    {
+      "source": 82,
+      "target": 89,
+      "color": "#ffdf32",
+      "color_bgr": [
+        50,
+        223,
+        255
+      ]
+    },
+    {
+      "source": 82,
+      "target": 96,
+      "color": "#ffdf32",
+      "color_bgr": [
+        50,
+        223,
+        255
+      ]
+    },
+    {
+      "source": 83,
+      "target": 90,
+      "color": "#ffdf32",
+      "color_bgr": [
+        50,
+        223,
+        255
+      ]
+    },
+    {
+      "source": 84,
+      "target": 130,
+      "color": "#82acff",
+      "color_bgr": [
+        255,
+        172,
+        130
+      ]
+    },
+    {
+      "source": 84,
+      "target": 135,
+      "color": "#82acff",
+      "color_bgr": [
+        255,
+        172,
+        130
+      ]
+    },
+    {
+      "source": 85,
+      "target": 112,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 86,
+      "target": 111,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 86,
+      "target": 142,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 86,
+      "target": 143,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 88,
+      "target": 105,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 88,
+      "target": 119,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 89,
+      "target": 108,
+      "color": "#ffdf32",
+      "color_bgr": [
+        50,
+        223,
+        255
+      ]
+    },
+    {
+      "source": 89,
+      "target": 141,
+      "color": "#ffdf32",
+      "color_bgr": [
+        50,
+        223,
+        255
+      ]
+    },
+    {
+      "source": 91,
+      "target": 97,
+      "color": "#ffe559",
+      "color_bgr": [
+        89,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 92,
+      "target": 96,
+      "color": "#ffdf32",
+      "color_bgr": [
+        50,
+        223,
+        255
+      ]
+    },
+    {
+      "source": 92,
+      "target": 98,
+      "color": "#ffe457",
+      "color_bgr": [
+        87,
+        228,
+        255
+      ]
+    },
+    {
+      "source": 95,
+      "target": 112,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 95,
+      "target": 138,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 96,
+      "target": 119,
+      "color": "#fee456",
+      "color_bgr": [
+        86,
+        228,
+        254
+      ]
+    },
+    {
+      "source": 98,
+      "target": 119,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 100,
+      "target": 103,
+      "color": "#ffd800",
+      "color_bgr": [
+        0,
+        216,
+        255
+      ]
+    },
+    {
+      "source": 102,
+      "target": 104,
+      "color": "#ffd800",
+      "color_bgr": [
+        0,
+        216,
+        255
+      ]
+    },
+    {
+      "source": 103,
+      "target": 104,
+      "color": "#ffd800",
+      "color_bgr": [
+        0,
+        216,
+        255
+      ]
+    },
+    {
+      "source": 105,
+      "target": 106,
+      "color": "#ffe55a",
+      "color_bgr": [
+        90,
+        229,
+        255
+      ]
+    },
+    {
+      "source": 110,
+      "target": 114,
+      "color": "#82acff",
+      "color_bgr": [
+        255,
+        172,
+        130
+      ]
+    },
+    {
+      "source": 110,
+      "target": 128,
+      "color": "#82acff",
+      "color_bgr": [
+        255,
+        172,
+        130
+      ]
+    },
+    {
+      "source": 111,
+      "target": 133,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 111,
+      "target": 134,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 112,
+      "target": 120,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 112,
+      "target": 143,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 113,
+      "target": 133,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 114,
+      "target": 131,
+      "color": "#82acff",
+      "color_bgr": [
+        255,
+        172,
+        130
+      ]
+    },
+    {
+      "source": 115,
+      "target": 117,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 115,
+      "target": 142,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 118,
+      "target": 124,
+      "color": "#a0cbfe",
+      "color_bgr": [
+        254,
+        203,
+        160
+      ]
+    },
+    {
+      "source": 124,
+      "target": 125,
+      "color": "#a0cbfd",
+      "color_bgr": [
+        253,
+        203,
+        160
+      ]
+    },
+    {
+      "source": 125,
+      "target": 126,
+      "color": "#a0cbfe",
+      "color_bgr": [
+        254,
+        203,
+        160
+      ]
+    },
+    {
+      "source": 127,
+      "target": 128,
+      "color": "#81acff",
+      "color_bgr": [
+        255,
+        172,
+        129
+      ]
+    },
+    {
+      "source": 127,
+      "target": 130,
+      "color": "#82acff",
+      "color_bgr": [
+        255,
+        172,
+        130
+      ]
+    },
+    {
+      "source": 129,
+      "target": 134,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 129,
+      "target": 138,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 132,
+      "target": 135,
+      "color": "#82acff",
+      "color_bgr": [
+        255,
+        172,
+        130
+      ]
+    },
+    {
+      "source": 134,
+      "target": 137,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 137,
+      "target": 140,
+      "color": "#ffbe0a",
+      "color_bgr": [
+        10,
+        190,
+        255
+      ]
+    },
+    {
+      "source": 144,
+      "target": 150,
+      "color": "#f99c00",
+      "color_bgr": [
+        0,
+        156,
+        249
+      ]
+    },
+    {
+      "source": 144,
+      "target": 154,
+      "color": "#f99c00",
+      "color_bgr": [
+        0,
+        156,
+        249
+      ]
+    },
+    {
+      "source": 144,
+      "target": 155,
+      "color": "#f99c00",
+      "color_bgr": [
+        0,
+        156,
+        249
+      ]
+    },
+    {
+      "source": 145,
+      "target": 150,
+      "color": "#f99c00",
+      "color_bgr": [
+        0,
+        156,
+        249
+      ]
+    },
+    {
+      "source": 145,
+      "target": 154,
+      "color": "#f89c00",
+      "color_bgr": [
+        0,
+        156,
+        248
+      ]
+    },
+    {
+      "source": 146,
+      "target": 152,
+      "color": "#f99c00",
+      "color_bgr": [
+        0,
+        156,
+        249
+      ]
+    },
+    {
+      "source": 146,
+      "target": 154,
+      "color": "#f99c00",
+      "color_bgr": [
+        0,
+        156,
+        249
+      ]
+    },
+    {
+      "source": 147,
+      "target": 150,
+      "color": "#f99c00",
+      "color_bgr": [
+        0,
+        156,
+        249
+      ]
+    },
+    {
+      "source": 147,
+      "target": 151,
+      "color": "#f99b00",
+      "color_bgr": [
+        0,
+        155,
+        249
+      ]
+    },
+    {
+      "source": 148,
+      "target": 150,
+      "color": "#f99c00",
+      "color_bgr": [
+        0,
+        156,
+        249
+      ]
+    },
+    {
+      "source": 148,
+      "target": 155,
+      "color": "#f99b00",
+      "color_bgr": [
+        0,
+        155,
+        249
+      ]
+    },
+    {
+      "source": 149,
+      "target": 155,
+      "color": "#f99c00",
+      "color_bgr": [
+        0,
+        156,
+        249
+      ]
+    },
+    {
+      "source": 150,
+      "target": 153,
+      "color": "#f99b00",
+      "color_bgr": [
+        0,
+        155,
+        249
+      ]
+    },
+    {
+      "source": 152,
+      "target": 156,
+      "color": "#f99c00",
+      "color_bgr": [
+        0,
+        156,
+        249
+      ]
+    },
+    {
+      "source": 157,
+      "target": 163,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 157,
+      "target": 169,
+      "color": "#49ce20",
+      "color_bgr": [
+        32,
+        206,
+        73
+      ]
+    },
+    {
+      "source": 158,
+      "target": 166,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 159,
+      "target": 162,
+      "color": "#49ce20",
+      "color_bgr": [
+        32,
+        206,
+        73
+      ]
+    },
+    {
+      "source": 159,
+      "target": 172,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 160,
+      "target": 161,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 160,
+      "target": 171,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 161,
+      "target": 166,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 162,
+      "target": 168,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 162,
+      "target": 170,
+      "color": "#49cf1f",
+      "color_bgr": [
+        31,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 162,
+      "target": 171,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 163,
+      "target": 167,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 163,
+      "target": 173,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 163,
+      "target": 174,
+      "color": "#48cf1f",
+      "color_bgr": [
+        31,
+        207,
+        72
+      ]
+    },
+    {
+      "source": 164,
+      "target": 172,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 165,
+      "target": 168,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 165,
+      "target": 169,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 169,
+      "target": 174,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 174,
+      "target": 176,
+      "color": "#49cf20",
+      "color_bgr": [
+        32,
+        207,
+        73
+      ]
+    },
+    {
+      "source": 175,
+      "target": 185,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 175,
+      "target": 187,
+      "color": "#7190cd",
+      "color_bgr": [
+        205,
+        144,
+        113
+      ]
+    },
+    {
+      "source": 175,
+      "target": 195,
+      "color": "#6d8dcb",
+      "color_bgr": [
+        203,
+        141,
+        109
+      ]
+    },
+    {
+      "source": 177,
+      "target": 185,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 178,
+      "target": 180,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 178,
+      "target": 184,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 178,
+      "target": 187,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 179,
+      "target": 181,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 181,
+      "target": 182,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 181,
+      "target": 189,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 183,
+      "target": 188,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 183,
+      "target": 189,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 184,
+      "target": 186,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 184,
+      "target": 190,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 185,
+      "target": 191,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 187,
+      "target": 189,
+      "color": "#7191ce",
+      "color_bgr": [
+        206,
+        145,
+        113
+      ]
+    },
+    {
+      "source": 187,
+      "target": 200,
+      "color": "#6e8fcc",
+      "color_bgr": [
+        204,
+        143,
+        110
+      ]
+    },
+    {
+      "source": 192,
+      "target": 196,
+      "color": "#4e73b4",
+      "color_bgr": [
+        180,
+        115,
+        78
+      ]
+    },
+    {
+      "source": 192,
+      "target": 201,
+      "color": "#4e74b5",
+      "color_bgr": [
+        181,
+        116,
+        78
+      ]
+    },
+    {
+      "source": 193,
+      "target": 197,
+      "color": "#4e74b5",
+      "color_bgr": [
+        181,
+        116,
+        78
+      ]
+    },
+    {
+      "source": 194,
+      "target": 198,
+      "color": "#4e74b5",
+      "color_bgr": [
+        181,
+        116,
+        78
+      ]
+    },
+    {
+      "source": 195,
+      "target": 199,
+      "color": "#4e74b5",
+      "color_bgr": [
+        181,
+        116,
+        78
+      ]
+    },
+    {
+      "source": 195,
+      "target": 200,
+      "color": "#4e74b5",
+      "color_bgr": [
+        181,
+        116,
+        78
+      ]
+    },
+    {
+      "source": 196,
+      "target": 197,
+      "color": "#4d74b4",
+      "color_bgr": [
+        180,
+        116,
+        77
+      ]
+    },
+    {
+      "source": 197,
+      "target": 202,
+      "color": "#4e74b5",
+      "color_bgr": [
+        181,
+        116,
+        78
+      ]
+    },
+    {
+      "source": 198,
+      "target": 202,
+      "color": "#4e74b5",
+      "color_bgr": [
+        181,
+        116,
+        78
+      ]
+    },
+    {
+      "source": 199,
+      "target": 203,
+      "color": "#4e74b5",
+      "color_bgr": [
+        181,
+        116,
+        78
+      ]
+    },
+    {
+      "source": 200,
+      "target": 203,
+      "color": "#4e74b5",
+      "color_bgr": [
+        181,
+        116,
+        78
+      ]
+    },
+    {
+      "source": 201,
+      "target": 203,
+      "color": "#4e74b5",
+      "color_bgr": [
+        181,
+        116,
+        78
+      ]
+    },
+    {
+      "source": 204,
+      "target": 205,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 204,
+      "target": 212,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 205,
+      "target": 206,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 205,
+      "target": 238,
+      "color": "#198702",
+      "color_bgr": [
+        2,
+        135,
+        25
+      ]
+    },
+    {
+      "source": 206,
+      "target": 208,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 206,
+      "target": 214,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 206,
+      "target": 215,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 207,
+      "target": 208,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 207,
+      "target": 210,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 207,
+      "target": 215,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 208,
+      "target": 213,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 209,
+      "target": 214,
+      "color": "#32a920",
+      "color_bgr": [
+        32,
+        169,
+        50
+      ]
+    },
+    {
+      "source": 209,
+      "target": 215,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 209,
+      "target": 217,
+      "color": "#33a821",
+      "color_bgr": [
+        33,
+        168,
+        51
+      ]
+    },
+    {
+      "source": 210,
+      "target": 211,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 211,
+      "target": 216,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 213,
+      "target": 218,
+      "color": "#33a921",
+      "color_bgr": [
+        33,
+        169,
+        51
+      ]
+    },
+    {
+      "source": 219,
+      "target": 226,
+      "color": "#2853a1",
+      "color_bgr": [
+        161,
+        83,
+        40
+      ]
+    },
+    {
+      "source": 219,
+      "target": 229,
+      "color": "#2753a0",
+      "color_bgr": [
+        160,
+        83,
+        39
+      ]
+    },
+    {
+      "source": 220,
+      "target": 230,
+      "color": "#2853a1",
+      "color_bgr": [
+        161,
+        83,
+        40
+      ]
+    },
+    {
+      "source": 221,
+      "target": 228,
+      "color": "#2853a1",
+      "color_bgr": [
+        161,
+        83,
+        40
+      ]
+    },
+    {
+      "source": 221,
+      "target": 230,
+      "color": "#2853a1",
+      "color_bgr": [
+        161,
+        83,
+        40
+      ]
+    },
+    {
+      "source": 222,
+      "target": 223,
+      "color": "#2853a1",
+      "color_bgr": [
+        161,
+        83,
+        40
+      ]
+    },
+    {
+      "source": 222,
+      "target": 227,
+      "color": "#2852a1",
+      "color_bgr": [
+        161,
+        82,
+        40
+      ]
+    },
+    {
+      "source": 223,
+      "target": 229,
+      "color": "#2853a1",
+      "color_bgr": [
+        161,
+        83,
+        40
+      ]
+    },
+    {
+      "source": 223,
+      "target": 230,
+      "color": "#2853a1",
+      "color_bgr": [
+        161,
+        83,
+        40
+      ]
+    },
+    {
+      "source": 224,
+      "target": 225,
+      "color": "#2853a1",
+      "color_bgr": [
+        161,
+        83,
+        40
+      ]
+    },
+    {
+      "source": 224,
+      "target": 227,
+      "color": "#2753a1",
+      "color_bgr": [
+        161,
+        83,
+        39
+      ]
+    },
+    {
+      "source": 224,
+      "target": 231,
+      "color": "#2853a1",
+      "color_bgr": [
+        161,
+        83,
+        40
+      ]
+    },
+    {
+      "source": 232,
+      "target": 234,
+      "color": "#178600",
+      "color_bgr": [
+        0,
+        134,
+        23
+      ]
+    },
+    {
+      "source": 232,
+      "target": 235,
+      "color": "#188601",
+      "color_bgr": [
+        1,
+        134,
+        24
+      ]
+    },
+    {
+      "source": 233,
+      "target": 236,
+      "color": "#188601",
+      "color_bgr": [
+        1,
+        134,
+        24
+      ]
+    },
+    {
+      "source": 235,
+      "target": 238,
+      "color": "#188601",
+      "color_bgr": [
+        1,
+        134,
+        24
+      ]
+    },
+    {
+      "source": 235,
+      "target": 240,
+      "color": "#188601",
+      "color_bgr": [
+        1,
+        134,
+        24
+      ]
+    },
+    {
+      "source": 236,
+      "target": 237,
+      "color": "#188601",
+      "color_bgr": [
+        1,
+        134,
+        24
+      ]
+    },
+    {
+      "source": 236,
+      "target": 238,
+      "color": "#188601",
+      "color_bgr": [
+        1,
+        134,
+        24
+      ]
+    },
+    {
+      "source": 237,
+      "target": 239,
+      "color": "#188601",
+      "color_bgr": [
+        1,
+        134,
+        24
+      ]
+    },
+    {
+      "source": 241,
+      "target": 242,
+      "color": "#00751d",
+      "color_bgr": [
+        29,
+        117,
+        0
+      ]
+    },
+    {
+      "source": 242,
+      "target": 243,
+      "color": "#00751d",
+      "color_bgr": [
+        29,
+        117,
+        0
+      ]
+    },
+    {
+      "source": 242,
+      "target": 248,
+      "color": "#00751d",
+      "color_bgr": [
+        29,
+        117,
+        0
+      ]
+    },
+    {
+      "source": 244,
+      "target": 248,
+      "color": "#00751d",
+      "color_bgr": [
+        29,
+        117,
+        0
+      ]
+    },
+    {
+      "source": 244,
+      "target": 251,
+      "color": "#00751d",
+      "color_bgr": [
+        29,
+        117,
+        0
+      ]
+    },
+    {
+      "source": 245,
+      "target": 247,
+      "color": "#00751d",
+      "color_bgr": [
+        29,
+        117,
+        0
+      ]
+    },
+    {
+      "source": 245,
+      "target": 249,
+      "color": "#00751d",
+      "color_bgr": [
+        29,
+        117,
+        0
+      ]
+    },
+    {
+      "source": 246,
+      "target": 250,
+      "color": "#00751d",
+      "color_bgr": [
+        29,
+        117,
+        0
+      ]
+    },
+    {
+      "source": 248,
+      "target": 250,
+      "color": "#00751d",
+      "color_bgr": [
+        29,
+        117,
+        0
+      ]
+    },
+    {
+      "source": 249,
+      "target": 250,
+      "color": "#00751d",
+      "color_bgr": [
+        29,
+        117,
+        0
+      ]
+    }
+  ]
+}

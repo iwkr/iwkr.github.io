@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Martial arts skill tree for progressive practice. Unlock exercises as prerequisites are mastered — designed for ADHD, removes decision fatigue and pacing fatigue.">
+  <meta name="theme-color" content="#f0ede8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Kinograph">
+  <meta name="format-detection" content="telephone=no, email=no, address=no">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>Kinograph</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"></noscript>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+
+<main>
+<div id="map-wrap">
+  <svg id="map"><g id="world"></g></svg>
+</div>
+</main>
+
+<div id="sidebar-shell" role="complementary" aria-label="Node details">
+  <div id="tray-tab" title="Toggle sidebar">
+    <span id="tray-arrow">›</span>
+  </div>
+
+  <div id="sidebar">
+    <div id="sidebar-head">
+      <div id="head-row">
+        <span id="site-title">Kinograph</span>
+        <button id="btn-reset">Reset</button>
+      </div>
+      <div id="prog-track"><div id="prog-fill"></div></div>
+      <div id="prog-text">0 / 0 mastered</div>
+    </div>
+
+    <div id="panel">
+      <div id="panel-empty">
+        <div id="panel-empty-symbol">◎</div>
+        <div id="panel-empty-label">Select a node<br>to begin</div>
+      </div>
+
+      <div id="node-card">
+        <div id="panel-img-wrap">
+          <div id="panel-img-ring"></div>
+          <img id="panel-img" src="">
+          <div id="state-dot" class="locked"></div>
+        </div>
+        <div id="panel-name"></div>
+        <div id="panel-cat"></div>
+        <div id="panel-status"></div>
+      </div>
+
+      <div id="panel-spirit-wrap" style="display:none">
+        <div id="panel-spirit"></div>
+      </div>
+
+      <div id="panel-body" style="display:none">
+        <div class="sec-label" id="kata-label">Kata</div>
+        <div id="kata-root-msg" style="display:none"></div>
+        <div id="kata-block" style="display:none"></div>
+        <button id="master-btn" style="display:none">Mark as Mastered</button>
+        <a id="emom-btn" href="#" target="_blank" style="display:none">▶ Start EMOM</a>
+
+        <div id="needs-head" class="sec-label" style="display:none">Needs</div>
+        <div id="needs-list"></div>
+
+        <div id="unlocks-head" class="sec-label" style="display:none">Unlocks</div>
+        <div id="unlocks-list"></div>
+
+        <div class="sec-label">Reflections</div>
+        <div id="notes-wrap">
+          <textarea id="notes-area" placeholder="attempts, cues, what clicked…"></textarea>
+          <div id="notes-caret"></div>
+        </div>
+        <div id="notes-footer">
+          <span id="notes-chars">0 chars</span>
+          <span id="notes-saved">—</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="bs-backdrop"></div>
+<div id="bottom-sheet" inert>
+  <div id="bs-handle-bar"></div>
+  <div id="bs-prog-track"><div id="bs-prog-fill"></div></div>
+  <div id="bs-peek" role="button" tabindex="0" aria-label="Expand node details">
+    <div id="bs-peek-left">
+      <div id="bs-dot" class="locked"></div>
+      <span id="bs-name">—</span>
+    </div>
+    <div id="bs-peek-right">
+      <span id="bs-chevron" aria-hidden="true">›</span>
+      <button id="bs-close" aria-label="Dismiss panel">✕</button>
+    </div>
+  </div>
+  <div id="bs-kata-preview"></div>
+  <div id="bs-content"></div>
+</div>
+
+<a id="timer-btn" href="timer.html" title="Timer" aria-label="Open timer">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polyline points="12 6 12 12 16.5 14.5"/></svg>
+</a>
+<button id="settings-btn" title="Settings" aria-label="Open settings">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+</button>
+<div id="ver-label"></div>
+
+<div id="settings-overlay" inert>
+  <div id="settings-modal" role="dialog" aria-label="Settings">
+    <div id="settings-header">
+      <span id="settings-title">Settings</span>
+      <button id="settings-close" aria-label="Close">✕</button>
+    </div>
+    <div class="settings-section">
+      <div class="settings-label">Kata Mode</div>
+      <div class="settings-desc">How the practice prescription is displayed</div>
+      <div id="kata-mode-toggle">
+        <button class="mode-btn active" data-mode="standard">Standard</button>
+        <button class="mode-btn" data-mode="emom">EMOM</button>
+      </div>
+      <div id="kata-mode-note"></div>
+    </div>
+    <div class="settings-section">
+      <div class="settings-label">Auto-update</div>
+      <div class="settings-desc">Reload automatically when a new version is available</div>
+      <div id="autoupdate-toggle">
+        <button class="mode-btn" id="au-on">On</button>
+        <button class="mode-btn" id="au-off">Off</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="tooltip"></div>
+
+<div id="loader">
+  <div id="loader-title">Kinograph</div>
+  <div id="loader-sub">Loading</div>
+</div>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Von - Skill Tree Engine</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body { 
+      display: flex; background: #050505; width: 100vw; height: 100vh; 
+      overflow: hidden; font-family: monospace; color: #ccc; user-select: none; 
+    }
+
+    /* --- UI Layout --- */
+    #map-wrap { flex: 1; overflow: hidden; position: relative; background: radial-gradient(circle at center, #0d0d0d 0%, #030303 100%); }
+    
+    #map { 
+      position: absolute; width: 100%; height: 100%; 
+      cursor: grab; transform-origin: 0 0; 
+    }
+    #map.panning { cursor: grabbing; }
+
+    #sidebar { 
+      width: 300px; flex-shrink: 0; border-left: 1px solid #141414; 
+      display: flex; flex-direction: column; background: #080808; z-index: 10;
+    }
+
+    #sidebar-head { padding: 20px; border-bottom: 1px solid #141414; }
+    #prog-track { height: 2px; background: #111; margin: 12px 0; border-radius: 2px; }
+    #prog-fill { height: 100%; width: 0%; background: #c6a252; transition: width 0.4s ease; }
+    
+    #panel { flex: 1; overflow-y: auto; }
+    #panel-content { padding: 25px; display: none; flex-direction: column; }
+    #panel-empty { padding: 50px; text-align: center; color: #333; font-size: 11px; letter-spacing: 1px; }
+    
+    #panel-img { 
+      width: 110px; height: 110px; border-radius: 50%; margin: 0 auto 20px; 
+      display: block; object-fit: cover; border: 2px solid #222; 
+      transition: all 0.3s ease;
+    }
+    #panel-img.mastered { 
+      border-color: #c6a252; 
+      box-shadow: 0 0 15px rgba(198, 162, 82, 0.6);
+    }
+
+    .panel-section { 
+      font-size: 10px; color: #444; margin: 25px 0 10px; 
+      border-bottom: 1px solid #141414; padding-bottom: 5px; letter-spacing: 1px;
+    }
+    
+    .panel-node-row { 
+      display: flex; align-items: center; gap: 12px; 
+      padding: 10px 0; cursor: pointer; 
+    }
+    .panel-thumb { width: 34px; height: 34px; border-radius: 50%; object-fit: cover; border: 1px solid #222; }
+    
+    #panel-master-btn { 
+      margin-top: 30px; width: 100%; padding: 14px; 
+      background: none; border: 1px solid #333; color: #888; 
+      cursor: pointer; font-family: monospace; transition: all 0.2s;
+    }
+    #panel-master-btn:hover { background: #c6a252; color: #000; border-color: #c6a252; }
+
+    #tooltip { 
+      position: fixed; pointer-events: none; background: rgba(10,10,10,0.95); 
+      color: #fff; padding: 6px 12px; border: 1px solid #222; 
+      font-size: 11px; opacity: 0; z-index: 1000; border-radius: 3px;
+      transition: color 0.2s;
+    }
+    #tooltip.on { opacity: 1; }
+
+    /* --- Nodes (HTML Framework) --- */
+    .node-container {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+      width: 80px;
+      height: 80px;
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    
+    .node-container:hover {
+      transform: translate(-50%, -50%) scale(1.15);
+    }
+
+    .node-circle {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-color: #0c0c0c;
+      background-size: cover;
+      background-position: center;
+      border: 2px solid #333;
+      box-sizing: border-box;
+      transition: all 0.3s ease;
+    }
+
+    /* Terminal nodes (Double-ring effect) */
+    .node-terminal {
+      position: absolute;
+      width: 96px;
+      height: 96px;
+      top: -8px;
+      left: -8px;
+      border-radius: 50%;
+      border: 1px dashed rgba(255,255,255,0.3);
+      animation: spin 30s linear infinite;
+    }
+
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes edge-flow {
+      to { stroke-dashoffset: -16; }
+    }
+    .active-edge {
+      stroke-dasharray: 4, 4;
+      animation: edge-flow 1.2s linear infinite;
+    }
+  </style>
+</head>
+<body>
+
+<div id="map-wrap">
+  <div id="map">
+    <svg id="svg-layer" style="position: absolute; width: 100%; height: 100%; pointer-events: none;"></svg>
+    <div id="nodes-layer"></div>
+  </div>
+</div>
+
+<div id="sidebar">
+  <div id="sidebar-head">
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <h2 style="font-size:10px; color:#444; letter-spacing:2px;">EXERCISES</h2>
+      <button id="btn-reset" style="font-size:9px; background:none; border:1px solid #222; color:#444; padding:3px 7px; cursor:pointer;">RESET</button>
+    </div>
+    <div id="prog-track"><div id="prog-fill"></div></div>
+    <div id="prog-text" style="font-size:10px; color:#333;">0 / 0 mastered</div>
+  </div>
+  <div id="panel">
+    <div id="panel-empty">SELECT A DISCOVERED NODE</div>
+    <div id="panel-content">
+      <img id="panel-img" src="">
+      <h1 id="panel-name" style="font-size:18px; text-align:center; margin-bottom:5px;"></h1>
+      <div id="panel-meta" style="font-size:10px; text-align:center; color:#555; margin-bottom:20px;"></div>
+      <div id="panel-sections"></div>
+      <button id="panel-master-btn">MARK AS MASTERED</button>
+    </div>
+  </div>
+</div>
+
+<div id="tooltip"></div>
+
+<script>
+async function main() {
+  console.log('[von] Upgraded HTML node renderer active.');
+
+  const map = document.getElementById('map');
+  const svgLayer = document.getElementById('svg-layer');
+  const nodesLayer = document.getElementById('nodes-layer');
+  const tooltip = document.getElementById('tooltip');
+  const LS_KEY = 'von_v6_state';
+
+  // --- 1. Data Processing ---
+  let data;
+  try {
+    // Attempt to load from JSON, or fallback to an initialized node graph for testing
+    const res = await fetch('graph.json');
+    data = await res.json();
+  } catch (e) {
+    console.warn('[von] graph.json not found. Using fallback nodes.');
+    data = {
+      nodes: [
+        { id: "1", x: 400, y: 300, start: true, text: "Fundamentals", color: "#e07a5f", image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=100&auto=format&fit=crop" },
+        { id: "2", x: 250, y: 450, text: "Data Models", color: "#3d9970", image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=100&auto=format&fit=crop" },
+        { id: "3", x: 550, y: 450, text: "APIs", color: "#ff851b", image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=100&auto=format&fit=crop" },
+        { id: "4", x: 250, y: 600, text: "SQL Operations", color: "#3d9970", image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=100&auto=format&fit=crop" },
+        { id: "5", x: 400, y: 600, text: "Webhooks", color: "#ff851b", image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=100&auto=format&fit=crop" }
+      ],
+      links: [
+        { source: "1", target: "2", color: "#444" },
+        { source: "1", target: "3", color: "#444" },
+        { source: "2", target: "4", color: "#3d9970" },
+        { source: "3", target: "5", color: "#ff851b" }
+      ]
+    };
+  }
+
+  const nodes = data.nodes.map(n => ({ ...n, id: String(n.id) }));
+  const links = data.links.map(l => ({ ...l, source: String(l.source), target: String(l.target) }));
+  const nodeMap = new Map(nodes.map(n => [n.id, n]));
+  const R = 40; // Node radius
+
+  const adj = new Map(nodes.map(n => [n.id, []]));
+  links.forEach(l => {
+    adj.get(l.source).push(l.target);
+    adj.get(l.target).push(l.source);
+  });
+
+  // --- 2. Hierarchy ---
+  const depth = new Map(), catOf = new Map(), queue = [];
+  nodes.filter(n => n.start).forEach(n => {
+    depth.set(n.id, 0);
+    catOf.set(n.id, n.id);
+    queue.push(n.id);
+  });
+
+  for (let i = 0; i < queue.length; i++) {
+    const curr = queue[i];
+    adj.get(curr).forEach(nb => {
+      if (!depth.has(nb)) {
+        depth.set(nb, depth.get(curr) + 1);
+        catOf.set(nb, catOf.get(curr));
+        queue.push(nb);
+      }
+    });
+  }
+
+  const prereqs = new Map(nodes.map(n => [
+    n.id, adj.get(n.id).filter(nb => (depth.get(nb) ?? 0) < (depth.get(n.id) ?? 0))
+  ]));
+
+  // --- 3. State Management ---
+  const gs = new Map(nodes.map(n => [n.id, 'locked']));
+  const save = () => localStorage.setItem(LS_KEY, JSON.stringify(Object.fromEntries(gs)));
+  
+  const load = () => {
+    const saved = localStorage.getItem(LS_KEY);
+    if (!saved) return false;
+    Object.entries(JSON.parse(saved)).forEach(([k, v]) => gs.set(k, v));
+    return true;
+  };
+
+  if (!load()) {
+    nodes.forEach(n => {
+      if (n.start) gs.set(n.id, 'mastered');
+      else if (depth.get(n.id) === 1) gs.set(n.id, 'unlocked');
+    });
+  }
+
+  // --- 4. Render Components ---
+  const nodeEls = new Map();
+  const linkEls = new Map();
+
+  // Draw links
+  links.forEach(l => {
+    const s = nodeMap.get(l.source), t = nodeMap.get(l.target);
+    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    line.setAttribute('x1', s.x);
+    line.setAttribute('y1', s.y);
+    line.setAttribute('x2', t.x);
+    line.setAttribute('y2', t.y);
+    line.setAttribute('stroke-width', '6');
+    line.setAttribute('stroke-linecap', 'round');
+    line.setAttribute('opacity', '0.08');
+    svgLayer.appendChild(line);
+    linkEls.set(`${l.source}-${l.target}`, line);
+    linkEls.set(`${l.target}-${l.source}`, line);
+  });
+
+  // Draw nodes (HTML Framework)
+  nodes.forEach(node => {
+    const el = document.createElement('div');
+    el.className = 'node-container';
+    el.style.left = `${node.x}px`;
+    el.style.top = `${node.y}px`;
+
+    const circle = document.createElement('div');
+    circle.className = 'node-circle';
+    circle.style.backgroundImage = `url(${node.image})`;
+    circle.style.borderColor = node.color;
+    el.appendChild(circle);
+
+    const children = adj.get(node.id).filter(nb => (depth.get(nb) || 0) > (depth.get(node.id) || 0));
+    // Terminal Node Marker (spinning ring)
+    if (children.length === 0) {
+      const terminalRing = document.createElement('div');
+      terminalRing.className = 'node-terminal';
+      terminalRing.style.borderColor = node.color;
+      el.appendChild(terminalRing);
+    }
+
+    el.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const state = gs.get(node.id);
+      const isTeaser = (state === 'locked') && prereqs.get(node.id).some(p => gs.get(p) === 'mastered');
+      if (state !== 'locked' || isTeaser) {
+        selectNode(node.id);
+      }
+    });
+
+    el.addEventListener('mouseenter', () => {
+      const state = gs.get(node.id);
+      const isTeaser = (state === 'locked') && prereqs.get(node.id).some(p => gs.get(p) === 'mastered');
+      if (state === 'locked' && !isTeaser) return;
+
+      tooltip.textContent = isTeaser ? '🔒 Locked Exercise' : node.text;
+      tooltip.style.color = isTeaser ? '#777' : node.color;
+      tooltip.classList.add('on');
+    });
+
+    el.addEventListener('mouseleave', () => tooltip.classList.remove('on'));
+
+    nodesLayer.appendChild(el);
+    nodeEls.set(node.id, { el, circle });
+  });
+
+  // --- 5. UI Updates ---
+  const updateMap = () => {
+    nodes.forEach(n => {
+      const state = gs.get(n.id);
+      const isTeaser = (state === 'locked') && prereqs.get(n.id).some(p => gs.get(p) === 'mastered');
+      const { el, circle } = nodeEls.get(n.id);
+
+      if (state === 'mastered') {
+        el.style.display = 'block';
+        el.style.opacity = '1';
+        circle.style.borderColor = '#c6a252';
+        circle.style.borderStyle = 'solid';
+        circle.style.filter = 'none';
+        circle.style.boxShadow = '0 0 16px rgba(198, 162, 82, 0.6)';
+      } else if (state === 'unlocked' || isTeaser) {
+        // Show as a teaser node (Unlocked & ready)
+        el.style.display = 'block';
+        el.style.opacity = '1';
+        circle.style.borderColor = n.color;
+        circle.style.borderStyle = 'dashed';
+        circle.style.filter = 'none';
+        circle.style.boxShadow = 'none';
+      } else {
+        // Hide locked nodes from view
+        el.style.display = 'none';
+      }
+    });
+
+    links.forEach(l => {
+      const line = linkEls.get(`${l.source}-${l.target}`);
+      const s1 = gs.get(l.source), s2 = gs.get(l.target);
+      const teaser1 = (s1 === 'locked') && prereqs.get(l.source).some(p => gs.get(p) === 'mastered');
+      const teaser2 = (s2 === 'locked') && prereqs.get(l.target).some(p => gs.get(p) === 'mastered');
+
+      if ((s1 !== 'locked' || teaser1) && (s2 !== 'locked' || teaser2)) {
+        line.setAttribute('opacity', '0.7');
+        if (s1 === 'mastered' && s2 === 'mastered') {
+          line.classList.add('active-edge');
+          line.setAttribute('stroke', '#c6a252');
+        } else {
+          line.classList.remove('active-edge');
+          line.setAttribute('stroke', l.color || '#444');
+        }
+      } else {
+        line.setAttribute('opacity', '0.08');
+        line.classList.remove('active-edge');
+        line.setAttribute('stroke', '#222');
+      }
+    });
+  };
+
+  let selectedId = null;
+  const selectNode = (id) => {
+    if (selectedId) {
+      const prev = nodeEls.get(selectedId);
+      if (prev) prev.circle.style.borderWidth = '2px';
+    }
+    selectedId = id;
+    const { circle } = nodeEls.get(id);
+    circle.style.borderWidth = '3px';
+
+    renderPanel(id);
+    panTo(id);
+  };
+
+  const renderPanel = (id) => {
+    const n = nodeMap.get(id);
+    const s = gs.get(id);
+    const isTeaser = (s === 'locked');
+    
+    document.getElementById('panel-empty').style.display = 'none';
+    const content = document.getElementById('panel-content');
+    content.style.display = 'flex';
+
+    const img = document.getElementById('panel-img');
+    img.src = n.image;
+    img.className = (s === 'mastered' ? 'mastered' : '');
+    img.style.filter = isTeaser ? 'grayscale(1) brightness(0.2)' : 'none';
+    
+    const nameEl = document.getElementById('panel-name');
+    nameEl.textContent = isTeaser ? 'LOCKED EXERCISE' : n.text;
+    nameEl.style.color = isTeaser ? '#444' : (s === 'mastered' ? '#c6a252' : n.color);
+
+    const catNode = nodeMap.get(catOf.get(id)) || n;
+    document.getElementById('panel-meta').innerHTML = isTeaser 
+      ? 'COMPLETE PREREQUISITES TO REVEAL' 
+      : `<span style="color:${catNode.color}88">${catNode.text}</span> · ${s.toUpperCase()}`;
+
+    const sections = document.getElementById('panel-sections');
+    sections.innerHTML = '';
+
+    if (!isTeaser) {
+      const drawList = (label, ids) => {
+        if (!ids.length) return;
+        const h = document.createElement('div'); h.className = 'panel-section'; h.textContent = label;
+        sections.appendChild(h);
+        ids.forEach(tid => {
+          const n2 = nodeMap.get(tid), s2 = gs.get(tid);
+          const row = document.createElement('div'); row.className = 'panel-node-row';
+          row.onclick = () => selectNode(tid);
+          row.innerHTML = `<img src="${n2.image}" class="panel-thumb" style="filter:${s2==='locked'?'brightness(0.1)':(s2==='mastered'?'grayscale(1) brightness(0.8)':'none')}">
+                           <div style="font-size:11px; color:${s2==='locked'?'#333':(s2==='mastered'?'#555':n2.color)}">${n2.text}</div>`;
+          sections.appendChild(row);
+        });
+      };
+      drawList('NEEDS', prereqs.get(id));
+      drawList('UNLOCKS', adj.get(id).filter(nb => (depth.get(nb) || 0) > (depth.get(id) || 0)));
+    }
+
+    const btn = document.getElementById('panel-master-btn');
+    btn.style.display = (s === 'unlocked' ? 'block' : 'none');
+    btn.onclick = () => {
+      gs.set(id, 'mastered');
+      adj.get(id).forEach(nb => {
+        if (gs.get(nb) === 'locked' && prereqs.get(nb).every(p => gs.get(p) === 'mastered')) gs.set(nb, 'unlocked');
+      });
+      save(); 
+      updateMap(); 
+      updateProgressDisplay();
+      renderPanel(id);
+    };
+  };
+
+  const updateProgressDisplay = () => {
+    const mastered = nodes.filter(n => gs.get(n.id) === 'mastered').length;
+    document.getElementById('prog-fill').style.width = `${(mastered / nodes.length) * 100}%`;
+    document.getElementById('prog-text').textContent = `${mastered} / ${nodes.length} mastered`;
+  };
+
+  // --- 6. Camera Panning Controls ---
+  let view = { x: window.innerWidth / 3, y: window.innerHeight / 3, scale: 0.8 }, drag = null;
+  const commit = () => {
+    map.style.transform = `translate(${view.x}px, ${view.y}px) scale(${view.scale})`;
+  };
+
+  const panTo = (id) => {
+    const n = nodeMap.get(id);
+    view.x = window.innerWidth / 3 - n.x * view.scale;
+    view.y = window.innerHeight / 3 - n.y * view.scale;
+    commit();
+  };
+
+  window.addEventListener('pointerdown', e => {
+    if (e.target.closest('#sidebar')) return;
+    drag = { ox: view.x - e.clientX, oy: view.y - e.clientY, x0: e.clientX, y0: e.clientY };
+    map.classList.add('panning');
+  });
+
+  window.addEventListener('pointermove', e => {
+    if (!drag) return;
+    view.x = e.clientX + drag.ox;
+    view.y = e.clientY + drag.oy;
+    commit();
+  });
+
+  window.addEventListener('pointerup', () => {
+    drag = null;
+    map.classList.remove('panning');
+  });
+
+  // Zoom implementation
+  map.addEventListener('wheel', e => {
+    e.preventDefault();
+    const k = e.deltaY < 0 ? 1.08 : 0.92;
+    view.x = e.clientX + (view.x - e.clientX) * k;
+    view.y = e.clientY + (view.y - e.clientY) * k;
+    view.scale *= k;
+    commit();
+  }, { passive: false });
+
+  window.addEventListener('mousemove', e => {
+    if (!tooltip.classList.contains('on')) return;
+    tooltip.style.left = `${e.clientX + 15}px`;
+    tooltip.style.top = `${e.clientY + 15}px`;
+  });
+
+  document.getElementById('btn-reset').onclick = () => {
+    if (confirm('Reset all exercise progress?')) {
+      localStorage.clear();
+      location.reload();
+    }
+  };
+
+  updateMap();
+  updateProgressDisplay();
+  commit();
+}
+
+main();
+</script>
+</body>
+</html>

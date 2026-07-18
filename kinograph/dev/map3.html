@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Von - Final Build</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body { 
+      display: flex; 
+      background: #080808; 
+      width: 100vw; height: 100vh; 
+      overflow: hidden; 
+      font-family: monospace; 
+      color: #ccc;
+      user-select: none; /* Prevents the text selection bug */
+    }
+
+    #map-wrap { flex: 1; overflow: hidden; position: relative; }
+    #map { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+    #map.panning { cursor: grabbing; }
+
+    #sidebar { 
+      width: 300px; flex-shrink: 0; 
+      border-left: 1px solid #1a1a1a; 
+      display: flex; flex-direction: column; 
+      background: #0a0a0a; 
+      z-index: 10;
+    }
+
+    #sidebar-head { padding: 20px; border-bottom: 1px solid #1a1a1a; }
+    #prog-track { height: 2px; background: #1a1a1a; margin: 12px 0; border-radius: 2px; }
+    #prog-fill { height: 100%; width: 0%; background: #555; transition: width 0.4s ease; }
+    
+    #panel { flex: 1; overflow-y: auto; }
+    #panel-content { padding: 25px; display: none; flex-direction: column; }
+    #panel-empty { padding: 50px; text-align: center; color: #222; font-size: 11px; letter-spacing: 1px; }
+    
+    #panel-img { 
+      width: 110px; height: 110px; border-radius: 50%; 
+      margin: 0 auto 20px; display: block; object-fit: cover; 
+      border: 1px solid #1a1a1a;
+    }
+    #panel-img.mastered { filter: grayscale(1) brightness(0.4); }
+
+    .panel-section { 
+      font-size: 10px; color: #333; margin: 25px 0 10px; 
+      border-bottom: 1px solid #1a1a1a; padding-bottom: 5px;
+      letter-spacing: 1px;
+    }
+    
+    .panel-node-row { 
+      display: flex; align-items: center; gap: 12px; 
+      padding: 10px 0; cursor: pointer; 
+    }
+    .panel-thumb { width: 34px; height: 34px; border-radius: 50%; object-fit: cover; }
+    
+    #panel-master-btn { 
+      margin-top: 30px; width: 100%; padding: 14px; 
+      background: none; border: 1px solid #222; color: #555; 
+      cursor: pointer; font-family: monospace; transition: all 0.2s;
+    }
+    #panel-master-btn:hover { background: #111; color: #fff; border-color: #444; }
+
+    #tooltip { 
+      position: fixed; pointer-events: none; background: rgba(0,0,0,0.9); 
+      color: #fff; padding: 6px 12px; border: 1px solid #222; 
+      font-size: 11px; opacity: 0; z-index: 1000; border-radius: 3px;
+    }
+    #tooltip.on { opacity: 1; }
+
+    .node-inner { transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
+    .node-inner:hover { transform: scale(1.08); }
+  </style>
+</head>
+<body>
+
+<div id="map-wrap">
+  <svg id="map"><g id="world"></g></svg>
+</div>
+
+<div id="sidebar">
+  <div id="sidebar-head">
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <h2 style="font-size:10px; color:#333; letter-spacing:2px;">EXERCISES</h2>
+      <button id="btn-reset" style="font-size:9px; background:none; border:1px solid #222; color:#333; padding:3px 7px; cursor:pointer;">RESET</button>
+    </div>
+    <div id="prog-track"><div id="prog-fill"></div></div>
+    <div id="prog-text" style="font-size:10px; color:#333;">0 / 0 mastered</div>
+  </div>
+  <div id="panel">
+    <div id="panel-empty">CLICK A NODE TO FOCUS</div>
+    <div id="panel-content">
+      <img id="panel-img" src="">
+      <h1 id="panel-name" style="font-size:18px; text-align:center; margin-bottom:5px;"></h1>
+      <div id="panel-meta" style="font-size:10px; text-align:center; color:#444; margin-bottom:20px;"></div>
+      <div id="panel-sections"></div>
+      <button id="panel-master-btn">MARK AS MASTERED</button>
+    </div>
+  </div>
+</div>
+
+<div id="tooltip"></div>
+
+<script>
+async function main() {
+  console.log('[von] main() init');
+
+  const svg = document.getElementById('map');
+  const world = document.getElementById('world');
+  const tooltip = document.getElementById('tooltip');
+  const LS_KEY = 'von_v1_state';
+
+  // --- 1. Load Data ---
+  let data;
+  try {
+    const res = await fetch('graph.json');
+    data = await res.json();
+  } catch (e) {
+    console.error('[von] graph.json missing');
+    return;
+  }
+
+  // Normalize IDs and Data
+  const nodes = data.nodes.map(n => ({ ...n, id: String(n.id) }));
+  const links = data.links.map(l => ({ ...l, source: String(l.source), target: String(l.target) }));
+  const nodeMap = new Map(nodes.map(n => [n.id, n]));
+  const adj = new Map(nodes.map(n => [n.id, []]));
+  links.forEach(l => {
+    adj.get(l.source).push(l.target);
+    adj.get(l.target).push(l.source);
+  });
+
+  // --- 2. Logic & State ---
+  const gs = new Map(nodes.map(n => [n.id, 'locked']));
+  const depth = new Map();
+  const catOf = new Map();
+  const queue = [];
+
+  nodes.filter(n => n.start).forEach(n => {
+    depth.set(n.id, 0); catOf.set(n.id, n.id); queue.push(n.id);
+  });
+
+  for(let i=0; i<queue.length; i++){
+    const curr = queue[i];
+    adj.get(curr).forEach(nb => {
+      if(!depth.has(nb)){
+        depth.set(nb, depth.get(curr) + 1);
+        catOf.set(nb, catOf.get(curr));
+        queue.push(nb);
+      }
+    });
+  }
+
+  const prereqs = new Map(nodes.map(n => [
+    n.id, adj.get(n.id).filter(nb => (depth.get(nb) ?? 0) < (depth.get(n.id) ?? 0))
+  ]));
+
+  const save = () => localStorage.setItem(LS_KEY, JSON.stringify(Object.fromEntries(gs)));
+  const load = () => {
+    const saved = localStorage.getItem(LS_KEY);
+    if(!saved) return false;
+    const parsed = JSON.parse(saved);
+    Object.entries(parsed).forEach(([k, v]) => gs.set(k, v));
+    return true;
+  };
+
+  if(!load()){
+    nodes.forEach(n => {
+      if(n.start) gs.set(n.id, 'mastered');
+      else if(depth.get(n.id) === 1) gs.set(n.id, 'unlocked');
+    });
+  }
+
+  // --- 3. Render SVG ---
+  const mkEl = (tag, attrs) => {
+    const e = document.createElementNS('http://www.w3.org/2000/svg', tag);
+    for(let k in attrs) e.setAttribute(k, attrs[k]);
+    return e;
+  };
+
+  const R = nodes[0].radius || 40;
+  const linkEls = new Map();
+  const outerEls = new Map();
+  const innerEls = new Map();
+
+  links.forEach(l => {
+    const s = nodeMap.get(l.source), t = nodeMap.get(l.target);
+    const line = mkEl('line', {
+      x1: s.x, y1: s.y, x2: t.x, y2: t.y,
+      stroke: l.color, 'stroke-width': 14, 'stroke-linecap': 'round'
+    });
+    world.appendChild(line);
+    linkEls.set(`${l.source}-${l.target}`, line);
+    linkEls.set(`${l.target}-${l.source}`, line);
+  });
+
+  nodes.forEach(node => {
+    const outer = mkEl('g', { transform: `translate(${node.x},${node.y})` });
+    const inner = mkEl('g', { class: 'node-inner', style: 'cursor:pointer;' });
+
+    inner.appendChild(mkEl('image', {
+      href: node.image, x: -R, y: -R, width: R*2, height: R*2, style: 'pointer-events:none;'
+    }));
+
+    // Hit area MUST have a non-none fill to be clickable
+    const hit = mkEl('circle', {
+      r: R, fill: 'white', 'fill-opacity': 0, stroke: 'none', class: 'hit-area'
+    });
+    inner.appendChild(hit);
+
+    inner.addEventListener('pointerdown', () => console.log('[von] PointerDown on:', node.id));
+    
+    inner.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      console.log('[von] Click caught on:', node.id);
+      if(!wasDragging) selectNode(node.id);
+    });
+
+    inner.addEventListener('mouseenter', () => {
+      if(gs.get(node.id) === 'locked') return;
+      tooltip.textContent = node.text;
+      tooltip.style.color = node.color;
+      tooltip.classList.add('on');
+    });
+    inner.addEventListener('mouseleave', () => tooltip.classList.remove('on'));
+
+    outer.appendChild(inner);
+    world.appendChild(outer);
+    outerEls.set(node.id, outer);
+    innerEls.set(node.id, inner);
+  });
+
+  // --- 4. Interactions ---
+  const updateProgress = () => {
+    const done = nodes.filter(n => gs.get(n.id) === 'mastered').length;
+    document.getElementById('prog-fill').style.width = `${(done/nodes.length)*100}%`;
+    document.getElementById('prog-text').textContent = `${done} / ${nodes.length} mastered`;
+  };
+
+  const updateMap = () => {
+    nodes.forEach(n => {
+      const s = gs.get(n.id);
+      outerEls.get(n.id).style.display = s === 'locked' ? 'none' : '';
+      innerEls.get(n.id).style.filter = s === 'mastered' ? 'grayscale(1) brightness(0.4)' : '';
+    });
+    links.forEach(l => {
+      const line = linkEls.get(`${l.source}-${l.target}`);
+      const s1 = gs.get(l.source), s2 = gs.get(l.target);
+      line.style.display = (s1 === 'locked' || s2 === 'locked') ? 'none' : '';
+      line.style.opacity = (s1 === 'mastered' && s2 === 'mastered') ? 0.1 : 0.8;
+    });
+  };
+
+  let selectedId = null;
+  const selectNode = (id) => {
+    console.log('[von] selectNode running for:', id);
+    if(selectedId){
+      const old = innerEls.get(selectedId).querySelector('.hit-area');
+      old.setAttribute('stroke', 'none');
+    }
+    selectedId = id;
+    const current = innerEls.get(id).querySelector('.hit-area');
+    current.setAttribute('stroke', '#fff');
+    current.setAttribute('stroke-width', '4');
+    current.setAttribute('stroke-opacity', '0.5');
+
+    renderPanel(id);
+    panTo(id);
+  };
+
+  const renderPanel = (id) => {
+    const n = nodeMap.get(id);
+    const s = gs.get(id);
+    document.getElementById('panel-empty').style.display = 'none';
+    const content = document.getElementById('panel-content');
+    content.style.display = 'flex';
+
+    document.getElementById('panel-img').src = n.image;
+    document.getElementById('panel-img').className = (s === 'mastered' ? 'mastered' : '');
+    document.getElementById('panel-name').textContent = n.text;
+    document.getElementById('panel-name').style.color = (s === 'mastered' ? '#444' : n.color);
+
+    const catNode = nodeMap.get(catOf.get(id)) || n;
+    document.getElementById('panel-meta').innerHTML = `<span style="color:${catNode.color}88">${catNode.text}</span> · ${s.toUpperCase()}`;
+
+    const sections = document.getElementById('panel-sections');
+    sections.innerHTML = '';
+
+    const drawList = (label, ids) => {
+      if(!ids.length) return;
+      const h = document.createElement('div');
+      h.className = 'panel-section'; h.textContent = label;
+      sections.appendChild(h);
+      ids.forEach(tid => {
+        const n2 = nodeMap.get(tid);
+        const s2 = gs.get(tid);
+        const row = document.createElement('div');
+        row.className = 'panel-node-row';
+        row.onclick = () => selectNode(tid);
+        row.innerHTML = `
+          <img src="${n2.image}" class="panel-thumb" style="filter:${s2==='locked'?'brightness(0.1)':(s2==='mastered'?'grayscale(1) brightness(0.5)':'none')}">
+          <div style="font-size:11px; color:${s2==='locked'?'#222':(s2==='mastered'?'#333':n2.color)}">${n2.text}</div>
+        `;
+        sections.appendChild(row);
+      });
+    };
+
+    drawList('NEEDS', prereqs.get(id));
+    drawList('UNLOCKS', adj.get(id).filter(nb => (depth.get(nb) || 0) > (depth.get(id) || 0)));
+
+    const btn = document.getElementById('panel-master-btn');
+    btn.style.display = (s === 'unlocked' ? 'block' : 'none');
+    btn.onclick = () => {
+      gs.set(id, 'mastered');
+      adj.get(id).forEach(nb => {
+        if(gs.get(nb) === 'locked' && prereqs.get(nb).every(p => gs.get(p) === 'mastered')) gs.set(nb, 'unlocked');
+      });
+      save(); updateMap(); updateProgress(); renderPanel(id);
+    };
+  };
+
+  // --- 5. Camera ---
+  let view = { x: 0, y: 0, scale: 0.6 };
+  let drag = null, wasDragging = false;
+  const commit = () => world.setAttribute('transform', `translate(${view.x},${view.y}) scale(${view.scale})`);
+
+  const panTo = (id) => {
+    const n = nodeMap.get(id);
+    const rect = svg.getBoundingClientRect();
+    view.x = rect.width/2 - n.x * view.scale;
+    view.y = rect.height/2 - n.y * view.scale;
+    commit();
+  };
+
+  svg.addEventListener('pointerdown', e => {
+    drag = { ox: view.x - e.clientX, oy: view.y - e.clientY, x0: e.clientX, y0: e.clientY };
+    wasDragging = false;
+    svg.classList.add('panning');
+  });
+
+  window.addEventListener('pointermove', e => {
+    if(!drag) return;
+    if(Math.hypot(e.clientX - drag.x0, e.clientY - drag.y0) > 4) wasDragging = true;
+    view.x = e.clientX + drag.ox;
+    view.y = e.clientY + drag.oy;
+    commit();
+  });
+
+  window.addEventListener('pointerup', () => {
+    drag = null;
+    svg.classList.remove('panning');
+  });
+
+  svg.addEventListener('wheel', e => {
+    e.preventDefault();
+    const k = e.deltaY < 0 ? 1.1 : 0.9;
+    view.x = e.clientX + (view.x - e.clientX) * k;
+    view.y = e.clientY + (view.y - e.clientY) * k;
+    view.scale *= k;
+    commit();
+  }, { passive: false });
+
+  window.addEventListener('mousemove', e => {
+    if(!tooltip.classList.contains('on')) return;
+    tooltip.style.left = `${e.clientX + 15}px`;
+    tooltip.style.top = `${e.clientY + 15}px`;
+  });
+
+  document.getElementById('btn-reset').onclick = () => {
+    if(confirm('Reset progress?')){ localStorage.removeItem(LS_KEY); location.reload(); }
+  };
+
+  // Initial Position
+  const rect = svg.getBoundingClientRect();
+  const vxs = nodes.filter(n => gs.get(n.id) !== 'locked').map(n => n.x);
+  const vys = nodes.filter(n => gs.get(n.id) !== 'locked').map(n => n.y);
+  if(vxs.length){
+    const cx = (Math.min(...vxs) + Math.max(...vxs))/2;
+    const cy = (Math.min(...vys) + Math.max(...vys))/2;
+    view.x = rect.width/2 - cx * view.scale;
+    view.y = rect.height/2 - cy * view.scale;
+  }
+
+  updateMap();
+  updateProgress();
+  commit();
+  console.log('[von] Setup complete');
+}
+
+main();
+</script>
+</body>
+</html>
