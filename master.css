@@ -1,0 +1,9 @@
+body { font-family: Verdana, Tahoma, "Trebuchet MS", sans-serif; }
+h1   { font-family: Impact, "Arial Black", sans-serif; }
+code { font-family: "Courier New", monospace; }
+#main {
+	text-align: justify;
+	text-justify: inter-word;
+	margin-right: 20px;
+	margin-left: 20px;
+}
